@@ -1,0 +1,91 @@
+//footer
+#global_footer{
+    border: solid 1px $medGray;
+    position: relative;
+
+    .menu-section{
+
+        @media (max-width: 575px) {
+            width:100%;
+        }
+
+        .link-section{
+
+            .head{
+                @include customMediaQuery(575px){
+                    cursor: pointer;
+                    &::-moz-selection { background: transparent; }
+                    &::selection { background: transparent; }
+                }
+
+                .fa{
+                    &.fa-caret-right, &.fa-caret-down{
+                        width:20px;
+
+                        @media (min-width: 575px) {
+                          display:none !important;
+                        }
+                    }
+                }
+            }
+
+            .sub-menu{
+                padding: 0 0 0 25px;
+
+                @media (min-width: 575px) {
+                    display:block !important;
+                    padding: 0;
+                }
+
+                @media (max-width: 575px) {
+                    display:none;
+                }  
+
+                &.active{
+                  display:block;
+                }
+
+
+                ul{
+                  padding:0;
+
+                  li{
+                    margin:5px 0;
+                    list-style: none;
+                  }
+                }
+            }
+        }
+    }
+
+    .contact-box{
+        overflow:hidden;
+
+        .dr_logo{
+          max-width: 290px;
+          padding: 15px 0;
+        }
+
+        ul{
+          padding:0;
+        }
+
+        .social-shares{
+            margin:15px 0;
+            display: inline-block;
+
+            a{
+              i{
+                margin-right:5px;
+              }
+            }
+        }
+        
+        .map{
+            height: 300px;
+            background-image: url("https://maps.googleapis.com/maps/api/staticmap?center=10380+Bren+Road+West+Minnetonka,+MN+55343&zoom=13&scale=1&size=300x350&maptype=roadmap&style=feature:all|element:all|saturation:-100&format=jpg&markers=color:0x00a7e1|10380+Bren+Road+West+Minnetonka,+MN+55343");
+            background-size:100%;
+            background-repeat:no-repeat;
+        }
+    }
+}

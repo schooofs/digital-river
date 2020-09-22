@@ -1,0 +1,54 @@
+.brick-callouts-with-buttons {
+  padding: 3.5rem 0 3rem;
+
+  .col-md {
+        margin-bottom: 2rem;
+    }
+
+  .callout {
+    position: relative;
+    padding: 2rem;
+    border: 1px solid $light-blue;
+    display: flex;
+    overflow: hidden;
+    height: 100%;
+    align-items: flex-start;
+    flex-direction: column;
+
+    @include media-breakpoint-up(md) {
+
+      margin-bottom: 0;
+    }
+
+    .body {
+        flex-grow: 1;
+        margin-bottom: 0.5rem;
+    }
+    p {
+
+      color: $gray;
+      font-size: 1.05rem;;
+
+      strong {
+        color: $navy;
+        font-weight: bold;
+      }
+    }
+
+    .callout-body {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        margin-top: 0.5rem;
+
+    //   @include media-breakpoint-up(lg) {
+    //     margin: 0 2rem;
+    //   }
+    }
+
+    .heading {
+      font-weight: bold;
+      font-size: 1.6rem;
+    }
+  }
+}

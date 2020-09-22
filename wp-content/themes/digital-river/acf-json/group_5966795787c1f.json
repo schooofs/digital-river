@@ -1,0 +1,72 @@
+{
+    "key": "group_5966795787c1f",
+    "title": "Custom Code",
+    "fields": [
+        {
+            "key": "field_59667964107c7",
+            "label": "HTML",
+            "name": "html",
+            "type": "code",
+            "instructions": "HTML code here",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "language": "html",
+            "theme": "monokai"
+        },
+        {
+            "key": "field_59667c88107c8",
+            "label": "CSS",
+            "name": "css",
+            "type": "code",
+            "instructions": "CSS code here",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "language": "css",
+            "theme": "monokai"
+        },
+        {
+            "key": "field_59667ca6107c9",
+            "label": "Javascript",
+            "name": "javascript",
+            "type": "code",
+            "instructions": "JavaScript code here",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "language": "javascript",
+            "theme": "github"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "brick",
+                "operator": "==",
+                "value": "custom_code"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1550770294
+}

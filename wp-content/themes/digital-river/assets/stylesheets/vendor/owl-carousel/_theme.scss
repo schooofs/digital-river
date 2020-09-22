@@ -1,0 +1,63 @@
+.owl-theme {
+	// Styling Next and Prev buttons
+	.owl-nav {
+		text-align: center;
+		-webkit-tap-highlight-color: transparent;
+
+		[class*='owl-'] {
+			cursor: pointer;
+			&:hover {
+				color:$nav-color-hover;
+				text-decoration: none;
+			}
+		}
+		.disabled {
+			opacity: $nav-disabled-opacity;
+			cursor: default;
+		}
+	}
+
+	// Styling dots
+	.owl-nav.disabled + .owl-dots {
+		//margin-top: 10px;
+	}
+
+	.owl-dots {
+		text-align: center;
+		-webkit-tap-highlight-color: transparent;
+
+		.owl-dot {
+			display: inline-block;
+			zoom: 1;
+			*display: inline;
+			padding: 30px 0 15px;
+
+			span {
+				width: $dot-width;
+				height: $dot-height;
+				margin: $dot-margin;
+				background: $dot-background;
+				display: block;
+				-webkit-backface-visibility: visible;
+				transition: opacity 200ms ease;
+
+				@media(min-width:$screen-xs-min) {
+					width: $dot-width * 2;
+				}
+			}
+
+			&:hover {
+				span {
+					background: $dot-background-hover;
+				}
+			}
+
+			&.active {
+				span {
+					background: $dot-background-active;
+				}
+			}
+
+		}
+	}
+}

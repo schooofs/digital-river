@@ -1,0 +1,31 @@
+.brick-home-integrations {
+  background: linear-gradient(-20deg, $secondary-blue 39.9%, $navy 40%);
+  padding-top: 3rem;
+
+  h2,
+  p {
+    color: $white;
+  }
+
+  div[class^="col"] {
+    margin-bottom: 3rem;
+  }
+
+  .dr-slider {
+    padding: 0 1rem !important;
+  }
+
+  .dr-slide {
+    img {
+      max-width: 100%;
+    }
+  }
+
+  .dr-slider-controls {
+    button:focus {
+      outline: 5px auto #00459E;
+    }
+  }
+
+
+}

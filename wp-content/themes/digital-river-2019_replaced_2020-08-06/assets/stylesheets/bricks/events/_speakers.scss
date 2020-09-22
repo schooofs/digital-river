@@ -1,0 +1,187 @@
+.brick-speakers {
+  position: relative;
+  padding: 3rem 0;
+  overflow: hidden;
+
+  h2 {
+    margin-bottom: 2rem;
+  }
+
+  .speaker {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all 0.2s;
+    cursor: pointer;
+    float: left;
+    width: 50%;
+    padding-bottom: 50%;
+
+    @include media-breakpoint-up(sm) {
+      width: 25%;
+      padding-bottom: 25%;
+    }
+
+    @include media-breakpoint-up(lg) {
+      width: 20%;
+      padding-bottom: 20%;
+    }
+
+    &:hover,
+    &.active {
+      .content-container {
+        opacity: 1;
+      }
+
+      &::after {
+        opacity: 0.7;
+      }
+    }
+
+    &.active {
+      .symbol {
+        span {
+          &::after {
+            transform: rotate(0deg);
+          }
+        }
+      }
+
+      + .speaker-panel {
+        opacity: 0.9;
+        z-index: 3;
+        transform: translateY(0);
+      }
+    }
+
+    &::after {
+      display: block;
+      content: " ";
+      position: absolute;
+      z-index: 1;
+      background-color: $navy;
+      opacity: 0;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      transition: opacity 0.2s;
+    }
+
+    .content-container {
+      position: absolute;
+      padding: 1rem 3rem 1rem 1rem;
+      bottom: 0;
+      left: 0;
+      opacity: 0;
+      transition: all 0.2s;
+      z-index: 2;
+      color: $white;
+    }
+
+    > span {
+      display: block;
+      margin-bottom: 0.125rem;
+    }
+
+    small {
+      display: inline-block;
+      line-height: 1.2;
+      opacity: 0.7;
+    }
+
+    .symbol {
+      position: absolute;
+      bottom: 1rem;
+      right: 1rem;
+      width: 1rem;
+      height: 1rem;
+
+      span {
+        position: absolute;
+        width: 100%;
+        background-color: $white;
+        height: 2px;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+
+        &::after {
+          content: ' ';
+          position: absolute;
+          width: 100%;
+          background-color: $white;
+          height: 2px;
+          top: 0;
+          left: 0;
+          bottom: 0;
+          right: 0;
+          margin: auto;
+          transition: transform 0.2s;
+          transform: rotate(90deg);
+        }
+      }
+    }
+  }
+
+  .speakers {
+    &::after {
+      content: ' ';
+      display: table;
+      clear: both;
+    }
+  }
+
+  .speaker-panel {
+    position: absolute;
+    padding: 3rem 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    background-color: $navy;
+    opacity: 0;
+    color: $white;
+    transform: translateY(10%);
+    transition: opacity 0.2s, transform 0.2s;
+    display: flex;
+    align-items: center;
+
+    h3 {
+      color: $white;
+    }
+
+    .position {
+      color: $white;
+      font-size: 1.125rem;
+      opacity: 0.7;
+    }
+
+    p {
+      color: $white;
+      opacity: 0.7;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    .close {
+      position: absolute;
+      top: 0;
+      right: 1rem;
+      color: $white;
+      font-size: 2.5rem;
+    }
+
+    .container {
+      position: relative;
+      max-width: 40rem;
+    }
+  }
+}

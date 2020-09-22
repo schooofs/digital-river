@@ -1,0 +1,84 @@
+/*
+ * Demo styling for the tiles. GR
+ * 
+ */
+
+.tilePlugin-row {
+	clear: both;
+	position: relative;
+	text-align: center;
+}
+
+.tilePlugin-row.tilePlugin-small {
+	text-align: left;
+}
+
+.tilePlugin-tile {
+	background-color: #999999;
+	display: inline-block;
+	height: 140px;
+	margin: 32px;
+	margin-bottom: 0;
+	margin-left: 0;
+	width: 170px;
+}
+
+.tilePlugin-tile-selected .tilePlugin-tile-image {
+	opacity: 0.5;
+}
+
+.tilePlugin-tile-image {
+	height: 140px;
+	width: 170px;
+}
+
+.tilePlugin-tile:hover {
+	cursor: pointer;
+}
+
+.tilePlugin-tile-selected {
+	background-color: #0099ff;
+}
+
+.tilePlugin-info {
+	background-color: #0099ff;
+	clear: both;
+	color: white;
+	margin: 0 auto;
+	max-height: 10em;
+	overflow-y: auto;
+	padding: 1.5em;
+	position: relative;
+	text-align: left;
+}
+
+.tilePlugin-info  .tilePlugin-tile {
+	margin-right: 0;
+}
+
+.tilePlugin-close {
+	border: 1px solid transparent;
+	border-radius: 5px;
+	color: white;
+	float: right;
+	font-weight: bold;
+	padding-left: 0.3em;
+	padding-right: 0.3em;
+	position: absolute;
+	top: 0.2em;
+	right: 0.5em;
+	text-decoration: none
+}
+
+.tilePlugin-close:hover {
+	background-color: #E6E6E6;
+	background-image: -moz-linear-gradient(center top, #FFFFFF, #FFFFFF 25%, #E6E6E6);
+	background-image: -webkit-linear-gradient(top, #FFFFFF, #E6E6E6);
+	background-image: -ms-linear-gradient(top, #FFFFFF, #E6E6E6);
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType = 0, startColorstr = '#FFFFFF', endColorstr = '#E6E6E6');
+	background-image: -o-linear-gradient(top, #FFFFFF, #E6E6E6);
+	background-image: linear-gradient(top, #FFFFFF, #E6E6E6);
+
+	box-shadow: 0 1px 2px 0 #B5B5B5;
+	color: #D54E21;
+}

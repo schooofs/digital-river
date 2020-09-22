@@ -1,0 +1,158 @@
+//
+// Alerts
+// --------------------------------------------------
+
+
+// Base styles
+// -------------------------
+
+.alert {
+  padding: $alert-padding;
+  margin-bottom: $line-height-computed;
+  border: 1px solid transparent;
+  border-radius: $alert-border-radius;
+
+  // Headings for larger alerts
+  h4 {
+    margin-top: 0;
+    // Specified for the h4 to prevent conflicts of changing $headings-color
+    color: inherit;
+  }
+
+  // Provide class for links that match alerts
+  .alert-link {
+    font-weight: $alert-link-font-weight;
+  }
+
+  // Improve alignment and spacing of inner content
+  > p,
+  > ul {
+    margin-bottom: 0;
+  }
+
+  > p + p {
+    margin-top: 5px;
+  }
+}
+
+// Dismissible alerts
+//
+// Expand the right padding and account for the close button's positioning.
+
+.alert-dismissable, // The misspelled .alert-dismissable was deprecated in 3.2.0.
+.alert-dismissible {
+  padding-right: ($alert-padding + 20);
+
+  // Adjust close link position
+  .close {
+    position: relative;
+    top: -2px;
+    right: -21px;
+    color: inherit;
+  }
+}
+
+// Alternate styles
+//
+// Generate contextual modifier classes for colorizing the alert.
+
+.alert-success {
+  @include alert-variant($alert-success-bg, $alert-success-border, $alert-success-text);
+}
+
+.alert-info {
+  @include alert-variant($alert-info-bg, $alert-info-border, $alert-info-text);
+}
+
+.alert-warning {
+  @include alert-variant($alert-warning-bg, $alert-warning-border, $alert-warning-text);
+}
+
+.alert-danger {
+  @include alert-variant($alert-danger-bg, $alert-danger-border, $alert-danger-text);
+}
+
+
+
+.dr-callout {
+  padding:20px;
+  margin:20px 0;
+  border:1px solid $gray10;
+  border-left-width:5px;
+  border-radius:3px;
+  
+  &.icon h4:before {
+    display:inline-block;
+    margin-right:5px;
+    font:normal normal normal 14px/1 FontAwesome;
+    font-size:inherit;
+    text-rendering:auto;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+  }
+
+  h4 {
+    margin-top:0;
+    margin-bottom:5px;
+  }
+  
+  p:last-child {
+    margin-bottom:0;
+  }
+  
+  code {
+    border-radius:3px;
+  }
+
+  &+.dr-callout {
+    margin-top:-5px;
+  }
+}
+  
+.dr-callout-success {
+  border-left-color:$green;
+
+  &.icon h4:before {
+    content: "\f00c";
+  }
+  
+  h4 {
+    color:$darkGreen;
+  }
+}
+
+.dr-callout-danger {
+  border-left-color:$red;
+
+  &.icon h4:before {
+    content:"\f071";
+  }
+  
+  h4 {
+    color:$darkRed;
+  }
+}
+
+.dr-callout-warning {
+  border-left-color:$webYellow;
+
+  &.icon h4:before {
+    content:"\f071";
+  }
+  
+  h4 {
+    color:$webYellow;
+  }
+}
+
+.dr-callout-info {
+    border-left-color:$blue;
+
+    &.icon h4:before {
+      content:"\f05a";
+    }
+
+    h4 {
+      color:$darkBlue;
+    }
+}

@@ -1,0 +1,51 @@
+@import "brand";
+@import "bootstrap";
+@import "components/index";
+@import "footer";
+@import "header";
+@import "vendor/index";
+@import "drfonts";
+
+*{box-sizing:border-box;}
+
+:last-child {margin-bottom:0;}
+
+.no-decoration{
+	&:-webkit-any-link {text-decoration:none}
+	&:hover {
+		text-decoration:none;
+		color: inherit;
+	}
+}
+
+.client-slider {
+
+	.owl-stage {
+		right: 0%;
+
+		@media(min-width:$screen-lg-min){
+			right: 10%;
+		}
+
+		@media(min-width:$screen-xl-min){
+        	right: 17%;
+        }
+	}
+	
+	&.right {
+		.owl-stage {
+			left: 0%;
+			right:auto;
+
+			@media(min-width:$screen-lg-min){
+				left: 10%;
+				right:auto;
+			}
+
+			@media(min-width:$screen-xl-min){
+	        	left: 17%;
+				right:auto;
+	        }
+		}
+	}
+}

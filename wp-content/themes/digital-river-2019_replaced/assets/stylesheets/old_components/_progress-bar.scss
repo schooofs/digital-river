@@ -1,0 +1,57 @@
+.progress-bar-wrapper {
+  position: relative;
+  margin-left: -15px;
+  margin-right: -15px;
+  padding-bottom: 10px;
+  @include clearfix();
+
+  .notch {
+    float: left;
+    text-align: center;
+    position: relative;
+    color:#666;
+
+    &::before {
+      content: "";
+      bottom: 0;
+      left: 0;
+      position: absolute;
+      width: 9px;
+      height: 9px;
+      transform: translate(-50%,50%) rotate(45deg);
+      line-height: 1;
+      border-right: solid 3px #999;
+      border-top: solid 3px #999;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translate(-50%,50%);
+      width: calc(100% - 30px);
+      height: 4px;
+      background-color: #CCC;
+    }
+
+    &.active,
+    &.done {
+      color:$light-blue;
+
+      &::before {
+        border-color:$light-blue;
+      }
+
+      &::after {
+        background-color: $light-blue;
+      }
+    }
+
+    &:first-child {
+      &::before {
+        content:normal;
+      }
+    }
+  }
+}

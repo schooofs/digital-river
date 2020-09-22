@@ -1,0 +1,607 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Digital River\n"
+"POT-Creation-Date: 2018-03-12 09:02-0500\n"
+"PO-Revision-Date: 2018-07-06 16:52+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.0.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:6
+msgid "Page not found"
+msgstr ""
+
+#: 404.php:7
+msgid ""
+"The page you are looking for moved, removed, \n"
+"\trenamed or might never exist."
+msgstr ""
+
+#: views/parts/contact-us-tab.php:2
+msgid "Contact Us"
+msgstr "お問い合わせ"
+
+#: views/parts/contact-us-tab.php:6
+msgid "How can we help you?"
+msgstr "お問い合わせ"
+
+#: views/parts/contact-us-tab.php:15
+msgid "Please choose one of the following options:"
+msgstr "以下のオプションから１つお選びください。"
+
+#: views/parts/contact-us-tab.php:7
+msgid ""
+"Did you make a purchase from a Digital River customer? Are you interested in learning more about Digital River ecommerce solutions? Please choose from the "
+"options below so we can help!"
+msgstr ""
+"Digital Riverを利用している企業からのご購入に関するお問い合わせや、Digital Riverのeコマースソリューションに関する詳しい情報のご依頼等は、こちらのページより"
+"承ります。以下のいずれかの項目の先頭にある○をクリックしてお問い合わせ内容を選び、「次へ」をクリックしてください。"
+
+#: views/parts/contact-us-tab.php:12
+msgid "I’m interested in learning more about your global ecommerce solutions and would like to speak to Digital River Sales."
+msgstr "貴社のグローバル e コマースソ リューションについてもっと知 りたいので、Digital River の セールス担当者と話ができます か?"
+
+#: views/parts/contact-us-tab.php:21
+msgid "I have questions about a “DR+” charge on my billing statement."
+msgstr "DR+の料金の支払いについて質 問があります。"
+
+#: views/parts/contact-us-tab.php:30
+msgid "I made a purchase from a Digital River customer. I have a question about a product."
+msgstr "Digital River の顧客から注文 しました。製品について質問が あります。"
+
+#: views/parts/contact-us-tab.php:27
+msgid "Next"
+msgstr "次へ"
+
+#: views/parts/contact-us-tab.php:33
+msgid "Fields marked with an * are required."
+msgstr "*印のある項目は、必須項目です。"
+
+#: 404.php:10
+msgid "Return to home"
+msgstr ""
+
+#: controllers/BlogIndividualController.class.php:91 template-current-news.php:109
+msgid "Recent Posts"
+msgstr "最近のエントリ"
+
+#: controllers/BlogOverviewController.class.php:18
+msgid "Blog Overview Page"
+msgstr "ブログ概要ページ"
+
+#: controllers/BlogOverviewController.class.php:19
+msgid "Blog Overview"
+msgstr "ブログ概要"
+
+#: footer-current.php:24 views/main/footer.php:24 views/parts/main-footer-view.php:35
+msgid "Our Offerings"
+msgstr "当社のサービス"
+
+#: footer-current.php:34 template-current-company.php:51 views/case-study/individual/case-study-company-info.php:22 views/main/footer.php:34
+#: views/mycommerce/main-footer-view.php:38 views/parts/main-footer-view.php:47
+msgid "Company"
+msgstr "会社"
+
+#: footer-current.php:45 views/case-study/individual/case-study-company-info.php:26 views/main/footer.php:45 views/parts/main-footer-view.php:60
+msgid "Markets"
+msgstr "市場"
+
+#: footer-current.php:55 views/main/footer.php:56 views/parts/main-footer-view.php:73
+msgid "Value-Added Services"
+msgstr "付加価値サービス"
+
+#: footer-current.php:66 template-current-resources.php:22 views/main/footer.php:67 views/mycommerce/main-footer-view.php:51
+#: views/parts/main-footer-view.php:86
+msgid "Resources"
+msgstr "リソース"
+
+#: footer-demo-now.php:2
+msgid "Want to see a full demo? Schedule a meeting now."
+msgstr ""
+
+#: functions.php:10
+msgid "Only authenticated users can access the REST API."
+msgstr ""
+
+#: functions.php:77
+msgid "Footer Our Offerings"
+msgstr "フッター当社のサービス"
+
+#: functions.php:78
+msgid "Footer Company"
+msgstr "フッター企業"
+
+#: functions.php:79
+msgid "Footer Clients"
+msgstr "フッター顧客"
+
+#: functions.php:80
+msgid "Footer Value Added Services"
+msgstr "フッター付加価値サービス"
+
+#: functions.php:81
+msgid "Footer Resources"
+msgstr "フッターリソース"
+
+#: functions.php:82
+msgid "Main Navigation"
+msgstr ""
+
+#: functions.php:83
+msgid "Top Navigation"
+msgstr ""
+
+#: functions.php:199 inc/part/ResourceBox.class.php:57
+msgid "Blog"
+msgstr "ブログ"
+
+#: functions.php:207
+msgid "News & Events"
+msgstr "ニュース&amp;イベント"
+
+#: inc/custom-post-types/BlogOverviewPostType.class.php:29 inc/custom-post-types/BricksPostType.class.php:82
+#: inc/custom-post-types/CaseStudiesPostType.class.php:28 inc/custom-post-types/ClientsPostType.class.php:29
+#: inc/custom-post-types/EventsPostType.class.php:28 inc/custom-post-types/InfographicPostType.class.php:29
+#: inc/custom-post-types/MediaCoveragePostType.class.php:29 inc/custom-post-types/PressReleasesPostType.class.php:29
+#: inc/custom-post-types/ResourcesPostType.class.php:29 inc/custom-post-types/VideosPostType.class.php:29 inc/taxonomy/IndustryTaxonomy.class.php:32
+msgid "Add New "
+msgstr ""
+
+#: inc/custom-post-types/BlogOverviewPostType.class.php:30 inc/custom-post-types/BricksPostType.class.php:83
+#: inc/custom-post-types/CaseStudiesPostType.class.php:29 inc/custom-post-types/ClientsPostType.class.php:30
+#: inc/custom-post-types/EventsPostType.class.php:29 inc/custom-post-types/InfographicPostType.class.php:30
+#: inc/custom-post-types/MediaCoveragePostType.class.php:30 inc/custom-post-types/PressReleasesPostType.class.php:30
+#: inc/custom-post-types/ResourcesPostType.class.php:30 inc/custom-post-types/VideosPostType.class.php:30 inc/taxonomy/IndustryTaxonomy.class.php:33
+msgid "New "
+msgstr ""
+
+#: inc/custom-post-types/BlogOverviewPostType.class.php:31 inc/custom-post-types/BricksPostType.class.php:84
+#: inc/custom-post-types/CaseStudiesPostType.class.php:30 inc/custom-post-types/ClientsPostType.class.php:31
+#: inc/custom-post-types/EventsPostType.class.php:30 inc/custom-post-types/InfographicPostType.class.php:31
+#: inc/custom-post-types/MediaCoveragePostType.class.php:31 inc/custom-post-types/PressReleasesPostType.class.php:31
+#: inc/custom-post-types/ResourcesPostType.class.php:31 inc/custom-post-types/VideosPostType.class.php:31 inc/taxonomy/IndustryTaxonomy.class.php:30
+msgid "Edit "
+msgstr ""
+
+#: inc/custom-post-types/BlogOverviewPostType.class.php:32 inc/custom-post-types/BricksPostType.class.php:85
+#: inc/custom-post-types/CaseStudiesPostType.class.php:31 inc/custom-post-types/ClientsPostType.class.php:32
+#: inc/custom-post-types/EventsPostType.class.php:31 inc/custom-post-types/InfographicPostType.class.php:32
+#: inc/custom-post-types/MediaCoveragePostType.class.php:32 inc/custom-post-types/PressReleasesPostType.class.php:32
+#: inc/custom-post-types/ResourcesPostType.class.php:32 inc/custom-post-types/VideosPostType.class.php:32
+#, fuzzy
+#| msgid "View Post"
+msgid "View "
+msgstr "投稿を見る"
+
+#: inc/custom-post-types/BlogOverviewPostType.class.php:33 inc/custom-post-types/BricksPostType.class.php:86
+#: inc/custom-post-types/CaseStudiesPostType.class.php:32 inc/custom-post-types/ClientsPostType.class.php:33
+#: inc/custom-post-types/EventsPostType.class.php:32 inc/custom-post-types/InfographicPostType.class.php:33
+#: inc/custom-post-types/MediaCoveragePostType.class.php:33 inc/custom-post-types/PressReleasesPostType.class.php:33
+#: inc/custom-post-types/ResourcesPostType.class.php:33 inc/custom-post-types/VideosPostType.class.php:33 inc/taxonomy/IndustryTaxonomy.class.php:27
+#, fuzzy
+#| msgid "All Pages"
+msgid "All "
+msgstr "すべてのページ"
+
+#: inc/custom-post-types/BlogOverviewPostType.class.php:34 inc/custom-post-types/BricksPostType.class.php:87
+#: inc/custom-post-types/CaseStudiesPostType.class.php:33 inc/custom-post-types/ClientsPostType.class.php:34
+#: inc/custom-post-types/EventsPostType.class.php:33 inc/custom-post-types/InfographicPostType.class.php:34
+#: inc/custom-post-types/MediaCoveragePostType.class.php:34 inc/custom-post-types/PressReleasesPostType.class.php:34
+#: inc/custom-post-types/ResourcesPostType.class.php:34 inc/custom-post-types/VideosPostType.class.php:34 inc/taxonomy/IndustryTaxonomy.class.php:25
+#, fuzzy
+#| msgctxt "submit button"
+#| msgid "Search"
+msgid "Search "
+msgstr "検索"
+
+#: inc/custom-post-types/BlogOverviewPostType.class.php:35 inc/custom-post-types/BricksPostType.class.php:88
+#: inc/custom-post-types/CaseStudiesPostType.class.php:34 inc/custom-post-types/ClientsPostType.class.php:35
+#: inc/custom-post-types/EventsPostType.class.php:34 inc/custom-post-types/InfographicPostType.class.php:35
+#: inc/custom-post-types/MediaCoveragePostType.class.php:35 inc/custom-post-types/PressReleasesPostType.class.php:35
+#: inc/custom-post-types/ResourcesPostType.class.php:35 inc/custom-post-types/VideosPostType.class.php:35
+msgid "Parent "
+msgstr ""
+
+#: inc/custom-post-types/BlogOverviewPostType.class.php:36 inc/custom-post-types/BlogOverviewPostType.class.php:37
+#: inc/custom-post-types/BricksPostType.class.php:89 inc/custom-post-types/BricksPostType.class.php:90 inc/custom-post-types/CaseStudiesPostType.class.php:35
+#: inc/custom-post-types/CaseStudiesPostType.class.php:36 inc/custom-post-types/ClientsPostType.class.php:36
+#: inc/custom-post-types/ClientsPostType.class.php:37 inc/custom-post-types/EventsPostType.class.php:35 inc/custom-post-types/EventsPostType.class.php:36
+#: inc/custom-post-types/InfographicPostType.class.php:36 inc/custom-post-types/InfographicPostType.class.php:37
+#: inc/custom-post-types/MediaCoveragePostType.class.php:36 inc/custom-post-types/MediaCoveragePostType.class.php:37
+#: inc/custom-post-types/PressReleasesPostType.class.php:36 inc/custom-post-types/PressReleasesPostType.class.php:37
+#: inc/custom-post-types/ResourcesPostType.class.php:36 inc/custom-post-types/ResourcesPostType.class.php:37
+#: inc/custom-post-types/VideosPostType.class.php:36 inc/custom-post-types/VideosPostType.class.php:37 inc/taxonomy/IndustryTaxonomy.class.php:37
+msgid "No "
+msgstr ""
+
+#: inc/custom-post-types/PostPostType.class.php:23 inc/custom-post-types/PostPostType.class.php:24
+msgid "Authors"
+msgstr ""
+
+#: inc/part/ResourceBox.class.php:49
+msgid "Video"
+msgstr "動画"
+
+#: inc/part/ResourceBox.class.php:51
+msgid "Press Release"
+msgstr "プレスリリース"
+
+#: inc/part/ResourceBox.class.php:53
+msgid "Webinar"
+msgstr ""
+
+#: inc/part/ResourceBox.class.php:55
+msgid "Event"
+msgstr "イベント"
+
+#: inc/part/ResourceBox.class.php:59 views/bricks/case-study-cross-sell.php:6
+msgid "Case Study"
+msgstr "事例研究"
+
+#: inc/part/ResourceBox.class.php:61
+#, fuzzy
+#| msgid "Website Pages"
+msgid "Web Page"
+msgstr "ウェブサイトのページ"
+
+#: inc/part/ResourceBox.class.php:63
+msgid "White Paper"
+msgstr "ホワイトペーパー"
+
+#: inc/part/ResourceBox.class.php:65
+msgid "Infographic"
+msgstr "図解"
+
+#: inc/part/ResourceBox.class.php:67
+msgid "Value Brief"
+msgstr "要点"
+
+#: inc/part/ResourceBox.class.php:69 template-current-homepage.php:67 template-current-news.php:95
+msgid "News"
+msgstr ""
+
+#: inc/part/ResourceBox.class.php:71
+msgid "Report"
+msgstr ""
+
+#: inc/part/ResourceBox.class.php:74
+msgid "Resource"
+msgstr "リソース"
+
+#: inc/shortcodes/InfographicShortcode.class.php:22 views/infographic/individual/content.php:17
+msgid "Expand"
+msgstr ""
+
+#: inc/shortcodes/InfographicShortcode.class.php:25 views/infographic/individual/content.php:21
+msgid "by Digital River"
+msgstr ""
+
+#: inc/taxonomy/IndustryTaxonomy.class.php:26
+msgid "Popular "
+msgstr "高評価の "
+
+#: inc/taxonomy/IndustryTaxonomy.class.php:31
+msgid "Update "
+msgstr "更新 "
+
+#: inc/taxonomy/IndustryTaxonomy.class.php:34
+msgid "Separate "
+msgstr "別の "
+
+#: inc/taxonomy/IndustryTaxonomy.class.php:35
+msgid "Add or remove "
+msgstr "追加または削除 "
+
+#: inc/taxonomy/IndustryTaxonomy.class.php:36
+msgid "Choose from the most used "
+msgstr "最も利用者の多いものから選ぶ "
+
+#: search.php:78
+msgid "Search Results"
+msgstr "検索結果"
+
+#: search.php:79
+msgid "results found for"
+msgstr "の検索結果 0件"
+
+#: search.php:83
+msgid "Please check your spelling and/or refine your keywords"
+msgstr "キーワードに誤字・脱字がないか確認してください。別のキーワードでお試しください。"
+
+#: search.php:87 searchform.php:5
+msgctxt "label"
+msgid "Search for:"
+msgstr "検索対象:"
+
+#: search.php:88 searchform.php:6
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "検索&hellip;"
+
+#: search.php:89 searchform.php:8
+msgctxt "submit button"
+msgid "Search"
+msgstr "検索"
+
+#: search.php:95
+msgid "filter by"
+msgstr "フィルタ条件"
+
+#: search.php:99
+msgid "All Pages"
+msgstr "すべてのページ"
+
+#: search.php:103
+msgid "Website Pages"
+msgstr "ウェブサイトのページ"
+
+#: search.php:107
+msgid "Blog Posts"
+msgstr "ブログへの投稿"
+
+#: template-current-company.php:63
+msgid "Who<br>We Are"
+msgstr ""
+
+#: template-current-company.php:78 views/mycommerce/main-footer-view.php:26
+msgid "What We Do"
+msgstr "私達がすること"
+
+#: template-current-company.php:100
+msgid "Our Mission"
+msgstr ""
+
+#: template-current-company.php:106
+msgid "Our Vision"
+msgstr ""
+
+#: template-current-company.php:123
+msgid "Helpful<br>Links"
+msgstr ""
+
+#: template-current-homepage.php:110
+msgid "Employee<br>Shoutouts"
+msgstr ""
+
+#: template-current-homepage.php:145
+msgid "Nominated by"
+msgstr ""
+
+#: template-current-homepage.php:160
+msgid "Upcoming<br>Events"
+msgstr ""
+
+#: template-current-homepage.php:194
+msgid "The<br>Gallery"
+msgstr ""
+
+#: template-current-homepage.php:230
+msgid "Video<br>Catelog"
+msgstr ""
+
+#: template-current-news.php:131
+msgid "Good Deeds"
+msgstr ""
+
+#: template-current-news.php:153
+msgid "Winners Circle"
+msgstr ""
+
+#: views/blog/individual/amp/content.php:8
+msgid "Written by: "
+msgstr "著者: "
+
+#: views/blog/individual/amp/content.php:9 views/blog/individual/content.php:10 views/blog/individual/content.php:13
+msgid "Last modified: "
+msgstr "最終更新日:"
+
+#: views/blog/individual/content.php:9
+msgid "< Back to Blog"
+msgstr ""
+
+#: views/blog/individual/content.php:12
+msgid "< Back to blog"
+msgstr ""
+
+#: views/blog/individual/content.php:23 views/blog/individual/social-links.php:8 views/infographic/individual/social-links.php:9
+msgid "Share on Twitter"
+msgstr "Twitterでシェア"
+
+#: views/blog/individual/content.php:32 views/blog/individual/social-links.php:17 views/infographic/individual/social-links.php:18
+msgid "Share on LinkedIn"
+msgstr "LinkedInでシェア"
+
+#: views/blog/individual/content.php:42 views/blog/individual/social-links.php:27 views/infographic/individual/social-links.php:28
+msgid "Share via Email"
+msgstr "メールでシェア"
+
+#: views/blog/individual/content.php:43 views/blog/individual/social-links.php:28 views/infographic/individual/social-links.php:29
+msgid "Check out this article I found on the Digital River blog "
+msgstr "Digital Riverのブログで見つけたこの記事を確認してください "
+
+#: views/blog/individual/heading.php:11
+#, fuzzy
+#| msgid "Blog"
+msgid " Blog"
+msgstr "ブログ"
+
+#: views/blog/individual/heading.php:20 views/blog/parts/post.php:12
+msgid "By:  "
+msgstr "担当者：  "
+
+#: views/blog/overview/content.php:27 views/bricks/in-the-news.php:91
+msgid "See More"
+msgstr "詳細を確認"
+
+#: views/blog/overview/hero.php:12
+msgid "Recent Blog Posts"
+msgstr "最近の投稿"
+
+#: views/blog/overview/hero.php:21
+msgid "By: "
+msgstr "担当者： "
+
+#: views/blog/parts/editors-pick.php:2
+msgid "Editor's Pick"
+msgstr "編集者のおすすめ"
+
+#: views/blog/parts/editors-pick.php:5
+msgid "View Post"
+msgstr "投稿を見る"
+
+#: views/bricks/clicky.php:6
+msgid "Why work With <br> Digital River"
+msgstr ""
+
+#: views/bricks/in-the-news.php:91
+msgid "Go to News and Events"
+msgstr "ニュース&amp;イベントに進む"
+
+#: views/bricks/locations.php:35
+msgid "Americas"
+msgstr ""
+
+#: views/bricks/locations.php:36
+msgid "EMEA"
+msgstr ""
+
+#: views/bricks/locations.php:37
+msgid "APAC"
+msgstr ""
+
+#: views/bricks/meet-the-team.php:7
+msgid "Meet the<br> team"
+msgstr ""
+
+#: views/bricks/three-up-featured.php:16
+msgid "Award"
+msgstr ""
+
+#: views/case-study/individual/case-study-company-info.php:32
+msgid "The Customer"
+msgstr "お客様"
+
+#: views/case-study/individual/case-study-company-info.php:36
+msgid "The Challenge"
+msgstr "課題"
+
+#: views/case-study/individual/case-study-company-info.php:40
+msgid "The Solution"
+msgstr "解決策"
+
+#: views/case-study/individual/case-study-two-col-text.php:4
+#, fuzzy
+#| msgid "The Solution"
+msgid "The Story"
+msgstr "解決策"
+
+#: views/mycommerce/client_success_grid.php:23
+msgid "Industry"
+msgstr "業界"
+
+#: views/mycommerce/client_success_grid.php:25
+msgid "Company Info"
+msgstr "会社情報"
+
+#: views/mycommerce/client_success_grid.php:32
+msgid "Business Value"
+msgstr "ビジネス価値"
+
+#: views/mycommerce/contact-us-overlay.php:9 views/parts/contact-us-overlay.php:9
+msgid "Contact Sales"
+msgstr "営業の問い合わせ先"
+
+#: views/mycommerce/contact-us-overlay.php:20
+msgid "Sign Up Now"
+msgstr "今すぐサインアップ"
+
+#: views/mycommerce/contact-us-overlay.php:31 views/parts/contact-us-overlay.php:37
+msgid "Sales Inquiries"
+msgstr "営業への問い合わせ"
+
+#: views/mycommerce/contact-us-overlay.php:32 views/parts/contact-us-overlay.php:38
+msgid "Interested in Digital River ecommerce solutions for your business?"
+msgstr "お客様の業務へのDigital River Eコマースソリューションの導入に興味がありますか。"
+
+#: views/mycommerce/contact-us-overlay.php:33 views/parts/contact-us-overlay.php:39
+msgid "Get Started"
+msgstr "初めに"
+
+#: views/mycommerce/contact-us-overlay.php:39 views/parts/contact-us-overlay.php:45
+msgid "Shopper Support"
+msgstr "お客様向けのサポート"
+
+#: views/mycommerce/contact-us-overlay.php:40 views/parts/contact-us-overlay.php:46
+msgid "For an unknown \"DR+\" charge on your billing statement or for assistance with an order."
+msgstr "お客様の請求明細に不明な\"DR+\"料金が記載されている場合やご注文に関するサポートが必要な場合。"
+
+#: views/mycommerce/contact-us-overlay.php:41 views/parts/contact-us-overlay.php:50
+msgid "Find out details"
+msgstr "詳細を確認"
+
+#: views/mycommerce/contact-us-overlay.php:48 views/parts/contact-us-overlay.php:59
+msgid "Fill out the form so we can get in touch."
+msgstr "弊社からご連絡できるよう必要事項を記載してください。"
+
+#: views/mycommerce/team-member.php:3
+msgid "meetTeam"
+msgstr ""
+
+#: views/mycommerce/team-member.php:3
+msgid "Meet the client success team"
+msgstr "Meet the client success team"
+
+#: views/parts/client-box.php:17
+msgid "trusts"
+msgstr "委託"
+
+#: views/parts/client-box.php:24
+msgid "\""
+msgstr ""
+
+#: views/parts/contact-us-form.php:1
+msgid "Thank you, we will reach out soon!"
+msgstr "お問い合わせありがとうございます。すぐにご連絡いたします。"
+
+#: views/parts/contact-us-overlay.php:26
+msgid "Request a Demo"
+msgstr "デモを要求"
+
+#. Theme Name of the plugin/theme
+#. Author of the plugin/theme
+msgid "Digital River"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://wordpress.org/themes/twentyseventeen/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Digital River 3.0 Theme"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.digitalriver.com/"
+msgstr ""
+
+#~ msgid "Recent <br>Posts"
+#~ msgstr "最近の<br>エントリ"
+
+#~ msgid "Market"
+#~ msgstr "市場"
+
+#~ msgid "Recent Blogs"
+#~ msgstr "最近の投稿"

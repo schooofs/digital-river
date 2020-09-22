@@ -1,0 +1,129 @@
+{
+    "key": "group_56d8b08a320f2",
+    "title": "Media Coverage",
+    "fields": [
+        {
+            "key": "field_520a7da1790e5",
+            "label": "Name of Publication",
+            "name": "name_of_publication",
+            "type": "text",
+            "instructions": "Example: Wired",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "formatting": "html",
+            "maxlength": "",
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "key": "field_520a7dcf790e6",
+            "label": "Article Author",
+            "name": "article_author",
+            "type": "text",
+            "instructions": "Example: Jim Fredlund",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "formatting": "html",
+            "maxlength": "",
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "key": "field_520a7dd8790e7",
+            "label": "Article Date",
+            "name": "article_date",
+            "type": "date_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "display_format": "F j, Y",
+            "return_format": "F j, Y",
+            "first_day": 0
+        },
+        {
+            "key": "field_520a7e12790e8",
+            "label": "Article URL",
+            "name": "article_url",
+            "type": "text",
+            "instructions": "Example: http:\/\/www.bizjournals.com\/twincities\/news\/2013\/08\/09\/2013-cio-of-the-year-awards.html",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "formatting": "html",
+            "maxlength": "",
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "key": "field_52177dafc4b86",
+            "label": "URL Title",
+            "name": "url_title",
+            "type": "text",
+            "instructions": "Example: Read the article",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "Read the article",
+            "prepend": "",
+            "append": "",
+            "formatting": "none",
+            "maxlength": "",
+            "readonly": 0,
+            "disabled": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "media_coverage"
+            }
+        ]
+    ],
+    "menu_order": 49,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1464704436
+}

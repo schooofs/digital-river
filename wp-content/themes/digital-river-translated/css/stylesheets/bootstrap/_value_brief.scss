@@ -1,0 +1,370 @@
+//colors
+$color_cerulean_approx: #00a7e1;
+$color_atlantis_70_approx: rgba(168, 198, 40, 0.7);
+$color_storm_dust_approx: #646464;
+$black_30: rgba(0, 0, 0, 0.3);
+$color_tuatara_approx: #343434;
+$white: #ffffff;
+$color_mountain_mist_approx: #999;
+$color_deep_cerulean_approx: #007eb5;
+$color_alto_approx: #dddddd;
+$color_mountain_mist_30_approx: rgba(144, 144, 149, 0.3);
+$color_mountain_mist_20_approx: rgba(144, 144, 149, 0.2);
+$color_atlantis_approx: #a8c628;
+$color_bright_turquoise_approx: #25d4ff;
+
+//fonts
+$font_0: DIN Next W01 Light;
+$font_1: sans-serif;
+$font_2: Arial;
+
+//@extend-elements
+//original selectors
+//.single-page .container.value-brief .row-four, .single-page .container.value-brief .row-two, .single-page .container.value-brief .row-one, .single-page .container.value-brief .row-three, .single-page .container.value-brief .row-two-three
+%extend_1 {
+	height: auto;
+	margin: 10px 0;
+	padding: 10px;
+}
+
+
+
+@media screen and(max-width: 500px) {
+	a.printButton {
+		position: absolute;
+		top: 20px;
+		right: 20px;
+		z-index: 99;
+	}
+}
+.containerPrintButton {
+	margin: 30px 0 30px 25px;
+	font-family: $font_0, $font_1;
+	button {
+		padding: 10px;
+		background: none;
+		//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+		transition: all 0.3s ease-in-out;
+		border: 3px solid $color_atlantis_70_approx;
+		color: $color_storm_dust_approx;
+		a {
+			text-decoration: none;
+			color: $color_storm_dust_approx;
+			&:visited {
+				text-decoration: none;
+				color: $color_storm_dust_approx;
+			}
+		}
+		&:hover {
+			opacity: 0.8;
+			//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+			box-shadow: inset 2px 2px 5px 0 $black_30;
+		}
+		&:active {
+			opacity: 0.8;
+			//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+			box-shadow: inset 2px 2px 5px 0 $black_30;
+		}
+	}
+}
+.page-wrapper {
+	background: $color_storm_dust_approx;
+	padding: 50px 0;
+	position: relative;
+}
+.single-page {
+	&:first-child .container.value-brief {
+		padding-top: 20px;
+		&:first-child:before {
+			display: none;
+		}
+	}
+	.container.value-brief {
+		padding-top: 20px;
+		font-family: $med, $font_1;
+		&:first-child::before {
+			content: "";
+			width: 96%;
+			background: $color_mountain_mist_approx;
+			padding: 1px 1px 0;
+			position: relative;
+			top: -21px;
+			margin: 2%;
+		}
+		.row {
+			margin: 0 auto;
+		}
+		img {
+			text-align: center;
+			margin: 0 auto;
+			display: block;
+			height: auto;
+			max-width: 100%;
+		}
+		a {
+			color: $color_deep_cerulean_approx;
+			text-decoration: underline;
+			&:visited {
+				color: $color_deep_cerulean_approx;
+				text-decoration: underline;
+			}
+		}
+		.row-four {
+			@extend %extend_1;
+		}
+		.row-two {
+			@extend %extend_1;
+		}
+		.row-one {
+			@extend %extend_1;
+		}
+		.row-three {
+			@extend %extend_1;
+		}
+		.row-two-three {
+			@extend %extend_1;
+		}
+		.row-four-footer {
+			height: auto;
+			margin: 30px -5px 15px;
+			padding: -15px;
+		}
+
+		.breakout {
+			background: $color_alto_approx;
+			border: none;
+			h3 {
+				color: $color_tuatara_approx;
+			}
+
+			.wysiwyg-style{
+				padding: 10px 25px 5px;
+			}
+		}
+		.breakout-cell-img {
+			border: none;
+			padding: 0 25px 0 0;
+		}
+		.dividerContainer {
+			padding: 0 10px;
+		}
+		.divider {
+			border-top: 3px solid $color_mountain_mist_30_approx;
+			margin-bottom: -15px;
+		}
+		.dividerHTML {
+			border-top: 1px solid $color_mountain_mist_20_approx;
+			margin: 0 auto;
+			text-align: center;
+			width: 97%;
+		}
+		.large-heading {
+			font-family: $eng, $font_1;
+			font-size: 5em;
+			color: $color_cerulean_approx;
+			margin-top: 10px;
+			line-height: 1.1em;
+		}
+		.medium-heading {
+			font-family: $eng, $font_1;
+			font-size: 2em;
+			color: $color_atlantis_approx;
+			margin: 0;
+			margin-bottom: 3px;
+		}
+		.small-heading {
+			font-family: $eng, $font_1;
+			font-size: 1.8em;
+			text-transform: uppercase;
+			color: $color_tuatara_approx;
+			border-bottom: 3px solid $color_atlantis_approx;
+			display: inline-block;
+			margin: 10px 0;
+		}
+		p {
+			font-family: $font_0, $font_1;
+			margin-bottom: 15px;
+		}
+		.wysiwyg-style {
+			font-family: $font_0, $font_1;
+			display: block;
+			margin-top: 5px;
+			line-height: 3em;
+			margin-bottom: 20px;
+		}
+		h3 {
+			color: $color_bright_turquoise_approx;
+			margin-bottom: 3px;
+			font-size: 1.2em;
+			margin-bottom: 5px;
+			&.footerhd {
+				color: $color_storm_dust_approx;
+				margin-bottom: 3px;
+			}
+		}
+		ol {
+			padding-left: 20px;
+			font-family: $font_0, $font_1;
+			li {
+				list-style: decimal;
+				line-height: 1.4em;
+			}
+		}
+		ul {
+			font-family: $font_0, $font_1;
+			padding-left: 20px;
+			li {
+				list-style: disc;
+				line-height: 1.4em;
+			}
+			&.footerlist {
+				padding: 0;
+				li {
+					list-style: none;
+				}
+			}
+		}
+		blockquote {
+			padding: 0.2em 3px;
+			quotes: "“" "”" "‘" "’";
+			&:before {
+				color: $color_mountain_mist_approx;
+				content: open-quote;
+				font-size: 4em;
+				line-height: 0.1em;
+				margin-right: 0.05em;
+				vertical-align: -0.4em;
+			}
+			p {
+				display: inline;
+				color: $color_storm_dust_approx;
+				font-weight: bolder;
+			}
+		}
+		sup {
+			font-size: 0.75em;
+			font-weight: normal;
+			font-family: $font_0, $font_1;
+			color: $color_storm_dust_approx;
+			position: relative;
+			top: -0.2em;
+			line-height: 1;
+			&.solosup {
+				line-height: 1em;
+				margin: 0;
+				position: inherit;
+			}
+		}
+		.imgleft {
+			text-align: left;
+			margin: 0;
+			max-width: 110px !important;
+		}
+		.print-footer {
+			display: inherit;
+			margin-top: 15px;
+			padding: 0 5px;
+			margin-bottom: 15px;
+			h1 {
+				text-align: right;
+				margin-bottom: 5px;
+				margin-top: 0;
+				font-size: 12px;
+				color: $color_cerulean_approx;
+			}
+			h2 {
+				text-align: right;
+				font-size: 10px;
+				margin-top: 0;
+			}
+			a {
+				text-decoration: none;
+				color: $color_cerulean_approx;
+			}
+		}
+		.breakout-cell p {
+			color: $color_tuatara_approx;
+			margin-top: 15px;
+		}
+		h1.large-cell {
+			font-family: $eng, $font_1;
+			font-size: 2em;
+			text-transform: uppercase;
+			color: $color_deep_cerulean_approx;
+			margin: 0 0 10px;
+		}
+		.printfooter a:visited {
+			text-decoration: none;
+			color: $color_cerulean_approx;
+		}
+	}
+}
+@media screen and(max-width: 480px) {
+	.single-page .container.value-brief {
+		.col-xs-6 {
+			width: inherit;
+			margin: 0 auto;
+		}
+		.col-xs-4 {
+			width: inherit;
+			margin: 0 auto;
+		}
+		.col-xs-8 {
+			width: inherit;
+			margin: 0 auto;
+		}
+		.print-footer {
+			h1 {
+				text-align: left;
+				margin-bottom: 5px;
+				margin-top: 10px;
+				margin-left: 5px;
+				font-size: 12px;
+				color: $color_cerulean_approx;
+			}
+			h2 {
+				text-align: left;
+				font-size: 10px;
+				margin-top: 0;
+				margin-left: 5px;
+			}
+		}
+	}
+}
+.container.value-brief {
+	font-family: $font_2, $font_1;
+	color: $color_tuatara_approx;
+	background: $white;
+	position: relative;
+}
+
+.main-footer{
+	.de.footer-description{
+		font-size: 1.2rem;
+	}
+}
+
+/* PDF Creator Pages */
+.value-brief .small-heading {
+  font-size: 2em;
+  text-transform: uppercase;
+  display: inline-block;
+  margin: 1.75em 0 0 0;
+  padding-bottom: 0.025em; }
+.value-brief .large-heading {
+  font-size: 6em;
+  color: #00a7e1;
+  margin: .2em 0 .5em 0;
+  line-height: 1.1em;
+  font-family: "DIN 1451 W01 Engschrift", sans-serif; }
+.value-brief p, .value-brief ul {
+  font-family: "DIN Next W01 Light", sans-serif;
+  font-size: 1.2em; 
+  line-height: 1.15;}
+.value-brief h3 {
+  color: #25d4ff;
+  text-transform: none; }
+.value-brief .medium-heading {
+  color: #a8c628; }
+.value-brief img {
+  max-width: 100%; }

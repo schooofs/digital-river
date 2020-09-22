@@ -1,0 +1,759 @@
+0000.000 (0) Opened log file at time: Thu, 11 Jun 2015 13:38:29 +0000 on http://starsandbox.wpengine.com
+0000.023 (0) UpdraftPlus WordPress backup plugin (http://updraftplus.com): 1.9.64 WP: 4.2.2 PHP: 5.3.10-1ubuntu3.18 (Linux pod-10402 3.2.0-70-generic #105-Ubuntu SMP Wed Sep 24 19:49:16 UTC 2014 x86_64) MySQL: 5.5.43-37.2-log Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 71.7M | 80.5M) multisite: N mcrypt: Y LANG: C ZipArchive::addFile: Y
+0000.042 (0) Free space on disk containing Updraft's temporary directory: Unknown
+0000.063 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.082 (0) Requesting semaphore lock (fd)
+0000.102 (0) Semaphore (fd) was stuck, set lock time to 2015-06-11 13:38:29
+0000.131 (0) Semaphore (fd) reset to 1
+0000.151 (0) Set semaphore last lock (fd) time to 2015-06-11 13:38:29
+0000.170 (0) Semaphore lock (fd) complete
+0000.435 (0) Backup run: resumption=0, nonce=5028ace8ebca, begun at=1434029909 (1s ago), job type=backup
+0000.641 (0) Scheduling a resumption (1) after 300 seconds (1434030210) in case this run gets aborted
+0000.689 (0) Checking if we have a zip executable available
+0000.925 (0) Creation of backups of directories: beginning
+0001.401 (0) Beginning creation of dump of plugins (split every: 500 Mb)
+0002.559 (0) Total entities for the zip file: 419 directories, 2799 files (0 skipped as non-modified), 35.1 Mb
+0002.586 (0) Zip: backup_2015-06-11-0838_Digital_River_5028ace8ebca-plugins.zip.tmp: 100 files added (on-disk size: 0 Kb)
+0002.611 (0) Zip: backup_2015-06-11-0838_Digital_River_5028ace8ebca-plugins.zip.tmp: 200 files added (on-disk size: 0 Kb)
+0002.635 (0) Zip: backup_2015-06-11-0838_Digital_River_5028ace8ebca-plugins.zip.tmp: 300 files added (on-disk size: 0 Kb)
+0002.660 (0) Zip: backup_2015-06-11-0838_Digital_River_5028ace8ebca-plugins.zip.tmp: 400 files added (on-disk size: 0 Kb)
+0002.686 (0) Zip: backup_2015-06-11-0838_Digital_River_5028ace8ebca-plugins.zip.tmp: 500 files added (on-disk size: 0 Kb)
+0002.708 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (12.6 Mb, 2799 files batched, 501 (501) added so far); re-opening (prior size: 0 Kb)
+0005.506 (0) Zip: backup_2015-06-11-0838_Digital_River_5028ace8ebca-plugins.zip.tmp: 600 files added (on-disk size: 4330.5 Kb)
+0005.535 (0) Zip: backup_2015-06-11-0838_Digital_River_5028ace8ebca-plugins.zip.tmp: 700 files added (on-disk size: 4330.5 Kb)
+0005.565 (0) Zip: backup_2015-06-11-0838_Digital_River_5028ace8ebca-plugins.zip.tmp: 800 files added (on-disk size: 4330.5 Kb)
+0005.597 (0) Zip: backup_2015-06-11-0838_Digital_River_5028ace8ebca-plugins.zip.tmp: 900 files added (on-disk size: 4330.5 Kb)
+0005.628 (0) Zip: backup_2015-06-11-0838_Digital_River_5028ace8ebca-plugins.zip.tmp: 1000 files added (on-disk size: 4330.5 Kb)
+0005.647 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2.3 Mb, 2799 files batched, 501 (1002) added so far); re-opening (prior size: 4330.5 Kb)
+0006.567 (0) Zip: backup_2015-06-11-0838_Digital_River_5028ace8ebca-plugins.zip.tmp: 1100 files added (on-disk size: 5143.7 Kb)
+0006.602 (0) Zip: backup_2015-06-11-0838_Digital_River_5028ace8ebca-plugins.zip.tmp: 1200 files added (on-disk size: 5143.7 Kb)
+0006.632 (0) Zip: backup_2015-06-11-0838_Digital_River_5028ace8ebca-plugins.zip.tmp: 1300 files added (on-disk size: 5143.7 Kb)
+0006.666 (0) Zip: backup_2015-06-11-0838_Digital_River_5028ace8ebca-plugins.zip.tmp: 1400 files added (on-disk size: 5143.7 Kb)
+0006.704 (0) Zip: backup_2015-06-11-0838_Digital_River_5028ace8ebca-plugins.zip.tmp: 1500 files added (on-disk size: 5143.7 Kb)
+0006.723 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (6.7 Mb, 2799 files batched, 501 (1503) added so far); re-opening (prior size: 5143.7 Kb)
+0008.443 (0) Zip: backup_2015-06-11-0838_Digital_River_5028ace8ebca-plugins.zip.tmp: 1600 files added (on-disk size: 7259.3 Kb)
+0008.474 (0) Zip: backup_2015-06-11-0838_Digital_River_5028ace8ebca-plugins.zip.tmp: 1700 files added (on-disk size: 7259.3 Kb)
+0008.506 (0) Zip: backup_2015-06-11-0838_Digital_River_5028ace8ebca-plugins.zip.tmp: 1800 files added (on-disk size: 7259.3 Kb)
+0008.538 (0) Zip: backup_2015-06-11-0838_Digital_River_5028ace8ebca-plugins.zip.tmp: 1900 files added (on-disk size: 7259.3 Kb)
+0008.570 (0) Zip: backup_2015-06-11-0838_Digital_River_5028ace8ebca-plugins.zip.tmp: 2000 files added (on-disk size: 7259.3 Kb)
+0008.592 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (4 Mb, 2799 files batched, 501 (2004) added so far); re-opening (prior size: 7259.3 Kb)
+0009.966 (0) Zip: backup_2015-06-11-0838_Digital_River_5028ace8ebca-plugins.zip.tmp: 2100 files added (on-disk size: 8706.3 Kb)
+0010.000 (0) Zip: backup_2015-06-11-0838_Digital_River_5028ace8ebca-plugins.zip.tmp: 2200 files added (on-disk size: 8706.3 Kb)
+0010.035 (0) Zip: backup_2015-06-11-0838_Digital_River_5028ace8ebca-plugins.zip.tmp: 2300 files added (on-disk size: 8706.3 Kb)
+0010.071 (0) Zip: backup_2015-06-11-0838_Digital_River_5028ace8ebca-plugins.zip.tmp: 2400 files added (on-disk size: 8706.3 Kb)
+0010.106 (0) Zip: backup_2015-06-11-0838_Digital_River_5028ace8ebca-plugins.zip.tmp: 2500 files added (on-disk size: 8706.3 Kb)
+0010.126 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (5.2 Mb, 2799 files batched, 501 (2505) added so far); re-opening (prior size: 8706.3 Kb)
+0011.889 (0) Zip: backup_2015-06-11-0838_Digital_River_5028ace8ebca-plugins.zip.tmp: 2600 files added (on-disk size: 10443.6 Kb)
+0011.925 (0) Zip: backup_2015-06-11-0838_Digital_River_5028ace8ebca-plugins.zip.tmp: 2700 files added (on-disk size: 10443.6 Kb)
+0013.683 (0) Created plugins zip (0) - 12228.7 Kb in 12.3 s (997.3 Kb/s) (SHA1 checksum: 02a92c8bfb4e870daaa99ed252fb34ff00e9cb33)
+0013.903 (0) Beginning creation of dump of themes (split every: 500 Mb)
+0014.542 (0) Total entities for the zip file: 384 directories, 2082 files (0 skipped as non-modified), 33.7 Mb
+0014.569 (0) Zip: backup_2015-06-11-0838_Digital_River_5028ace8ebca-themes.zip.tmp: 100 files added (on-disk size: 0 Kb)
+0014.597 (0) Zip: backup_2015-06-11-0838_Digital_River_5028ace8ebca-themes.zip.tmp: 200 files added (on-disk size: 0 Kb)
+0014.623 (0) Zip: backup_2015-06-11-0838_Digital_River_5028ace8ebca-themes.zip.tmp: 300 files added (on-disk size: 0 Kb)
+0014.648 (0) Zip: backup_2015-06-11-0838_Digital_River_5028ace8ebca-themes.zip.tmp: 400 files added (on-disk size: 0 Kb)
+0014.675 (0) Zip: backup_2015-06-11-0838_Digital_River_5028ace8ebca-themes.zip.tmp: 500 files added (on-disk size: 0 Kb)
+0014.695 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (6.2 Mb, 2082 files batched, 501 (501) added so far); re-opening (prior size: 0 Kb)
+0015.923 (0) Zip: backup_2015-06-11-0838_Digital_River_5028ace8ebca-themes.zip.tmp: 600 files added (on-disk size: 3419.5 Kb)
+0015.952 (0) Zip: backup_2015-06-11-0838_Digital_River_5028ace8ebca-themes.zip.tmp: 700 files added (on-disk size: 3419.5 Kb)
+0015.981 (0) Zip: backup_2015-06-11-0838_Digital_River_5028ace8ebca-themes.zip.tmp: 800 files added (on-disk size: 3419.5 Kb)
+0016.009 (0) Zip: backup_2015-06-11-0838_Digital_River_5028ace8ebca-themes.zip.tmp: 900 files added (on-disk size: 3419.5 Kb)
+0016.037 (0) Zip: backup_2015-06-11-0838_Digital_River_5028ace8ebca-themes.zip.tmp: 1000 files added (on-disk size: 3419.5 Kb)
+0016.057 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (9.9 Mb, 2082 files batched, 501 (1002) added so far); re-opening (prior size: 3419.5 Kb)
+0017.330 (0) Zip: backup_2015-06-11-0838_Digital_River_5028ace8ebca-themes.zip.tmp: 1100 files added (on-disk size: 10598.6 Kb)
+0017.363 (0) Zip: backup_2015-06-11-0838_Digital_River_5028ace8ebca-themes.zip.tmp: 1200 files added (on-disk size: 10598.6 Kb)
+0017.396 (0) Zip: backup_2015-06-11-0838_Digital_River_5028ace8ebca-themes.zip.tmp: 1300 files added (on-disk size: 10598.6 Kb)
+0017.429 (0) Zip: backup_2015-06-11-0838_Digital_River_5028ace8ebca-themes.zip.tmp: 1400 files added (on-disk size: 10598.6 Kb)
+0017.460 (0) Zip: backup_2015-06-11-0838_Digital_River_5028ace8ebca-themes.zip.tmp: 1500 files added (on-disk size: 10598.6 Kb)
+0017.483 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (6 Mb, 2082 files batched, 501 (1503) added so far); re-opening (prior size: 10598.6 Kb)
+0018.726 (0) Zip: backup_2015-06-11-0838_Digital_River_5028ace8ebca-themes.zip.tmp: 1600 files added (on-disk size: 15132.3 Kb)
+0018.759 (0) Zip: backup_2015-06-11-0838_Digital_River_5028ace8ebca-themes.zip.tmp: 1700 files added (on-disk size: 15132.3 Kb)
+0018.791 (0) Zip: backup_2015-06-11-0838_Digital_River_5028ace8ebca-themes.zip.tmp: 1800 files added (on-disk size: 15132.3 Kb)
+0018.823 (0) Zip: backup_2015-06-11-0838_Digital_River_5028ace8ebca-themes.zip.tmp: 1900 files added (on-disk size: 15132.3 Kb)
+0018.856 (0) Zip: backup_2015-06-11-0838_Digital_River_5028ace8ebca-themes.zip.tmp: 2000 files added (on-disk size: 15132.3 Kb)
+0018.876 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (11.3 Mb, 2082 files batched, 501 (2004) added so far); re-opening (prior size: 15132.3 Kb)
+0021.699 (0) Created themes zip (0) - 23430.3 Kb in 7.8 s (3015 Kb/s) (SHA1 checksum: cc95008236f834ba4a4414feeaed530e0a746dd0)
+0021.925 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone
+0021.946 (0) Looking for candidates to back up in: /nas/wp/www/cluster-10402/starsandbox/wp-content/uploads
+0021.966 (0) finding files: .htaccess: adding to list (1)
+0021.984 (0) finding files: 2012: adding to list (2)
+0022.003 (0) finding files: 2015: adding to list (3)
+0022.023 (0) finding files: wysija: adding to list (4)
+0022.041 (0) finding files: 2011: adding to list (5)
+0022.060 (0) finding files: flags: adding to list (6)
+0022.078 (0) finding files: 2013: adding to list (7)
+0022.096 (0) finding files: 2014: adding to list (8)
+0022.115 (0) Beginning creation of dump of uploads (split every: 500 Mb)
+0022.552 (0) Total entities for the zip file: 87 directories, 2367 files (0 skipped as non-modified), 259.7 Mb
+0022.576 (0) Zip: backup_2015-06-11-0838_Digital_River_5028ace8ebca-uploads.zip.tmp: 100 files added (on-disk size: 0 Kb)
+0022.599 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 Mb added on this batch (25.1 Mb, 2367 files batched, 176 (176) added so far); re-opening (prior size: 0 Kb)
+0024.739 (0) A useful amount of data was added after this amount of zip processing: 3.4 s (normalised: 3.4 s, rate: 7575.9 Kb/s)
+0024.917 (0) Performance is good - will increase the amount of data we attempt to batch (time=3.39349198341, normalised_time=3.37912813654, max_time=-1, data points known=0, old_max_bytes=26214400, new_max_bytes=46546444)
+0025.166 (0) Zip: backup_2015-06-11-0838_Digital_River_5028ace8ebca-uploads.zip.tmp: 200 files added (on-disk size: 24729.2 Kb)
+0025.191 (0) Zip: backup_2015-06-11-0838_Digital_River_5028ace8ebca-uploads.zip.tmp: 300 files added (on-disk size: 24729.2 Kb)
+0025.216 (0) Zip: backup_2015-06-11-0838_Digital_River_5028ace8ebca-uploads.zip.tmp: 400 files added (on-disk size: 24729.2 Kb)
+0025.244 (0) Zip: backup_2015-06-11-0838_Digital_River_5028ace8ebca-uploads.zip.tmp: 500 files added (on-disk size: 24729.2 Kb)
+0025.269 (0) Zip: backup_2015-06-11-0838_Digital_River_5028ace8ebca-uploads.zip.tmp: 600 files added (on-disk size: 24729.2 Kb)
+0025.297 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (38.7 Mb, 2367 files batched, 501 (677) added so far); re-opening (prior size: 24729.2 Kb)
+0029.453 (0) Zip: backup_2015-06-11-0838_Digital_River_5028ace8ebca-uploads.zip.tmp: 700 files added (on-disk size: 61609.7 Kb)
+0029.480 (0) Zip: backup_2015-06-11-0838_Digital_River_5028ace8ebca-uploads.zip.tmp: 800 files added (on-disk size: 61609.7 Kb)
+0029.505 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 44.4 Mb added on this batch (44.4 Mb, 2367 files batched, 199 (876) added so far); re-opening (prior size: 61609.7 Kb)
+0033.847 (0) A useful amount of data was added after this amount of zip processing: 4.5 s (normalised: 4.5 s, rate: 10099.9 Kb/s)
+0034.020 (0) Performance is good - will increase the amount of data we attempt to batch (time=4.5016849041, normalised_time=4.50060921983, max_time=-1, data points known=0, old_max_bytes=46546444, new_max_bytes=62053524)
+0034.211 (0) Zip: backup_2015-06-11-0838_Digital_River_5028ace8ebca-uploads.zip.tmp: 900 files added (on-disk size: 99919.3 Kb)
+0034.239 (0) Zip: backup_2015-06-11-0838_Digital_River_5028ace8ebca-uploads.zip.tmp: 1000 files added (on-disk size: 99919.3 Kb)
+0034.267 (0) Zip: backup_2015-06-11-0838_Digital_River_5028ace8ebca-uploads.zip.tmp: 1100 files added (on-disk size: 99919.3 Kb)
+0034.296 (0) Zip: backup_2015-06-11-0838_Digital_River_5028ace8ebca-uploads.zip.tmp: 1200 files added (on-disk size: 99919.3 Kb)
+0034.327 (0) Zip: backup_2015-06-11-0838_Digital_River_5028ace8ebca-uploads.zip.tmp: 1300 files added (on-disk size: 99919.3 Kb)
+0034.355 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (48.2 Mb, 2367 files batched, 501 (1377) added so far); re-opening (prior size: 99919.3 Kb)
+0040.338 (0) Zip: backup_2015-06-11-0838_Digital_River_5028ace8ebca-uploads.zip.tmp: 1400 files added (on-disk size: 143449.4 Kb)
+0040.369 (0) Zip: backup_2015-06-11-0838_Digital_River_5028ace8ebca-uploads.zip.tmp: 1500 files added (on-disk size: 143449.4 Kb)
+0040.398 (0) Zip: backup_2015-06-11-0838_Digital_River_5028ace8ebca-uploads.zip.tmp: 1600 files added (on-disk size: 143449.4 Kb)
+0040.429 (0) Zip: backup_2015-06-11-0838_Digital_River_5028ace8ebca-uploads.zip.tmp: 1700 files added (on-disk size: 143449.4 Kb)
+0040.462 (0) Zip: backup_2015-06-11-0838_Digital_River_5028ace8ebca-uploads.zip.tmp: 1800 files added (on-disk size: 143449.4 Kb)
+0040.491 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (34.7 Mb, 2367 files batched, 501 (1878) added so far); re-opening (prior size: 143449.4 Kb)
+0044.671 (0) Zip: backup_2015-06-11-0838_Digital_River_5028ace8ebca-uploads.zip.tmp: 1900 files added (on-disk size: 175722 Kb)
+0044.704 (0) Zip: backup_2015-06-11-0838_Digital_River_5028ace8ebca-uploads.zip.tmp: 2000 files added (on-disk size: 175722 Kb)
+0044.735 (0) Zip: backup_2015-06-11-0838_Digital_River_5028ace8ebca-uploads.zip.tmp: 2100 files added (on-disk size: 175722 Kb)
+0044.767 (0) Zip: backup_2015-06-11-0838_Digital_River_5028ace8ebca-uploads.zip.tmp: 2200 files added (on-disk size: 175722 Kb)
+0044.796 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 59.2 Mb added on this batch (59.7 Mb, 2367 files batched, 400 (2278) added so far); re-opening (prior size: 175722 Kb)
+0050.838 (0) A useful amount of data was added after this amount of zip processing: 6.5 s (normalised: 6.4 s, rate: 9419.4 Kb/s)
+0051.039 (0) Zip: backup_2015-06-11-0838_Digital_River_5028ace8ebca-uploads.zip.tmp: 2300 files added (on-disk size: 229604 Kb)
+0055.180 (0) Created uploads zip (0) - 237607.8 Kb in 33 s (7190.1 Kb/s) (SHA1 checksum: 88d013c4bc31d864f44839bb8a34ef9b5b0d1fed)
+0055.362 (0) Beginning backup of other directories found in the content directory (index: 0)
+0055.382 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups
+0055.403 (0) Looking for candidates to back up in: /nas/wp/www/cluster-10402/starsandbox/wp-content
+0055.426 (0) finding files: translations: adding to list (1)
+0055.447 (0) finding files: uploads: skipping: this is the uploads directory
+0055.467 (0) finding files: mu-plugins: adding to list (2)
+0055.486 (0) finding files: blogs.dir: adding to list (3)
+0055.505 (0) finding files: upgrade: skipping: excluded by options
+0055.524 (0) finding files: mysql.sql: adding to list (4)
+0055.543 (0) finding files: index.php: adding to list (5)
+0055.564 (0) finding files: advanced-cache.php: adding to list (6)
+0055.586 (0) finding files: updraft: skipping: this is the updraft directory
+0055.605 (0) finding files: themes: skipping: this is the themes directory
+0055.627 (0) finding files: plugins: skipping: this is the plugins directory
+0055.648 (0) finding files: wptouch-data: adding to list (7)
+0055.670 (0) finding files: object-cache.php: adding to list (8)
+0056.025 (0) Total entities for the zip file: 17 directories, 93 files (0 skipped as non-modified), 50.3 Mb
+0056.254 (0) The attempt to close the zip file returned an error (Unknown: ZipArchive does not return error messages). List of files we were trying to add follows (check their permissions).
+0056.274 (0) File: translations/js/jquery.flexslider-min.js (exists: 1, is_readable: 1 size: 16808)
+0056.274 (0) File: translations/js/script.js (exists: 1, is_readable: 1 size: 2016)
+0056.274 (0) File: translations/js/global.js (exists: 1, is_readable: 1 size: 9138)
+0056.274 (0) File: translations/js/home_script.js (exists: 1, is_readable: 1 size: 662)
+0056.275 (0) File: translations/css/home.css (exists: 1, is_readable: 1 size: 5775)
+0056.275 (0) File: translations/css/global.css (exists: 1, is_readable: 1 size: 134358)
+0056.275 (0) File: translations/css/flexslider.css (exists: 1, is_readable: 1 size: 3452)
+0056.275 (0) File: mu-plugins/force-strong-passwords/force-zxcvbn.min.js (exists: 1, is_readable: 1 size: 224)
+0056.275 (0) File: mu-plugins/force-strong-passwords/js-admin.min.js (exists: 1, is_readable: 1 size: 416)
+0056.275 (0) File: mu-plugins/force-strong-passwords/readme.txt (exists: 1, is_readable: 1 size: 4055)
+0056.275 (0) File: mu-plugins/force-strong-passwords/languages/slt-force-strong-passwords-zh_CN.mo (exists: 1, is_readable: 1 size: 577)
+0056.275 (0) File: mu-plugins/force-strong-passwords/languages/slt-force-strong-passwords-sr_RS.po (exists: 1, is_readable: 1 size: 1140)
+0056.275 (0) File: mu-plugins/force-strong-passwords/languages/slt-force-strong-passwords-en_US.po (exists: 1, is_readable: 1 size: 1080)
+0056.275 (0) File: mu-plugins/force-strong-passwords/languages/slt-force-strong-passwords-zh_CN.po (exists: 1, is_readable: 1 size: 1213)
+0056.275 (0) File: mu-plugins/force-strong-passwords/languages/slt-force-strong-passwords-ja.mo (exists: 1, is_readable: 1 size: 995)
+0056.275 (0) File: mu-plugins/force-strong-passwords/languages/slt-force-strong-passwords-sr_RS.mo (exists: 1, is_readable: 1 size: 967)
+0056.275 (0) File: mu-plugins/force-strong-passwords/languages/slt-force-strong-passwords-ja.po (exists: 1, is_readable: 1 size: 1165)
+0056.275 (0) File: mu-plugins/force-strong-passwords/slt-force-strong-passwords.php (exists: 1, is_readable: 1 size: 6470)
+0056.275 (0) File: mu-plugins/force-strong-passwords/js-admin.js (exists: 1, is_readable: 1 size: 543)
+0056.275 (0) File: mu-plugins/force-strong-passwords/force-zxcvbn.js (exists: 1, is_readable: 1 size: 452)
+0056.275 (0) File: mu-plugins/stop-long-comments.php (exists: 1, is_readable: 1 size: 595)
+0056.275 (0) File: mu-plugins/mu-plugin.php (exists: 1, is_readable: 1 size: 5640)
+0056.276 (0) File: mu-plugins/wpengine-common/redis-object-cache.php (exists: 1, is_readable: 1 size: 21492)
+0056.276 (0) File: mu-plugins/wpengine-common/class-monitor_admin_ajax.php (exists: 1, is_readable: 1 size: 1772)
+0056.276 (0) File: mu-plugins/wpengine-common/preamble.php (exists: 1, is_readable: 1 size: 5938)
+0056.276 (0) File: mu-plugins/wpengine-common/util.php (exists: 1, is_readable: 1 size: 3699)
+0056.276 (0) File: mu-plugins/wpengine-common/changelog.txt (exists: 1, is_readable: 1 size: 10727)
+0056.276 (0) File: mu-plugins/wpengine-common/class.plugins.php (exists: 1, is_readable: 1 size: 1599)
+0056.276 (0) File: mu-plugins/wpengine-common/ajax.php (exists: 1, is_readable: 1 size: 2269)
+0056.276 (0) File: mu-plugins/wpengine-common/class-wpeapi.php (exists: 1, is_readable: 1 size: 5407)
+0056.276 (0) File: mu-plugins/wpengine-common/class.sessionsanity.php (exists: 1, is_readable: 1 size: 1190)
+0056.276 (0) File: mu-plugins/wpengine-common/common-common.php (exists: 1, is_readable: 1 size: 8381)
+0056.276 (0) File: mu-plugins/wpengine-common/object-cache-new.php (exists: 1, is_readable: 1 size: 15038)
+0056.276 (0) File: mu-plugins/wpengine-common/admin-ui.php (exists: 1, is_readable: 1 size: 26715)
+0056.276 (0) File: mu-plugins/wpengine-common/monitor-admin-ajax.php (exists: 1, is_readable: 1 size: 753)
+0056.276 (0) File: mu-plugins/wpengine-common/class.heartbeatthrottle.php (exists: 1, is_readable: 1 size: 1010)
+0056.276 (0) File: mu-plugins/wpengine-common/js/chosen.jquery.js (exists: 1, is_readable: 1 size: 38294)
+0056.276 (0) File: mu-plugins/wpengine-common/js/chosen.css (exists: 1, is_readable: 1 size: 14887)
+0056.276 (0) File: mu-plugins/wpengine-common/js/wpe-common.js (exists: 1, is_readable: 1 size: 13803)
+0056.277 (0) File: mu-plugins/wpengine-common/js/chosen-sprite@2x.png (exists: 1, is_readable: 1 size: 872)
+0056.277 (0) File: mu-plugins/wpengine-common/js/bootstrap.js (exists: 1, is_readable: 1 size: 61509)
+0056.277 (0) File: mu-plugins/wpengine-common/js/bootstrap-modal.js (exists: 1, is_readable: 1 size: 6638)
+0056.277 (0) File: mu-plugins/wpengine-common/js/chosen-master/chosen/chosen.jquery.js (exists: 1, is_readable: 1 size: 38294)
+0056.277 (0) File: mu-plugins/wpengine-common/js/chosen-master/chosen/chosen.css (exists: 1, is_readable: 1 size: 14887)
+0056.277 (0) File: mu-plugins/wpengine-common/js/chosen-master/chosen/chosen-sprite@2x.png (exists: 1, is_readable: 1 size: 872)
+0056.277 (0) File: mu-plugins/wpengine-common/js/chosen-master/chosen/chosen.proto.min.js (exists: 1, is_readable: 1 size: 24072)
+0056.277 (0) File: mu-plugins/wpengine-common/js/chosen-master/chosen/chosen.proto.js (exists: 1, is_readable: 1 size: 38611)
+0056.277 (0) File: mu-plugins/wpengine-common/js/chosen-master/chosen/chosen.jquery.min.js (exists: 1, is_readable: 1 size: 23641)
+0056.277 (0) File: mu-plugins/wpengine-common/js/chosen-master/chosen/chosen-sprite.png (exists: 1, is_readable: 1 size: 646)
+0056.277 (0) File: mu-plugins/wpengine-common/js/chosen-master/package.json (exists: 1, is_readable: 1 size: 493)
+0056.277 (0) File: mu-plugins/wpengine-common/js/chosen-master/VERSION (exists: 1, is_readable: 1 size: 7)
+0056.277 (0) File: mu-plugins/wpengine-common/js/chosen-master/LICENSE.md (exists: 1, is_readable: 1 size: 1253)
+0056.277 (0) File: mu-plugins/wpengine-common/js/chosen-master/README.md (exists: 1, is_readable: 1 size: 1878)
+0056.277 (0) File: mu-plugins/wpengine-common/js/bootstrap-transition.js (exists: 1, is_readable: 1 size: 1757)
+0056.277 (0) File: mu-plugins/wpengine-common/js/chosen.jquery.min.js (exists: 1, is_readable: 1 size: 23641)
+0056.277 (0) File: mu-plugins/wpengine-common/js/wpe-rewrite.js (exists: 1, is_readable: 1 size: 756)
+0056.277 (0) File: mu-plugins/wpengine-common/js/chosen-sprite.png (exists: 1, is_readable: 1 size: 646)
+0056.278 (0) File: mu-plugins/wpengine-common/mu-plugin.php (exists: 1, is_readable: 1 size: 5640)
+0056.278 (0) File: mu-plugins/wpengine-common/class.notices.php (exists: 1, is_readable: 1 size: 5067)
+0056.278 (0) File: mu-plugins/wpengine-common/db.php (exists: 1, is_readable: 1 size: 2263)
+0056.278 (0) File: mu-plugins/wpengine-common/patterns.php (exists: 1, is_readable: 1 size: 23324)
+0056.278 (0) File: mu-plugins/wpengine-common/class.site-preview.php (exists: 1, is_readable: 1 size: 2347)
+0056.278 (0) File: mu-plugins/wpengine-common/css/glyphicons-white.png (exists: 1, is_readable: 1 size: 147941)
+0056.278 (0) File: mu-plugins/wpengine-common/css/wpe-common.css (exists: 1, is_readable: 1 size: 44061)
+0056.278 (0) File: mu-plugins/wpengine-common/css/glyphicons-halflings-white.png (exists: 1, is_readable: 1 size: 8777)
+0056.278 (0) File: mu-plugins/wpengine-common/css/glyphicons.png (exists: 1, is_readable: 1 size: 173275)
+0056.278 (0) File: mu-plugins/wpengine-common/css/glyphicons-halflings.png (exists: 1, is_readable: 1 size: 12799)
+0056.278 (0) File: mu-plugins/wpengine-common/class.cookies.php (exists: 1, is_readable: 1 size: 1273)
+0056.278 (0) File: mu-plugins/wpengine-common/object-cache.php (exists: 1, is_readable: 1 size: 14471)
+0056.278 (0) File: mu-plugins/wpengine-common/images/wpe-16x16.jpg (exists: 1, is_readable: 1 size: 477)
+0056.278 (0) File: mu-plugins/wpengine-common/images/wpe-identity-square-dark-16.png (exists: 1, is_readable: 1 size: 697)
+0056.278 (0) File: mu-plugins/wpengine-common/images/window-close.png (exists: 1, is_readable: 1 size: 218)
+0056.278 (0) File: mu-plugins/wpengine-common/images/ajax-loader.gif (exists: 1, is_readable: 1 size: 9427)
+0056.278 (0) File: mu-plugins/wpengine-common/images/wpe-curated.png (exists: 1, is_readable: 1 size: 1156)
+0056.278 (0) File: mu-plugins/wpengine-common/images/favicon.ico (exists: 1, is_readable: 1 size: 1150)
+0056.279 (0) File: mu-plugins/wpengine-common/class.deployment.php (exists: 1, is_readable: 1 size: 1943)
+0056.279 (0) File: mu-plugins/wpengine-common/plugin.php (exists: 1, is_readable: 1 size: 96080)
+0056.279 (0) File: mu-plugins/wpengine-common/views/admin/debug-db.php (exists: 1, is_readable: 1 size: 1002)
+0056.279 (0) File: mu-plugins/wpengine-common/views/admin/advanced.php (exists: 1, is_readable: 1 size: 3704)
+0056.279 (0) File: mu-plugins/wpengine-common/views/admin/notice.php (exists: 1, is_readable: 1 size: 377)
+0056.279 (0) File: mu-plugins/wpengine-common/views/admin/notice-sticky.php (exists: 1, is_readable: 1 size: 242)
+0056.279 (0) File: mu-plugins/wpengine-common/views/modal.php (exists: 1, is_readable: 1 size: 578)
+0056.279 (0) File: mu-plugins/wpengine-common/views/admin-footer.php (exists: 1, is_readable: 1 size: 618)
+0056.279 (0) File: mu-plugins/wpengine-common/views/staging-modal.php (exists: 1, is_readable: 1 size: 699)
+0056.279 (0) File: mu-plugins/wpengine-common/views/general/powered-by.php (exists: 1, is_readable: 1 size: 239)
+0056.279 (0) File: mu-plugins/wpengine-common/views/wpe-migration-preview-template.php (exists: 1, is_readable: 1 size: 1913)
+0056.279 (0) File: mu-plugins/wpengine-common/wpe_wpdb.php (exists: 1, is_readable: 1 size: 1179)
+0056.279 (0) File: mu-plugins/wpengine-common/network.php (exists: 1, is_readable: 1 size: 2273)
+0056.279 (0) File: mu-plugins/slt-force-strong-passwords.php (exists: 1, is_readable: 1 size: 408)
+0056.279 (0) File: mysql.sql (exists: 1, is_readable: 1 size: 51517348)
+0056.279 (0) File: index.php (exists: 1, is_readable: 1 size: 28)
+0056.279 (0) File: advanced-cache.php (exists: 1, is_readable: 1 size: 0)
+0056.279 (0) File: object-cache.php (exists: 1, is_readable: 1 size: 14471)
+0056.350 (0) Error: makezip_addfiles returned false
+0056.370 (0) makezip_addfiles(UpdraftPlus_ZipArchive) apparently failed (file=backup_2015-06-11-0838_Digital_River_5028ace8ebca-others.zip.tmp, type=others, size=0) - retrying with PclZip
+0056.391 (0) Zip file already exists, but is not readable or was zero-sized; will remove: backup_2015-06-11-0838_Digital_River_5028ace8ebca-others.zip.tmp
+0056.579 (0) Total entities for the zip file: 17 directories, 93 files (0 skipped as non-modified), 50.3 Mb
+0056.598 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 51473.3 Kb, split: 512000 Kb)
+0056.918 (0) [Warning] A zip error occurred - check your log for more details.
+0056.939 (0) The attempt to close the zip file returned an error (PCLZIP_ERR_READ_OPEN_FAIL (-2) : Unable to open file '/nas/wp/www/cluster-10402/starsandbox/wp-content/mysql.sql' in binary read mode). List of files we were trying to add follows (check their permissions).
+0056.959 (0) File: translations/js/jquery.flexslider-min.js (exists: 1, is_readable: 1 size: 16808)
+0056.959 (0) File: translations/js/script.js (exists: 1, is_readable: 1 size: 2016)
+0056.959 (0) File: translations/js/global.js (exists: 1, is_readable: 1 size: 9138)
+0056.959 (0) File: translations/js/home_script.js (exists: 1, is_readable: 1 size: 662)
+0056.959 (0) File: translations/css/home.css (exists: 1, is_readable: 1 size: 5775)
+0056.959 (0) File: translations/css/global.css (exists: 1, is_readable: 1 size: 134358)
+0056.959 (0) File: translations/css/flexslider.css (exists: 1, is_readable: 1 size: 3452)
+0056.959 (0) File: mu-plugins/force-strong-passwords/force-zxcvbn.min.js (exists: 1, is_readable: 1 size: 224)
+0056.959 (0) File: mu-plugins/force-strong-passwords/js-admin.min.js (exists: 1, is_readable: 1 size: 416)
+0056.959 (0) File: mu-plugins/force-strong-passwords/readme.txt (exists: 1, is_readable: 1 size: 4055)
+0056.959 (0) File: mu-plugins/force-strong-passwords/languages/slt-force-strong-passwords-zh_CN.mo (exists: 1, is_readable: 1 size: 577)
+0056.959 (0) File: mu-plugins/force-strong-passwords/languages/slt-force-strong-passwords-sr_RS.po (exists: 1, is_readable: 1 size: 1140)
+0056.959 (0) File: mu-plugins/force-strong-passwords/languages/slt-force-strong-passwords-en_US.po (exists: 1, is_readable: 1 size: 1080)
+0056.959 (0) File: mu-plugins/force-strong-passwords/languages/slt-force-strong-passwords-zh_CN.po (exists: 1, is_readable: 1 size: 1213)
+0056.960 (0) File: mu-plugins/force-strong-passwords/languages/slt-force-strong-passwords-ja.mo (exists: 1, is_readable: 1 size: 995)
+0056.960 (0) File: mu-plugins/force-strong-passwords/languages/slt-force-strong-passwords-sr_RS.mo (exists: 1, is_readable: 1 size: 967)
+0056.960 (0) File: mu-plugins/force-strong-passwords/languages/slt-force-strong-passwords-ja.po (exists: 1, is_readable: 1 size: 1165)
+0056.960 (0) File: mu-plugins/force-strong-passwords/slt-force-strong-passwords.php (exists: 1, is_readable: 1 size: 6470)
+0056.960 (0) File: mu-plugins/force-strong-passwords/js-admin.js (exists: 1, is_readable: 1 size: 543)
+0056.960 (0) File: mu-plugins/force-strong-passwords/force-zxcvbn.js (exists: 1, is_readable: 1 size: 452)
+0056.960 (0) File: mu-plugins/stop-long-comments.php (exists: 1, is_readable: 1 size: 595)
+0056.960 (0) File: mu-plugins/mu-plugin.php (exists: 1, is_readable: 1 size: 5640)
+0056.960 (0) File: mu-plugins/wpengine-common/redis-object-cache.php (exists: 1, is_readable: 1 size: 21492)
+0056.960 (0) File: mu-plugins/wpengine-common/class-monitor_admin_ajax.php (exists: 1, is_readable: 1 size: 1772)
+0056.960 (0) File: mu-plugins/wpengine-common/preamble.php (exists: 1, is_readable: 1 size: 5938)
+0056.960 (0) File: mu-plugins/wpengine-common/util.php (exists: 1, is_readable: 1 size: 3699)
+0056.960 (0) File: mu-plugins/wpengine-common/changelog.txt (exists: 1, is_readable: 1 size: 10727)
+0056.960 (0) File: mu-plugins/wpengine-common/class.plugins.php (exists: 1, is_readable: 1 size: 1599)
+0056.960 (0) File: mu-plugins/wpengine-common/ajax.php (exists: 1, is_readable: 1 size: 2269)
+0056.960 (0) File: mu-plugins/wpengine-common/class-wpeapi.php (exists: 1, is_readable: 1 size: 5407)
+0056.960 (0) File: mu-plugins/wpengine-common/class.sessionsanity.php (exists: 1, is_readable: 1 size: 1190)
+0056.960 (0) File: mu-plugins/wpengine-common/common-common.php (exists: 1, is_readable: 1 size: 8381)
+0056.961 (0) File: mu-plugins/wpengine-common/object-cache-new.php (exists: 1, is_readable: 1 size: 15038)
+0056.961 (0) File: mu-plugins/wpengine-common/admin-ui.php (exists: 1, is_readable: 1 size: 26715)
+0056.961 (0) File: mu-plugins/wpengine-common/monitor-admin-ajax.php (exists: 1, is_readable: 1 size: 753)
+0056.961 (0) File: mu-plugins/wpengine-common/class.heartbeatthrottle.php (exists: 1, is_readable: 1 size: 1010)
+0056.961 (0) File: mu-plugins/wpengine-common/js/chosen.jquery.js (exists: 1, is_readable: 1 size: 38294)
+0056.961 (0) File: mu-plugins/wpengine-common/js/chosen.css (exists: 1, is_readable: 1 size: 14887)
+0056.961 (0) File: mu-plugins/wpengine-common/js/wpe-common.js (exists: 1, is_readable: 1 size: 13803)
+0056.961 (0) File: mu-plugins/wpengine-common/js/chosen-sprite@2x.png (exists: 1, is_readable: 1 size: 872)
+0056.961 (0) File: mu-plugins/wpengine-common/js/bootstrap.js (exists: 1, is_readable: 1 size: 61509)
+0056.961 (0) File: mu-plugins/wpengine-common/js/bootstrap-modal.js (exists: 1, is_readable: 1 size: 6638)
+0056.961 (0) File: mu-plugins/wpengine-common/js/chosen-master/chosen/chosen.jquery.js (exists: 1, is_readable: 1 size: 38294)
+0056.961 (0) File: mu-plugins/wpengine-common/js/chosen-master/chosen/chosen.css (exists: 1, is_readable: 1 size: 14887)
+0056.961 (0) File: mu-plugins/wpengine-common/js/chosen-master/chosen/chosen-sprite@2x.png (exists: 1, is_readable: 1 size: 872)
+0056.961 (0) File: mu-plugins/wpengine-common/js/chosen-master/chosen/chosen.proto.min.js (exists: 1, is_readable: 1 size: 24072)
+0056.961 (0) File: mu-plugins/wpengine-common/js/chosen-master/chosen/chosen.proto.js (exists: 1, is_readable: 1 size: 38611)
+0056.961 (0) File: mu-plugins/wpengine-common/js/chosen-master/chosen/chosen.jquery.min.js (exists: 1, is_readable: 1 size: 23641)
+0056.961 (0) File: mu-plugins/wpengine-common/js/chosen-master/chosen/chosen-sprite.png (exists: 1, is_readable: 1 size: 646)
+0056.961 (0) File: mu-plugins/wpengine-common/js/chosen-master/package.json (exists: 1, is_readable: 1 size: 493)
+0056.962 (0) File: mu-plugins/wpengine-common/js/chosen-master/VERSION (exists: 1, is_readable: 1 size: 7)
+0056.962 (0) File: mu-plugins/wpengine-common/js/chosen-master/LICENSE.md (exists: 1, is_readable: 1 size: 1253)
+0056.962 (0) File: mu-plugins/wpengine-common/js/chosen-master/README.md (exists: 1, is_readable: 1 size: 1878)
+0056.962 (0) File: mu-plugins/wpengine-common/js/bootstrap-transition.js (exists: 1, is_readable: 1 size: 1757)
+0056.962 (0) File: mu-plugins/wpengine-common/js/chosen.jquery.min.js (exists: 1, is_readable: 1 size: 23641)
+0056.962 (0) File: mu-plugins/wpengine-common/js/wpe-rewrite.js (exists: 1, is_readable: 1 size: 756)
+0056.962 (0) File: mu-plugins/wpengine-common/js/chosen-sprite.png (exists: 1, is_readable: 1 size: 646)
+0056.962 (0) File: mu-plugins/wpengine-common/mu-plugin.php (exists: 1, is_readable: 1 size: 5640)
+0056.962 (0) File: mu-plugins/wpengine-common/class.notices.php (exists: 1, is_readable: 1 size: 5067)
+0056.962 (0) File: mu-plugins/wpengine-common/db.php (exists: 1, is_readable: 1 size: 2263)
+0056.962 (0) File: mu-plugins/wpengine-common/patterns.php (exists: 1, is_readable: 1 size: 23324)
+0056.962 (0) File: mu-plugins/wpengine-common/class.site-preview.php (exists: 1, is_readable: 1 size: 2347)
+0056.962 (0) File: mu-plugins/wpengine-common/css/glyphicons-white.png (exists: 1, is_readable: 1 size: 147941)
+0056.962 (0) File: mu-plugins/wpengine-common/css/wpe-common.css (exists: 1, is_readable: 1 size: 44061)
+0056.962 (0) File: mu-plugins/wpengine-common/css/glyphicons-halflings-white.png (exists: 1, is_readable: 1 size: 8777)
+0056.962 (0) File: mu-plugins/wpengine-common/css/glyphicons.png (exists: 1, is_readable: 1 size: 173275)
+0056.962 (0) File: mu-plugins/wpengine-common/css/glyphicons-halflings.png (exists: 1, is_readable: 1 size: 12799)
+0056.962 (0) File: mu-plugins/wpengine-common/class.cookies.php (exists: 1, is_readable: 1 size: 1273)
+0056.963 (0) File: mu-plugins/wpengine-common/object-cache.php (exists: 1, is_readable: 1 size: 14471)
+0056.963 (0) File: mu-plugins/wpengine-common/images/wpe-16x16.jpg (exists: 1, is_readable: 1 size: 477)
+0056.963 (0) File: mu-plugins/wpengine-common/images/wpe-identity-square-dark-16.png (exists: 1, is_readable: 1 size: 697)
+0056.963 (0) File: mu-plugins/wpengine-common/images/window-close.png (exists: 1, is_readable: 1 size: 218)
+0056.963 (0) File: mu-plugins/wpengine-common/images/ajax-loader.gif (exists: 1, is_readable: 1 size: 9427)
+0056.963 (0) File: mu-plugins/wpengine-common/images/wpe-curated.png (exists: 1, is_readable: 1 size: 1156)
+0056.963 (0) File: mu-plugins/wpengine-common/images/favicon.ico (exists: 1, is_readable: 1 size: 1150)
+0056.963 (0) File: mu-plugins/wpengine-common/class.deployment.php (exists: 1, is_readable: 1 size: 1943)
+0056.963 (0) File: mu-plugins/wpengine-common/plugin.php (exists: 1, is_readable: 1 size: 96080)
+0056.963 (0) File: mu-plugins/wpengine-common/views/admin/debug-db.php (exists: 1, is_readable: 1 size: 1002)
+0056.963 (0) File: mu-plugins/wpengine-common/views/admin/advanced.php (exists: 1, is_readable: 1 size: 3704)
+0056.963 (0) File: mu-plugins/wpengine-common/views/admin/notice.php (exists: 1, is_readable: 1 size: 377)
+0056.963 (0) File: mu-plugins/wpengine-common/views/admin/notice-sticky.php (exists: 1, is_readable: 1 size: 242)
+0056.963 (0) File: mu-plugins/wpengine-common/views/modal.php (exists: 1, is_readable: 1 size: 578)
+0056.963 (0) File: mu-plugins/wpengine-common/views/admin-footer.php (exists: 1, is_readable: 1 size: 618)
+0056.963 (0) File: mu-plugins/wpengine-common/views/staging-modal.php (exists: 1, is_readable: 1 size: 699)
+0056.963 (0) File: mu-plugins/wpengine-common/views/general/powered-by.php (exists: 1, is_readable: 1 size: 239)
+0056.963 (0) File: mu-plugins/wpengine-common/views/wpe-migration-preview-template.php (exists: 1, is_readable: 1 size: 1913)
+0056.964 (0) File: mu-plugins/wpengine-common/wpe_wpdb.php (exists: 1, is_readable: 1 size: 1179)
+0056.964 (0) File: mu-plugins/wpengine-common/network.php (exists: 1, is_readable: 1 size: 2273)
+0056.964 (0) File: mu-plugins/slt-force-strong-passwords.php (exists: 1, is_readable: 1 size: 408)
+0056.964 (0) File: mysql.sql (exists: 1, is_readable: 1 size: 51517348)
+0056.964 (0) File: index.php (exists: 1, is_readable: 1 size: 28)
+0056.964 (0) File: advanced-cache.php (exists: 1, is_readable: 1 size: 0)
+0056.964 (0) File: object-cache.php (exists: 1, is_readable: 1 size: 14471)
+0057.130 (0) Error: makezip_addfiles returned false
+0057.313 (0) Created others zip (0) - 551 Kb in 1.6 s (339.6 Kb/s) (SHA1 checksum: d426ac2d29a8208151336b0a35f8847172759e4e)
+0057.815 (0) Saving backup status to database (elements: 8)
+0057.855 (0) Beginning creation of database dump (WordPress DB)
+0058.368 (0) Table drwp_options: Total expected rows (approximate): 1162
+0058.435 (0) Table drwp_options: Total rows added: 633 in 0.05 seconds
+0058.457 (0) Table drwp_options: finishing file (backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_options.table.gz - 92.9 Kb)
+0058.808 (0) Table drwp_users: Total expected rows (approximate): 67
+0058.837 (0) Table drwp_users: Total rows added: 67 in 0.01 seconds
+0058.858 (0) Table drwp_users: finishing file (backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_users.table.gz - 4.2 Kb)
+0059.208 (0) Table drwp_usermeta: Total expected rows (approximate): 1994
+0059.270 (0) Table drwp_usermeta: Total rows added: 1596 in 0.04 seconds
+0059.290 (0) Table drwp_usermeta: finishing file (backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_usermeta.table.gz - 18 Kb)
+0059.644 (0) Table drwp_blog_versions: Total expected rows (approximate): 0
+0059.666 (0) Table drwp_blog_versions: Total rows added: 0 in 0.00 seconds
+0059.688 (0) Table drwp_blog_versions: finishing file (backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_blog_versions.table.gz - 0.3 Kb)
+0060.047 (0) Table drwp_blogs: Total expected rows (approximate): 1
+0060.070 (0) Table drwp_blogs: Total rows added: 1 in 0.00 seconds
+0060.090 (0) Table drwp_blogs: finishing file (backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_blogs.table.gz - 0.5 Kb)
+0060.437 (0) Table drwp_commentmeta: Total expected rows (approximate): 32
+0060.461 (0) Table drwp_commentmeta: Total rows added: 32 in 0.00 seconds
+0060.480 (0) Table drwp_commentmeta: finishing file (backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_commentmeta.table.gz - 0.7 Kb)
+0060.831 (0) Table drwp_comments: Total expected rows (approximate): 23
+0060.864 (0) Table drwp_comments: Total rows added: 21 in 0.01 seconds
+0060.884 (0) Table drwp_comments: finishing file (backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_comments.table.gz - 27.5 Kb)
+0061.229 (0) Table drwp_links: Total expected rows (approximate): 0
+0061.251 (0) Table drwp_links: Total rows added: 0 in 0.00 seconds
+0061.271 (0) Table drwp_links: finishing file (backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_links.table.gz - 0.4 Kb)
+0061.634 (0) Table drwp_postmeta: Total expected rows (approximate): 226231
+0061.866 (0) [Warning] Table drwp_postmeta has very many rows (226231) - we hope your web hosting company gives you enough resources to dump out that table in the backup
+0080.830 (0) Table drwp_postmeta: Total rows added: 215460 in 18.94 seconds
+0081.071 (0) Table drwp_postmeta: finishing file (backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_postmeta.table.gz - 1813.1 Kb)
+0081.484 (0) Table drwp_posts: Total expected rows (approximate): 4553
+0081.939 (0) Table drwp_posts: Total rows added: 2664 in 0.43 seconds
+0081.959 (0) Table drwp_posts: finishing file (backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_posts.table.gz - 618 Kb)
+0082.380 (0) Table drwp_registration_log: Total expected rows (approximate): 0
+0082.403 (0) Table drwp_registration_log: Total rows added: 0 in 0.00 seconds
+0082.427 (0) Table drwp_registration_log: finishing file (backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_registration_log.table.gz - 0.4 Kb)
+0082.897 (0) Table drwp_signups: Total expected rows (approximate): 0
+0082.919 (0) Table drwp_signups: Total rows added: 0 in 0.00 seconds
+0082.939 (0) Table drwp_signups: finishing file (backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_signups.table.gz - 0.5 Kb)
+0083.376 (0) Table drwp_site: Total expected rows (approximate): 1
+0083.401 (0) Table drwp_site: Total rows added: 1 in 0.00 seconds
+0083.423 (0) Table drwp_site: finishing file (backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_site.table.gz - 0.4 Kb)
+0083.880 (0) Table drwp_sitemeta: Total expected rows (approximate): 36
+0083.903 (0) Table drwp_sitemeta: Total rows added: 36 in 0.00 seconds
+0083.923 (0) Table drwp_sitemeta: finishing file (backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_sitemeta.table.gz - 1.4 Kb)
+0084.357 (0) Table drwp_term_relationships: Total expected rows (approximate): 1189
+0084.400 (0) Table drwp_term_relationships: Total rows added: 1028 in 0.02 seconds
+0084.421 (0) Table drwp_term_relationships: finishing file (backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_term_relationships.table.gz - 3.3 Kb)
+0084.866 (0) Table drwp_term_taxonomy: Total expected rows (approximate): 219
+0084.896 (0) Table drwp_term_taxonomy: Total rows added: 219 in 0.01 seconds
+0084.917 (0) Table drwp_term_taxonomy: finishing file (backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_term_taxonomy.table.gz - 1.8 Kb)
+0085.272 (0) Table drwp_terms: Total expected rows (approximate): 218
+0085.300 (0) Table drwp_terms: Total rows added: 218 in 0.01 seconds
+0085.322 (0) Table drwp_terms: finishing file (backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_terms.table.gz - 3.3 Kb)
+0085.710 (0) Table drwp_adintegration: Total expected rows (approximate): 0
+0085.733 (0) Table drwp_adintegration: Total rows added: 0 in 0.00 seconds
+0085.754 (0) Table drwp_adintegration: finishing file (backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_adintegration.table.gz - 0.3 Kb)
+0086.184 (0) Table drwp_avhec_category_groups: Total expected rows (approximate): 4
+0086.207 (0) Table drwp_avhec_category_groups: Total rows added: 4 in 0.00 seconds
+0086.229 (0) Table drwp_avhec_category_groups: finishing file (backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_avhec_category_groups.table.gz - 0.3 Kb)
+0086.674 (0) Table drwp_cfs_values: Total expected rows (approximate): 0
+0086.698 (0) Table drwp_cfs_values: Total rows added: 0 in 0.00 seconds
+0086.721 (0) Table drwp_cfs_values: finishing file (backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_cfs_values.table.gz - 0.3 Kb)
+0087.083 (0) Table drwp_cpk_wpcsv_export_queue: Total expected rows (approximate): 1092
+0087.127 (0) Table drwp_cpk_wpcsv_export_queue: Total rows added: 1092 in 0.02 seconds
+0087.148 (0) Table drwp_cpk_wpcsv_export_queue: finishing file (backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_cpk_wpcsv_export_queue.table.gz - 6 Kb)
+0087.585 (0) Table drwp_cpk_wpcsv_log: Total expected rows (approximate): 3
+0087.608 (0) Table drwp_cpk_wpcsv_log: Total rows added: 3 in 0.00 seconds
+0087.629 (0) Table drwp_cpk_wpcsv_log: finishing file (backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_cpk_wpcsv_log.table.gz - 0.5 Kb)
+0088.036 (0) Table drwp_icl_cms_nav_cache: Total expected rows (approximate): 0
+0088.060 (0) Table drwp_icl_cms_nav_cache: Total rows added: 0 in 0.00 seconds
+0088.079 (0) Table drwp_icl_cms_nav_cache: finishing file (backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_icl_cms_nav_cache.table.gz - 0.3 Kb)
+0088.487 (0) Table drwp_icl_content_status: Total expected rows (approximate): 0
+0088.513 (0) Table drwp_icl_content_status: Total rows added: 0 in 0.00 seconds
+0088.533 (0) Table drwp_icl_content_status: finishing file (backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_icl_content_status.table.gz - 0.3 Kb)
+0088.872 (0) Table drwp_icl_core_status: Total expected rows (approximate): 0
+0088.895 (0) Table drwp_icl_core_status: Total rows added: 0 in 0.00 seconds
+0088.915 (0) Table drwp_icl_core_status: finishing file (backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_icl_core_status.table.gz - 0.3 Kb)
+0089.261 (0) Table drwp_icl_flags: Total expected rows (approximate): 64
+0089.291 (0) Table drwp_icl_flags: Total rows added: 64 in 0.00 seconds
+0089.316 (0) Table drwp_icl_flags: finishing file (backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_icl_flags.table.gz - 0.8 Kb)
+0089.682 (0) Table drwp_icl_languages: Total expected rows (approximate): 64
+0089.715 (0) Table drwp_icl_languages: Total rows added: 64 in 0.01 seconds
+0089.739 (0) Table drwp_icl_languages: finishing file (backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_icl_languages.table.gz - 1.5 Kb)
+0090.083 (0) Table drwp_icl_languages_translations: Total expected rows (approximate): 3974
+0090.218 (0) Table drwp_icl_languages_translations: Total rows added: 3974 in 0.11 seconds
+0090.238 (0) Table drwp_icl_languages_translations: finishing file (backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_icl_languages_translations.table.gz - 26.1 Kb)
+0090.581 (0) Table drwp_icl_locale_map: Total expected rows (approximate): 5
+0090.605 (0) Table drwp_icl_locale_map: Total rows added: 5 in 0.00 seconds
+0090.627 (0) Table drwp_icl_locale_map: finishing file (backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_icl_locale_map.table.gz - 0.3 Kb)
+0090.997 (0) Table drwp_icl_message_status: Total expected rows (approximate): 0
+0091.021 (0) Table drwp_icl_message_status: Total rows added: 0 in 0.00 seconds
+0091.042 (0) Table drwp_icl_message_status: finishing file (backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_icl_message_status.table.gz - 0.4 Kb)
+0091.419 (0) Table drwp_icl_node: Total expected rows (approximate): 0
+0091.442 (0) Table drwp_icl_node: Total rows added: 0 in 0.00 seconds
+0091.462 (0) Table drwp_icl_node: finishing file (backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_icl_node.table.gz - 0.3 Kb)
+0091.816 (0) Table drwp_icl_reminders: Total expected rows (approximate): 0
+0091.843 (0) Table drwp_icl_reminders: Total rows added: 0 in 0.00 seconds
+0091.863 (0) Table drwp_icl_reminders: finishing file (backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_icl_reminders.table.gz - 0.3 Kb)
+0092.253 (0) Table drwp_icl_string_positions: Total expected rows (approximate): 1
+0092.286 (0) Table drwp_icl_string_positions: Total rows added: 1 in 0.00 seconds
+0092.309 (0) Table drwp_icl_string_positions: finishing file (backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_icl_string_positions.table.gz - 0.4 Kb)
+0092.712 (0) Table drwp_icl_string_status: Total expected rows (approximate): 0
+0092.735 (0) Table drwp_icl_string_status: Total rows added: 0 in 0.00 seconds
+0092.759 (0) Table drwp_icl_string_status: finishing file (backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_icl_string_status.table.gz - 0.3 Kb)
+0306.320 (1) Opened log file at time: Thu, 11 Jun 2015 13:43:35 +0000 on http://starsandbox.wpengine.com
+0306.338 (1) UpdraftPlus WordPress backup plugin (http://updraftplus.com): 1.9.64 WP: 4.2.2 PHP: 5.3.10-1ubuntu3.18 (Linux pod-10402 3.2.0-70-generic #105-Ubuntu SMP Wed Sep 24 19:49:16 UTC 2014 x86_64) MySQL: 5.5.43-37.2-log Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 58.2M | 66M) multisite: N mcrypt: Y LANG: C ZipArchive::addFile: Y
+0306.355 (1) Free space on disk containing Updraft's temporary directory: Unknown
+0306.397 (1) Backup run: resumption=1, nonce=5028ace8ebca, begun at=1434029909 (307s ago), job type=backup, previous check-in=92.3s
+0306.435 (1) Scheduling a resumption (2) after 300 seconds (1434030516) in case this run gets aborted
+0306.477 (1) Checking if we have a zip executable available
+0306.495 (1) Creation of backups of directories: already finished
+0306.513 (1) Saving backup status to database (elements: 8)
+0306.531 (1) Resuming creation of database dump (WordPress DB)
+0306.559 (1) Table drwp_options: corresponding file already exists; moving on
+0306.577 (1) Table drwp_users: corresponding file already exists; moving on
+0306.593 (1) Table drwp_usermeta: corresponding file already exists; moving on
+0306.611 (1) Table drwp_blog_versions: corresponding file already exists; moving on
+0306.632 (1) Table drwp_blogs: corresponding file already exists; moving on
+0306.649 (1) Table drwp_commentmeta: corresponding file already exists; moving on
+0306.666 (1) Table drwp_comments: corresponding file already exists; moving on
+0306.683 (1) Table drwp_links: corresponding file already exists; moving on
+0306.700 (1) Table drwp_postmeta: corresponding file already exists; moving on
+0306.718 (1) Table drwp_posts: corresponding file already exists; moving on
+0306.735 (1) Table drwp_registration_log: corresponding file already exists; moving on
+0306.753 (1) Table drwp_signups: corresponding file already exists; moving on
+0306.771 (1) Table drwp_site: corresponding file already exists; moving on
+0306.789 (1) Table drwp_sitemeta: corresponding file already exists; moving on
+0306.807 (1) Table drwp_term_relationships: corresponding file already exists; moving on
+0306.824 (1) Table drwp_term_taxonomy: corresponding file already exists; moving on
+0306.842 (1) Table drwp_terms: corresponding file already exists; moving on
+0306.862 (1) Table drwp_adintegration: corresponding file already exists; moving on
+0306.881 (1) Table drwp_avhec_category_groups: corresponding file already exists; moving on
+0306.898 (1) Table drwp_cfs_values: corresponding file already exists; moving on
+0306.916 (1) Table drwp_cpk_wpcsv_export_queue: corresponding file already exists; moving on
+0306.934 (1) Table drwp_cpk_wpcsv_log: corresponding file already exists; moving on
+0306.953 (1) Table drwp_icl_cms_nav_cache: corresponding file already exists; moving on
+0306.971 (1) Table drwp_icl_content_status: corresponding file already exists; moving on
+0306.989 (1) Table drwp_icl_core_status: corresponding file already exists; moving on
+0307.007 (1) Table drwp_icl_flags: corresponding file already exists; moving on
+0307.025 (1) Table drwp_icl_languages: corresponding file already exists; moving on
+0307.043 (1) Table drwp_icl_languages_translations: corresponding file already exists; moving on
+0307.061 (1) Table drwp_icl_locale_map: corresponding file already exists; moving on
+0307.080 (1) Table drwp_icl_message_status: corresponding file already exists; moving on
+0307.099 (1) Table drwp_icl_node: corresponding file already exists; moving on
+0307.119 (1) Table drwp_icl_reminders: corresponding file already exists; moving on
+0307.138 (1) Table drwp_icl_string_positions: corresponding file already exists; moving on
+0307.158 (1) Table drwp_icl_string_status: corresponding file already exists; moving on
+0307.200 (1) Table drwp_icl_string_translations: Total expected rows (approximate): 3493
+0307.350 (1) Table drwp_icl_string_translations: Total rows added: 3493 in 0.13 seconds
+0307.370 (1) Table drwp_icl_string_translations: finishing file (backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_icl_string_translations.table.gz - 85.4 Kb)
+0307.483 (1) Table drwp_icl_strings: Total expected rows (approximate): 3700
+0307.637 (1) Table drwp_icl_strings: Total rows added: 3700 in 0.13 seconds
+0307.657 (1) Table drwp_icl_strings: finishing file (backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_icl_strings.table.gz - 148.1 Kb)
+0307.725 (1) Table drwp_icl_translate: Total expected rows (approximate): 28045
+0309.342 (1) Table drwp_icl_translate: Total rows added: 28045 in 1.60 seconds
+0309.362 (1) Table drwp_icl_translate: finishing file (backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_icl_translate.table.gz - 842.1 Kb)
+0309.430 (1) Table drwp_icl_translate_job: Total expected rows (approximate): 665
+0309.464 (1) Table drwp_icl_translate_job: Total rows added: 665 in 0.01 seconds
+0309.483 (1) Table drwp_icl_translate_job: finishing file (backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_icl_translate_job.table.gz - 3.8 Kb)
+0309.544 (1) Table drwp_icl_translation_status: Total expected rows (approximate): 629
+0309.672 (1) Table drwp_icl_translation_status: Total rows added: 629 in 0.11 seconds
+0309.693 (1) Table drwp_icl_translation_status: finishing file (backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_icl_translation_status.table.gz - 313.2 Kb)
+0309.765 (1) Table drwp_icl_translations: Total expected rows (approximate): 2408
+0309.856 (1) Table drwp_icl_translations: Total rows added: 2408 in 0.07 seconds
+0309.877 (1) Table drwp_icl_translations: finishing file (backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_icl_translations.table.gz - 21.4 Kb)
+0309.943 (1) Table drwp_mf_custom_fields: Total expected rows (approximate): 0
+0309.964 (1) Table drwp_mf_custom_fields: Total rows added: 0 in 0.00 seconds
+0309.984 (1) Table drwp_mf_custom_fields: finishing file (backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_mf_custom_fields.table.gz - 0.4 Kb)
+0310.047 (1) Table drwp_mf_custom_groups: Total expected rows (approximate): 0
+0310.068 (1) Table drwp_mf_custom_groups: Total rows added: 0 in 0.00 seconds
+0310.087 (1) Table drwp_mf_custom_groups: finishing file (backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_mf_custom_groups.table.gz - 0.3 Kb)
+0310.153 (1) Table drwp_mf_custom_taxonomy: Total expected rows (approximate): 0
+0310.174 (1) Table drwp_mf_custom_taxonomy: Total rows added: 0 in 0.00 seconds
+0310.197 (1) Table drwp_mf_custom_taxonomy: finishing file (backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_mf_custom_taxonomy.table.gz - 0.3 Kb)
+0310.262 (1) Table drwp_mf_post_meta: Total expected rows (approximate): 0
+0310.283 (1) Table drwp_mf_post_meta: Total rows added: 0 in 0.00 seconds
+0310.306 (1) Table drwp_mf_post_meta: finishing file (backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_mf_post_meta.table.gz - 0.3 Kb)
+0310.372 (1) Table drwp_mf_posttypes: Total expected rows (approximate): 0
+0310.393 (1) Table drwp_mf_posttypes: Total rows added: 0 in 0.00 seconds
+0310.413 (1) Table drwp_mf_posttypes: finishing file (backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_mf_posttypes.table.gz - 0.3 Kb)
+0310.477 (1) Table drwp_pods_tests: Total expected rows (approximate): 0
+0310.498 (1) Table drwp_pods_tests: Total rows added: 0 in 0.00 seconds
+0310.519 (1) Table drwp_pods_tests: finishing file (backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_pods_tests.table.gz - 0.3 Kb)
+0310.583 (1) Table drwp_podsrel: Total expected rows (approximate): 0
+0310.604 (1) Table drwp_podsrel: Total rows added: 0 in 0.00 seconds
+0310.623 (1) Table drwp_podsrel: finishing file (backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_podsrel.table.gz - 0.4 Kb)
+0310.692 (1) Table drwp_relevanssi: Total expected rows (approximate): 58530
+0322.551 (1) Table drwp_relevanssi: Total rows added: 89285 in 11.84 seconds
+0322.571 (1) Table drwp_relevanssi: finishing file (backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_relevanssi.table.gz - 761.9 Kb)
+0322.639 (1) Table drwp_relevanssi_log: Total expected rows (approximate): 0
+0322.660 (1) Table drwp_relevanssi_log: Total rows added: 0 in 0.00 seconds
+0322.679 (1) Table drwp_relevanssi_log: finishing file (backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_relevanssi_log.table.gz - 0.4 Kb)
+0322.746 (1) Table drwp_relevanssi_stopwords: Total expected rows (approximate): 317
+0322.771 (1) Table drwp_relevanssi_stopwords: Total rows added: 317 in 0.01 seconds
+0322.790 (1) Table drwp_relevanssi_stopwords: finishing file (backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_relevanssi_stopwords.table.gz - 1.2 Kb)
+0322.855 (1) Table drwp_rg_form: Total expected rows (approximate): 0
+0322.877 (1) Table drwp_rg_form: Total rows added: 0 in 0.00 seconds
+0322.897 (1) Table drwp_rg_form: finishing file (backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_rg_form.table.gz - 0.3 Kb)
+0322.963 (1) Table drwp_rg_form_meta: Total expected rows (approximate): 0
+0322.988 (1) Table drwp_rg_form_meta: Total rows added: 0 in 0.00 seconds
+0323.008 (1) Table drwp_rg_form_meta: finishing file (backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_rg_form_meta.table.gz - 0.3 Kb)
+0323.079 (1) Table drwp_rg_form_view: Total expected rows (approximate): 0
+0323.100 (1) Table drwp_rg_form_view: Total rows added: 0 in 0.00 seconds
+0323.121 (1) Table drwp_rg_form_view: finishing file (backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_rg_form_view.table.gz - 0.3 Kb)
+0323.190 (1) Table drwp_rg_lead: Total expected rows (approximate): 0
+0323.213 (1) Table drwp_rg_lead: Total rows added: 0 in 0.00 seconds
+0323.233 (1) Table drwp_rg_lead: finishing file (backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_rg_lead.table.gz - 0.5 Kb)
+0323.298 (1) Table drwp_rg_lead_detail: Total expected rows (approximate): 0
+0323.321 (1) Table drwp_rg_lead_detail: Total rows added: 0 in 0.00 seconds
+0323.342 (1) Table drwp_rg_lead_detail: finishing file (backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_rg_lead_detail.table.gz - 0.3 Kb)
+0323.414 (1) Table drwp_rg_lead_detail_long: Total expected rows (approximate): 0
+0323.434 (1) Table drwp_rg_lead_detail_long: Total rows added: 0 in 0.00 seconds
+0323.454 (1) Table drwp_rg_lead_detail_long: finishing file (backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_rg_lead_detail_long.table.gz - 0.3 Kb)
+0323.527 (1) Table drwp_rg_lead_meta: Total expected rows (approximate): 0
+0323.548 (1) Table drwp_rg_lead_meta: Total rows added: 0 in 0.00 seconds
+0323.571 (1) Table drwp_rg_lead_meta: finishing file (backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_rg_lead_meta.table.gz - 0.4 Kb)
+0323.640 (1) Table drwp_rg_lead_notes: Total expected rows (approximate): 0
+0323.662 (1) Table drwp_rg_lead_notes: Total rows added: 0 in 0.00 seconds
+0323.681 (1) Table drwp_rg_lead_notes: finishing file (backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_rg_lead_notes.table.gz - 0.4 Kb)
+0323.746 (1) Table drwp_wsal_metadata: Total expected rows (approximate): 442
+0323.785 (1) Table drwp_wsal_metadata: Total rows added: 403 in 0.01 seconds
+0323.805 (1) Table drwp_wsal_metadata: finishing file (backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_wsal_metadata.table.gz - 3.9 Kb)
+0323.874 (1) Table drwp_wsal_occurrences: Total expected rows (approximate): 80
+0323.900 (1) Table drwp_wsal_occurrences: Total rows added: 80 in 0.01 seconds
+0323.920 (1) Table drwp_wsal_occurrences: finishing file (backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_wsal_occurrences.table.gz - 1.3 Kb)
+0323.987 (1) Table drwp_wysija_campaign: Total expected rows (approximate): 2
+0324.009 (1) Table drwp_wysija_campaign: Total rows added: 2 in 0.00 seconds
+0324.028 (1) Table drwp_wysija_campaign: finishing file (backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_wysija_campaign.table.gz - 0.4 Kb)
+0324.094 (1) Table drwp_wysija_campaign_list: Total expected rows (approximate): 1
+0324.117 (1) Table drwp_wysija_campaign_list: Total rows added: 1 in 0.00 seconds
+0324.137 (1) Table drwp_wysija_campaign_list: finishing file (backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_wysija_campaign_list.table.gz - 0.3 Kb)
+0324.205 (1) Table drwp_wysija_custom_field: Total expected rows (approximate): 0
+0324.229 (1) Table drwp_wysija_custom_field: Total rows added: 0 in 0.00 seconds
+0324.250 (1) Table drwp_wysija_custom_field: finishing file (backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_wysija_custom_field.table.gz - 0.3 Kb)
+0324.320 (1) Table drwp_wysija_email: Total expected rows (approximate): 4
+0324.346 (1) Table drwp_wysija_email: Total rows added: 4 in 0.01 seconds
+0324.368 (1) Table drwp_wysija_email: finishing file (backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_wysija_email.table.gz - 15.1 Kb)
+0324.439 (1) Table drwp_wysija_email_user_stat: Total expected rows (approximate): 0
+0324.461 (1) Table drwp_wysija_email_user_stat: Total rows added: 0 in 0.00 seconds
+0324.480 (1) Table drwp_wysija_email_user_stat: finishing file (backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_wysija_email_user_stat.table.gz - 0.3 Kb)
+0324.544 (1) Table drwp_wysija_email_user_url: Total expected rows (approximate): 0
+0324.566 (1) Table drwp_wysija_email_user_url: Total rows added: 0 in 0.00 seconds
+0324.585 (1) Table drwp_wysija_email_user_url: finishing file (backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_wysija_email_user_url.table.gz - 0.3 Kb)
+0324.652 (1) Table drwp_wysija_form: Total expected rows (approximate): 2
+0324.674 (1) Table drwp_wysija_form: Total rows added: 2 in 0.00 seconds
+0324.695 (1) Table drwp_wysija_form: finishing file (backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_wysija_form.table.gz - 1.3 Kb)
+0324.765 (1) Table drwp_wysija_list: Total expected rows (approximate): 4
+0324.791 (1) Table drwp_wysija_list: Total rows added: 4 in 0.00 seconds
+0324.813 (1) Table drwp_wysija_list: finishing file (backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_wysija_list.table.gz - 0.6 Kb)
+0324.879 (1) Table drwp_wysija_queue: Total expected rows (approximate): 0
+0324.900 (1) Table drwp_wysija_queue: Total rows added: 0 in 0.00 seconds
+0324.919 (1) Table drwp_wysija_queue: finishing file (backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_wysija_queue.table.gz - 0.3 Kb)
+0324.990 (1) Table drwp_wysija_url: Total expected rows (approximate): 0
+0325.012 (1) Table drwp_wysija_url: Total rows added: 0 in 0.00 seconds
+0325.032 (1) Table drwp_wysija_url: finishing file (backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_wysija_url.table.gz - 0.3 Kb)
+0325.103 (1) Table drwp_wysija_url_mail: Total expected rows (approximate): 0
+0325.124 (1) Table drwp_wysija_url_mail: Total rows added: 0 in 0.00 seconds
+0325.144 (1) Table drwp_wysija_url_mail: finishing file (backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_wysija_url_mail.table.gz - 0.3 Kb)
+0325.210 (1) Table drwp_wysija_user: Total expected rows (approximate): 325
+0325.252 (1) Table drwp_wysija_user: Total rows added: 325 in 0.02 seconds
+0325.272 (1) Table drwp_wysija_user: finishing file (backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_wysija_user.table.gz - 14.1 Kb)
+0325.344 (1) Table drwp_wysija_user_field: Total expected rows (approximate): 4
+0325.368 (1) Table drwp_wysija_user_field: Total rows added: 4 in 0.00 seconds
+0325.389 (1) Table drwp_wysija_user_field: finishing file (backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_wysija_user_field.table.gz - 0.5 Kb)
+0325.458 (1) Table drwp_wysija_user_history: Total expected rows (approximate): 0
+0325.481 (1) Table drwp_wysija_user_history: Total rows added: 0 in 0.00 seconds
+0325.506 (1) Table drwp_wysija_user_history: finishing file (backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_wysija_user_history.table.gz - 0.3 Kb)
+0325.575 (1) Table drwp_wysija_user_list: Total expected rows (approximate): 652
+0325.608 (1) Table drwp_wysija_user_list: Total rows added: 652 in 0.01 seconds
+0325.628 (1) Table drwp_wysija_user_list: finishing file (backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_wysija_user_list.table.gz - 2 Kb)
+0325.673 (1) Skipping table (lacks our prefix (drwp_)): wp_ahm_download_stats
+0325.696 (1) Skipping table (lacks our prefix (drwp_)): wp_commentmeta
+0325.715 (1) Skipping table (lacks our prefix (drwp_)): wp_comments
+0325.734 (1) Skipping table (lacks our prefix (drwp_)): wp_download_log
+0325.754 (1) Skipping table (lacks our prefix (drwp_)): wp_edd_customers
+0325.773 (1) Skipping table (lacks our prefix (drwp_)): wp_fc_action
+0325.792 (1) Skipping table (lacks our prefix (drwp_)): wp_fc_action_history
+0325.811 (1) Skipping table (lacks our prefix (drwp_)): wp_fc_emails
+0325.833 (1) Skipping table (lacks our prefix (drwp_)): wp_fc_workflow_steps
+0325.852 (1) Skipping table (lacks our prefix (drwp_)): wp_fc_workflows
+0325.874 (1) Skipping table (lacks our prefix (drwp_)): wp_links
+0325.894 (1) Skipping table (lacks our prefix (drwp_)): wp_mrc
+0325.913 (1) Skipping table (lacks our prefix (drwp_)): wp_options
+0325.932 (1) Skipping table (lacks our prefix (drwp_)): wp_postmeta
+0325.951 (1) Skipping table (lacks our prefix (drwp_)): wp_posts
+0325.970 (1) Skipping table (lacks our prefix (drwp_)): wp_pp_group_members
+0325.990 (1) Skipping table (lacks our prefix (drwp_)): wp_pp_groups
+0326.012 (1) Skipping table (lacks our prefix (drwp_)): wp_ppc_exception_items
+0326.032 (1) Skipping table (lacks our prefix (drwp_)): wp_ppc_exceptions
+0326.052 (1) Skipping table (lacks our prefix (drwp_)): wp_ppc_roles
+0326.072 (1) Skipping table (lacks our prefix (drwp_)): wp_term_relationships
+0326.091 (1) Skipping table (lacks our prefix (drwp_)): wp_term_taxonomy
+0326.112 (1) Skipping table (lacks our prefix (drwp_)): wp_terms
+0326.131 (1) Skipping table (lacks our prefix (drwp_)): wp_usermeta
+0326.150 (1) Skipping table (lacks our prefix (drwp_)): wp_users
+0326.169 (1) Skipping table (lacks our prefix (drwp_)): wp_wpfb_cats
+0326.190 (1) Skipping table (lacks our prefix (drwp_)): wp_wpfb_files
+0326.209 (1) Skipping table (lacks our prefix (drwp_)): wp_wpfb_files_id3
+0326.229 (1) Skipping table (lacks our prefix (drwp_)): wp_wysija_campaign
+0326.248 (1) Skipping table (lacks our prefix (drwp_)): wp_wysija_campaign_list
+0326.267 (1) Skipping table (lacks our prefix (drwp_)): wp_wysija_custom_field
+0326.287 (1) Skipping table (lacks our prefix (drwp_)): wp_wysija_email
+0326.307 (1) Skipping table (lacks our prefix (drwp_)): wp_wysija_email_user_stat
+0326.325 (1) Skipping table (lacks our prefix (drwp_)): wp_wysija_email_user_url
+0326.345 (1) Skipping table (lacks our prefix (drwp_)): wp_wysija_form
+0326.366 (1) Skipping table (lacks our prefix (drwp_)): wp_wysija_list
+0326.386 (1) Skipping table (lacks our prefix (drwp_)): wp_wysija_queue
+0326.406 (1) Skipping table (lacks our prefix (drwp_)): wp_wysija_url
+0326.426 (1) Skipping table (lacks our prefix (drwp_)): wp_wysija_url_mail
+0326.446 (1) Skipping table (lacks our prefix (drwp_)): wp_wysija_user
+0326.468 (1) Skipping table (lacks our prefix (drwp_)): wp_wysija_user_field
+0326.489 (1) Skipping table (lacks our prefix (drwp_)): wp_wysija_user_history
+0326.509 (1) Skipping table (lacks our prefix (drwp_)): wp_wysija_user_list
+0326.531 (1) backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_options.table.gz (1/118): adding to final database dump
+0326.573 (1) backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_users.table.gz (2/118): adding to final database dump
+0326.593 (1) backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_usermeta.table.gz (3/118): adding to final database dump
+0326.622 (1) backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_blog_versions.table.gz (4/118): adding to final database dump
+0326.643 (1) backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_blogs.table.gz (5/118): adding to final database dump
+0326.664 (1) backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_commentmeta.table.gz (6/118): adding to final database dump
+0326.683 (1) backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_comments.table.gz (7/118): adding to final database dump
+0326.708 (1) backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_links.table.gz (8/118): adding to final database dump
+0326.728 (1) backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_postmeta.table.gz (9/118): adding to final database dump
+0327.859 (1) backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_posts.table.gz (10/118): adding to final database dump
+0328.029 (1) backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_registration_log.table.gz (11/118): adding to final database dump
+0328.051 (1) backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_signups.table.gz (12/118): adding to final database dump
+0328.075 (1) backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_site.table.gz (13/118): adding to final database dump
+0328.101 (1) backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_sitemeta.table.gz (14/118): adding to final database dump
+0328.123 (1) backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_term_relationships.table.gz (15/118): adding to final database dump
+0328.153 (1) backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_term_taxonomy.table.gz (16/118): adding to final database dump
+0328.177 (1) backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_terms.table.gz (17/118): adding to final database dump
+0328.202 (1) backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_adintegration.table.gz (18/118): adding to final database dump
+0328.223 (1) backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_avhec_category_groups.table.gz (19/118): adding to final database dump
+0328.247 (1) backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_cfs_values.table.gz (20/118): adding to final database dump
+0328.269 (1) backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_cpk_wpcsv_export_queue.table.gz (21/118): adding to final database dump
+0328.301 (1) backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_cpk_wpcsv_log.table.gz (22/118): adding to final database dump
+0328.323 (1) backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_icl_cms_nav_cache.table.gz (23/118): adding to final database dump
+0328.345 (1) backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_icl_content_status.table.gz (24/118): adding to final database dump
+0328.366 (1) backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_icl_core_status.table.gz (25/118): adding to final database dump
+0328.387 (1) backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_icl_flags.table.gz (26/118): adding to final database dump
+0328.413 (1) backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_icl_languages.table.gz (27/118): adding to final database dump
+0328.434 (1) backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_icl_languages_translations.table.gz (28/118): adding to final database dump
+0328.476 (1) backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_icl_locale_map.table.gz (29/118): adding to final database dump
+0328.497 (1) backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_icl_message_status.table.gz (30/118): adding to final database dump
+0328.518 (1) backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_icl_node.table.gz (31/118): adding to final database dump
+0328.538 (1) backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_icl_reminders.table.gz (32/118): adding to final database dump
+0328.558 (1) backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_icl_string_positions.table.gz (33/118): adding to final database dump
+0328.581 (1) backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_icl_string_status.table.gz (34/118): adding to final database dump
+0328.602 (1) backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_icl_string_translations.table.gz (35/118): adding to final database dump
+0328.654 (1) backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_icl_strings.table.gz (36/118): adding to final database dump
+0328.710 (1) backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_icl_translate.table.gz (37/118): adding to final database dump
+0328.985 (1) backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_icl_translate_job.table.gz (38/118): adding to final database dump
+0329.007 (1) backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_icl_translation_status.table.gz (39/118): adding to final database dump
+0329.122 (1) backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_icl_translations.table.gz (40/118): adding to final database dump
+0329.160 (1) backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_mf_custom_fields.table.gz (41/118): adding to final database dump
+0329.180 (1) backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_mf_custom_groups.table.gz (42/118): adding to final database dump
+0329.200 (1) backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_mf_custom_taxonomy.table.gz (43/118): adding to final database dump
+0329.221 (1) backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_mf_post_meta.table.gz (44/118): adding to final database dump
+0329.241 (1) backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_mf_posttypes.table.gz (45/118): adding to final database dump
+0329.260 (1) backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_pods_tests.table.gz (46/118): adding to final database dump
+0329.280 (1) backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_podsrel.table.gz (47/118): adding to final database dump
+0329.301 (1) backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_relevanssi.table.gz (48/118): adding to final database dump
+0329.785 (1) backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_relevanssi_log.table.gz (49/118): adding to final database dump
+0329.806 (1) backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_relevanssi_stopwords.table.gz (50/118): adding to final database dump
+0329.830 (1) backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_rg_form.table.gz (51/118): adding to final database dump
+0329.852 (1) backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_rg_form_meta.table.gz (52/118): adding to final database dump
+0329.872 (1) backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_rg_form_view.table.gz (53/118): adding to final database dump
+0329.892 (1) backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_rg_lead.table.gz (54/118): adding to final database dump
+0329.914 (1) backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_rg_lead_detail.table.gz (55/118): adding to final database dump
+0329.934 (1) backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_rg_lead_detail_long.table.gz (56/118): adding to final database dump
+0329.955 (1) backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_rg_lead_meta.table.gz (57/118): adding to final database dump
+0329.976 (1) backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_rg_lead_notes.table.gz (58/118): adding to final database dump
+0329.996 (1) backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_wsal_metadata.table.gz (59/118): adding to final database dump
+0330.018 (1) backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_wsal_occurrences.table.gz (60/118): adding to final database dump
+0330.039 (1) backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_wysija_campaign.table.gz (61/118): adding to final database dump
+0330.060 (1) backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_wysija_campaign_list.table.gz (62/118): adding to final database dump
+0330.080 (1) backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_wysija_custom_field.table.gz (63/118): adding to final database dump
+0330.100 (1) backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_wysija_email.table.gz (64/118): adding to final database dump
+0330.122 (1) backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_wysija_email_user_stat.table.gz (65/118): adding to final database dump
+0330.141 (1) backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_wysija_email_user_url.table.gz (66/118): adding to final database dump
+0330.160 (1) backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_wysija_form.table.gz (67/118): adding to final database dump
+0330.180 (1) backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_wysija_list.table.gz (68/118): adding to final database dump
+0330.202 (1) backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_wysija_queue.table.gz (69/118): adding to final database dump
+0330.222 (1) backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_wysija_url.table.gz (70/118): adding to final database dump
+0330.241 (1) backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_wysija_url_mail.table.gz (71/118): adding to final database dump
+0330.260 (1) backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_wysija_user.table.gz (72/118): adding to final database dump
+0330.283 (1) backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_wysija_user_field.table.gz (73/118): adding to final database dump
+0330.302 (1) backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_wysija_user_history.table.gz (74/118): adding to final database dump
+0330.321 (1) backup_2015-06-11-0838_Digital_River_5028ace8ebca-db-table-drwp_wysija_user_list.table.gz (75/118): adding to final database dump
+0330.347 (1) backup_2015-06-11-0838_Digital_River_5028ace8ebca-db.gz: finished writing out complete database file (4832 Kb)
+0330.436 (1) Total database tables backed up: 75 (backup_2015-06-11-0838_Digital_River_5028ace8ebca-db.gz, size: 4959191, checksum (SHA1): 86d67817aa7f4243a315847557d0ba419e9d1ab0)
+0330.476 (1) Saving backup history
+0330.539 (1) backup_2015-06-11-0838_Digital_River_5028ace8ebca-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0330.559 (1) backup_2015-06-11-0838_Digital_River_5028ace8ebca-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0330.578 (1) backup_2015-06-11-0838_Digital_River_5028ace8ebca-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0330.598 (1) backup_2015-06-11-0838_Digital_River_5028ace8ebca-others.zip: others: This file has not yet been successfully uploaded: will queue
+0330.618 (1) backup_2015-06-11-0838_Digital_River_5028ace8ebca-db.gz: db: This file has not yet been successfully uploaded: will queue
+0330.659 (1) Requesting upload of the files that have not yet been successfully uploaded (5)
+0330.724 (1) Cloud backup selection (1/1): none (last)
+0330.746 (1) No remote despatch: user chose no remote backup service
+0330.789 (1) Recording as successfully uploaded: backup_2015-06-11-0838_Digital_River_5028ace8ebca-plugins.zip (395618b9075d9f4bd053bd84a5465dd5)
+0330.907 (1) Recording as successfully uploaded: backup_2015-06-11-0838_Digital_River_5028ace8ebca-themes.zip (e87928cf33c7ab792a262a8f857e61ae)
+0330.994 (1) Recording as successfully uploaded: backup_2015-06-11-0838_Digital_River_5028ace8ebca-uploads.zip (a6608342db9328bd3a960f9898762315)
+0331.077 (1) Recording as successfully uploaded: backup_2015-06-11-0838_Digital_River_5028ace8ebca-others.zip (bebbc8597dd31ea5ab5bb8e314849e03)
+0331.162 (1) Recording as successfully uploaded: backup_2015-06-11-0838_Digital_River_5028ace8ebca-db.gz (f6b41b662fb389f4f848c53b0b4fab8b)
+0331.250 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=3, retain_db=10
+0331.270 (1) Number of backup sets in history: 4
+0331.290 (1) Examining backup set with datestamp: 1434029909 (Jun 11 2015 13:38:29)
+0331.309 (1) 1434029909: db: this set includes a database (backup_2015-06-11-0838_Digital_River_5028ace8ebca-db.gz); db count is now 1
+0331.350 (1) 1434029909: this backup set remains non-empty (1/1); will retain in history
+0331.370 (1) Examining backup set with datestamp: 1434029491 (Jun 11 2015 13:31:31)
+0331.390 (1) 1434029491: db: this set includes a database (backup_2015-06-11-0831_Digital_River_15e7fb580e91-db.gz); db count is now 2
+0331.431 (1) 1434029491: this backup set remains non-empty (0/1); will retain in history
+0331.451 (1) Examining backup set with datestamp: 1432635473 (May 26 2015 10:17:53)
+0331.470 (1) 1432635473: db: this set includes a database (backup_2015-05-26-0517_Digital_River_1c2ae6a1b574-db.gz); db count is now 3
+0331.510 (1) 1432635473: this backup set remains non-empty (0/1); will retain in history
+0331.529 (1) Examining backup set with datestamp: 1432629089 (May 26 2015 08:31:29)
+0331.550 (1) 1432629089: db: this set includes a database (backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db.gz); db count is now 4
+0331.604 (1) 1432629089: this backup set remains non-empty (0/1); will retain in history
+0331.624 (1) Retain: saving new backup history (sets now: 4) and finishing retain operation
+0331.670 (1) Resume backup (5028ace8ebca, 1): finish run
+0331.715 (1) There were no errors in the uploads, so the 'resume' event (2) is being unscheduled
+0331.789 (1) No email will/can be sent - the user has not configured an email address.
+0331.810 (1) The backup apparently succeeded (with warnings) and is now complete

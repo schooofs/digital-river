@@ -1,0 +1,45 @@
+.brick-home-integrations {
+  background: linear-gradient(-20deg, $secondary-blue 39.9%, $navy 40%);
+  padding: 4rem 0;
+
+  h2 {
+    font-size: 3rem;
+    max-width: 30rem;
+    color: $white;
+  }
+
+  p {
+    color: $white;
+  }
+
+  .btn {
+    margin-top: 1rem;
+  }
+
+  .col-lg-7 {
+    margin-bottom: 2rem;
+  }
+
+  .partner {
+    background-color: rgba(255,255,255,0.2);
+    transition: background-color 0.2s;
+
+    &:not(:last-child) {
+      margin-bottom: 1rem;
+    }
+
+    &:hover {
+      background-color: $light-blue;
+    }
+
+    a {
+      display: block;
+      padding: 0.5rem 5rem;
+    }
+
+    img {
+      max-height: 6rem;
+    }
+  }
+
+}

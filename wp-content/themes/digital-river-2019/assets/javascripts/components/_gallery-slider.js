@@ -1,0 +1,9 @@
+$("#gallerySlider").owlCarousel({
+    nav:false,
+    dots:false,
+    margin:20,
+    loop:true,
+    autoplay:true,
+    autoWidth:true,
+    items:5
+});

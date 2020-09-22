@@ -1,0 +1,111 @@
+    .stat-cta {
+        margin-top: 3rem;
+
+        a:hover {
+            text-decoration: none;
+        }
+
+        [class^='col-'] {
+            @media (max-width: 767px) {
+                margin-bottom: 1.5rem;
+            }
+        }
+
+        &--left {
+            cursor: default;
+        }
+
+        .stat-cta--box {
+            position: relative;
+            padding: 1.5rem;
+            display: flex;
+            align-items: center;
+            height: 100%;
+            min-height: 185px;
+            border: 1px solid $primary;
+            overflow: hidden;
+            transition: .4s;
+
+            &:after {
+                content: '';
+                width: 125%;
+                height: 250px;
+                background-color: $primary;
+                position: absolute;
+                left: 50%;
+                transform: rotate(45deg) translate(-200px, -200px);
+                opacity: 0;
+                transition: .4s;
+            }
+
+            &:hover {
+                background-color: rgba($primary, .1);
+                text-decoration: none;
+                animation: pulse .4s cubic-bezier(0.600, 0, 0.735, 0.045) 0 1 forwards;
+
+                .stat-cta--copy {
+                    animation: pulse .4s cubic-bezier(0.600, 0, 0.735, 0.045) 0 1 forwards;
+                }
+
+                &:after {
+                    opacity: 1;
+                    transform: rotate(45deg) translate(-200px, 650px);
+                    transition-delay: .1s;
+                }
+            }
+
+            h3 {
+                font-size: 2rem;
+                margin-bottom: 0.5rem;
+                font-size: 1.5rem;
+
+                &:first-child {
+                    margin-bottom: 0;
+                }
+
+                @include media-breakpoint-up(lg) {
+                    font-size: 2rem;
+                }
+
+                &.small {
+                    font-size: 1.5rem;
+
+
+                    @include media-breakpoint-up(lg) {
+                        font-size: 1.75rem;
+                    }
+
+                }
+            }
+
+            p {
+                font-size: 1.5rem;
+                // font-size: calc(14px + 6 * ((100vw - 320px) / 680));
+                color: $dark-blue;
+                margin-bottom: 0;
+
+                &.small {
+                    font-size: 1.25rem;
+                }
+            }
+
+            img {
+                padding-right: 2rem;
+                width: 75px;
+
+                @include media-breakpoint-up(md) {
+                    width: 100px;
+                }
+
+                &.icon-arrow {
+                    width: 60px;
+                    padding: 1rem;
+                    padding-left: 1rem;
+
+                    @include media-breakpoint-up(md) {
+                        width: 75px;
+                    }
+                }
+            }
+        }
+    }

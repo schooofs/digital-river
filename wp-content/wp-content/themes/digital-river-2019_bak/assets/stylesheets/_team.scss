@@ -1,0 +1,360 @@
+.team-section {
+	padding-top: 2rem;
+	padding-bottom: 1rem;
+
+	h2.title {
+		margin-bottom: 3rem;
+		text-align: center;
+		width: 100%;		
+
+		@include media-breakpoint-up(md) {
+			text-align: left;
+		}
+	}
+
+	.team-flex.row {
+		padding: 0;
+		justify-content: center;
+
+		.team-member-img,
+		figure {
+			width: 20%;
+			margin: 0;
+
+			@media (max-width: 991px) {
+				width: 33.33%;
+			}
+
+			@media (max-width: 767px) {
+				width: 50%;
+			}
+
+			img {
+				width: 100%;
+			}
+		}
+	}
+
+	// Content (for when team member is clicked)
+	.team-content {
+		flex-direction: column;
+		position: relative;
+		text-align: left;
+		height: 0;
+		opacity: 0;
+		overflow: hidden;
+		pointer-events: none;
+		padding: 0;
+		transition: opacity .4s;
+		width: 100%;
+		margin: 0;
+
+		&.active {
+			opacity: 1;
+			pointer-events: initial;
+			height: calc(100% - 68px);
+			padding: 2rem;
+			z-index: 1000;
+
+			@include media-breakpoint-up(lg) {
+				height: 100%;
+			}
+		}
+
+		@media (max-width: 991px) {
+			position: fixed;
+			background: white;
+			z-index: 6;
+			top: 68px;
+			height: 100%;
+			// flex-direction: row;
+			display: block;
+			overflow: scroll;
+			padding: 2rem;
+
+			* {
+				width: 100%;
+			}
+
+			.close {
+				position: fixed;
+			}
+		}
+
+		h2 {
+			font-size: 28px;
+			display: block;
+			margin-bottom: 0;
+			text-align: left;
+		}
+
+		p {
+			color: $gray-body;
+		}
+
+		.close {
+			position: absolute;
+			top: 20px;
+			right: 20px;
+			width: 40px;
+			height: 40px;
+			cursor: pointer;
+			transition: .4s;
+			opacity: 1;
+
+			&:hover {
+				transform: rotate(360deg);
+			}
+
+
+			img {
+				width: 100%;
+			}
+		}
+	}
+
+
+	// CTA Banner
+	.team-cta-banner {
+		background: $white;
+		min-height: 170px;
+
+		.row {
+			padding-top: 70px;
+
+			&.flex {
+				display: flex;
+				justify-content: center;
+				margin-bottom: 2rem;
+
+				@include media-breakpoint-up(lg) {
+					text-align: left;
+					justify-content: space-between;
+					margin-bottom: 0;
+				}
+			}
+		}
+
+		.strap {
+			color: $dark-blue;
+			font-size: 2rem;
+			text-align: center;
+
+			@include media-breakpoint-up(lg) {
+				text-align: left;
+			}
+
+		}
+
+		.cta {
+			font-size: 18px;
+			padding: .75rem 1.25rem;
+			text-transform: uppercase;
+			text-align: center;
+			color: $white;
+		}
+
+		a,
+		a:hover {
+			text-decoration: none;
+		}
+
+
+	}
+
+
+	// Hover Effects
+
+	.grid {
+		position: relative;
+		list-style: none;
+		text-align: center;
+	}
+
+	/* Common style */
+	.grid figure {
+		position: relative;
+		margin: 0;
+		background: $dark-blue;
+		text-align: center;
+		cursor: pointer;
+		overflow: hidden;
+
+	}
+
+	.grid figure img {
+		position: relative;
+		display: block;
+		min-height: 100%;
+		max-width: 100%;
+		opacity: 1;
+		transition: .4s;
+	}
+
+	.grid figure figcaption {
+		padding: .2em;
+		color: #fff;
+		// text-transform: uppercase;
+		font-size: 1.5em;
+		-webkit-backface-visibility: hidden;
+		backface-visibility: hidden;
+	}
+
+	.grid figure figcaption::before,
+	.grid figure figcaption::after {
+		pointer-events: none;
+	}
+
+	.grid figure figcaption,
+	.grid figure figcaption>a {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+
+	/* Anchor will cover the whole item by default */
+	/* For some effects it will show as a button */
+	.grid figure figcaption>a {
+		z-index: 5;
+		text-indent: 200%;
+		white-space: nowrap;
+		font-size: 0;
+		opacity: 0;
+	}
+
+	.grid figure h2,
+	.grid figure p {
+		margin: 0;
+	}
+
+	.grid figure h2 {
+		font-weight: 300;
+		margin-top: 36px;
+		font-size: 24px;
+		padding: 0;
+	}
+
+	.grid figure p {
+		// letter-spacing: 1px;
+		font-size: 50%;
+		line-height: 1.2;
+
+		@include media-breakpoint-up(xl) {
+			font-size: 68.5%;
+			// line-height: 1.4;
+		}
+	}
+}
+
+.grid figure p.button {
+	font-size: 1rem;
+	background: $green;
+	color: $white;
+	text-transform: uppercase;
+	padding: .5rem .5rem;
+	max-width: 128px;
+	margin: 12px auto;
+}
+
+//  effects 
+
+figure.team-hover {
+	z-index: auto;
+	overflow: visible;
+	background: $dark-blue;
+
+	&.darkened {
+		img {
+			opacity: .2;
+		}
+	}
+}
+
+figure.team-hover:before,
+figure.team-hover h2:before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+	// background: $dark-blue;
+	content: '';
+	-webkit-transition: opacity 0.35s;
+	transition: opacity 0.35s;
+}
+
+figure.team-hover:before {
+	opacity: 0;
+}
+
+figure.team-hover figcaption {
+	z-index: 1;
+}
+
+figure.team-hover img {
+	opacity: 1;
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	-webkit-transform: perspective(1000px) translate3d(0, 0, 0);
+	transform: perspective(1000px) translate3d(0, 0, 0);
+}
+
+figure.team-hover h2,
+figure.team-hover p {
+	// background: #fff;
+	// color: #2d434e;
+	color: $white;
+}
+
+figure.team-hover h2 {
+	position: relative;
+	margin-top: 0.5em;
+	padding: 0.25em;
+	opacity: 0;
+}
+
+figure.team-hover h2:before {
+	// box-shadow: 0 1px 10px rgba(0,0,0,0.5);
+}
+
+figure.team-hover p {
+	margin-top: 0em;
+	padding: 0em;
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale3d(0.9, 0.9, 1);
+	transform: scale3d(0.9, 0.9, 1);
+}
+
+figure.team-hover:hover:before {
+	opacity: 1;
+}
+
+figure.team-hover:hover img {
+	-webkit-transform: perspective(1000px) translate3d(0, 0, 21px);
+	transform: perspective(1000px) translate3d(0, 0, 21px);
+}
+
+figure.team-hover:hover h2:before {
+	opacity: 0;
+}
+
+figure.team-hover:hover img {
+	opacity: 0.25;
+}
+
+figure.team-hover:hover h2 {
+	opacity: 1;
+}
+
+figure.team-hover:hover p {
+	opacity: 1;
+	-webkit-transform: scale3d(1, 1, 1);
+	transform: scale3d(1, 1, 1);
+
+
+}

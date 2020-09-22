@@ -1,0 +1,28 @@
+  
+
+.video-hero .embed-responsive {
+        display: none;
+    }
+
+@media (min-width: 768px) {
+    .video-hero .embed-responsive {
+        display: block;
+    }
+     
+     .content {
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.5);
+        height: 100%;
+        bottom: 0%;
+        width: 100%;
+        left:0;
+    }
+   
+     .inner-content {
+        top: 50%;
+        left: 50%;
+        position: absolute;
+        transform: translate(-50%,-50%);
+    }
+}
+    

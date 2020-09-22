@@ -1,0 +1,47 @@
+.mktoForm {
+  margin: 0;
+  padding: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0 !important;
+
+  &,
+  input,
+  textarea,
+  .mktoFormCol,
+  .mktoFieldWrap {
+    width: 100% !important;
+  }
+
+  .mktoButtonWrap {
+    margin-left: 0 !important;
+  }
+
+  label[for="Opted_In__c"] {
+    float: none !important;
+    padding-left: 1rem !important;
+    width: 350px !important;
+
+    ~ .mktoGutter {
+      display: none !important;
+    }
+
+    ~ .mktoCheckboxList {
+      padding: 0 !important;
+      margin-top: 1rem !important;
+      float: left !important;
+      width: 10px !important;
+    }
+  }
+
+  button[type="submit"] {
+    margin-top: 1rem !important;
+  }
+}
+
+form {
+  legend {
+    color: $navy;
+  }
+}

@@ -1,0 +1,75 @@
+.footer {
+  padding: 3rem 0;
+  background: $dark-blue;
+  font-size: 18px;
+  color: $white;
+
+  h5 {
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  ul {
+    padding: 0;
+    list-style: none;
+    margin-bottom: 0;
+
+    a,
+    li {
+      color: $white;
+      margin: 6px 0;
+    }
+  }
+
+  .logo {
+    max-width: 100%;
+  }
+
+  .list-inline > li {
+    display: inline-block;
+    padding: 0 !important;
+  }
+
+  .social-icons {
+    text-align: right;
+    margin: 3rem 0 8px;
+    float: none !important;
+
+    li {
+      padding: 0 !important;
+    }
+
+    img {
+      height: 32px;
+      width: 32px;
+      margin-left: 8px;
+    }
+  }
+
+  .col-md-2 {
+    > a {
+      display: inherit !important;
+    }
+  }
+
+// Responsive 1 col Layout for Mobile
+
+@include media-breakpoint-down(sm) {
+  .container.row {
+    flex-direction: column;
+
+    .col {
+      margin-bottom: 2rem;
+      
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+
+}

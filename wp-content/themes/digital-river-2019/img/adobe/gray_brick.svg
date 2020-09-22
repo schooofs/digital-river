@@ -1,0 +1,11 @@
+<svg width="480" height="550" version="1.1" id="graybox" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 617.1 513.9" style="enable-background:new 0 0 617.1 513.9;" xml:space="preserve">
+<style type="text/css">
+	.gray-st0{fill:#646469;}
+	.gray-st1{opacity:0.2;fill:#FFFFFF;enable-background:new    ;}
+	.gray-st2{opacity:0.4;fill:#FFFFFF;enable-background:new    ;}
+</style>
+<polygon class="gray-st0" points="309.4,513.9 617.1,335.3 617.1,179.7 617,177.6 309.4,0 0.6,178.2 0,178.5 0,335.3 307.7,512.9 "/>
+<polygon class="gray-st1" points="309.4,513.4 0,334.8 0,177 309.4,355.7 "/>
+<polygon class="gray-st2" points="617.1,334.8 309.7,513.4 309.7,355.7 617.1,177 "/>
+</svg>

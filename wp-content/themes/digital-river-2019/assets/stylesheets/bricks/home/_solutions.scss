@@ -1,0 +1,38 @@
+.brick-home-solutions {
+  padding: 4rem 0;
+
+  .preheading {
+    display: block;
+    text-transform: uppercase;
+    color: $light-blue;
+    font-size: 1rem;
+    letter-spacing: 0.025rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+
+  .heading {
+    font-size: 3rem;
+  }
+
+  a {
+    &:hover {
+      text-decoration: none;
+
+      .card-solution {
+        border: 1px solid $light-blue;
+        background-color: lighten($light-blue, 53);
+        transform: translateY(-0.5rem);
+        box-shadow: 0 0.75rem 0.5rem 0 rgba($light-blue, 0.05);
+
+        .icon-arrow {
+          transform: translateX(0.5rem);
+        }
+      }
+    }
+  }
+
+  .col-lg-4 {
+    margin-bottom: 1rem;
+  }
+}

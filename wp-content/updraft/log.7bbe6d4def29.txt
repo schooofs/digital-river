@@ -1,0 +1,392 @@
+0000.000 (0) Opened log file at time: Tue, 26 May 2015 08:31:29 +0000 on http://starsandbox.wpengine.com
+0000.023 (0) UpdraftPlus WordPress backup plugin (http://updraftplus.com): 1.9.64 WP: 4.2.2 PHP: 5.3.10-1ubuntu3.18 (Linux pod-10402 3.2.0-70-generic #105-Ubuntu SMP Wed Sep 24 19:49:16 UTC 2014 x86_64) MySQL: 5.5.43-37.2-log Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 71.3M | 80.3M) multisite: N mcrypt: Y LANG: C ZipArchive::addFile: Y
+0000.040 (0) Free space on disk containing Updraft's temporary directory: Unknown
+0000.057 (0) Tasks: Backup files: 0 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.086 (0) Requesting semaphore lock (d)
+0000.106 (0) Semaphore (d) was stuck, set lock time to 2015-05-26 08:31:29
+0000.124 (0) Semaphore (d) reset to 1
+0000.143 (0) Set semaphore last lock (d) time to 2015-05-26 08:31:29
+0000.160 (0) Semaphore lock (d) complete
+0000.494 (0) Backup run: resumption=0, nonce=7bbe6d4def29, begun at=1432629089 (0s ago), job type=backup
+0000.810 (0) Scheduling a resumption (1) after 300 seconds (1432629389) in case this run gets aborted
+0000.863 (0) This backup run is not intended for files - skipping
+0000.881 (0) Beginning creation of database dump (WordPress DB)
+0001.619 (0) Table drwp_options: Total expected rows (approximate): 1844
+0001.677 (0) Table drwp_options: Total rows added: 627 in 0.03 seconds
+0001.696 (0) Table drwp_options: finishing file (backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_options.table.gz - 92.2 Kb)
+0002.378 (0) Table drwp_users: Total expected rows (approximate): 67
+0002.403 (0) Table drwp_users: Total rows added: 67 in 0.01 seconds
+0002.426 (0) Table drwp_users: finishing file (backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_users.table.gz - 4.2 Kb)
+0002.909 (0) Table drwp_usermeta: Total expected rows (approximate): 1434
+0002.980 (0) Table drwp_usermeta: Total rows added: 1590 in 0.05 seconds
+0002.999 (0) Table drwp_usermeta: finishing file (backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_usermeta.table.gz - 18.3 Kb)
+0003.516 (0) Table drwp_blog_versions: Total expected rows (approximate): 0
+0003.537 (0) Table drwp_blog_versions: Total rows added: 0 in 0.00 seconds
+0003.558 (0) Table drwp_blog_versions: finishing file (backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_blog_versions.table.gz - 0.3 Kb)
+0004.070 (0) Table drwp_blogs: Total expected rows (approximate): 1
+0004.091 (0) Table drwp_blogs: Total rows added: 1 in 0.00 seconds
+0004.110 (0) Table drwp_blogs: finishing file (backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_blogs.table.gz - 0.5 Kb)
+0004.564 (0) Table drwp_commentmeta: Total expected rows (approximate): 34
+0004.587 (0) Table drwp_commentmeta: Total rows added: 34 in 0.00 seconds
+0004.606 (0) Table drwp_commentmeta: finishing file (backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_commentmeta.table.gz - 0.7 Kb)
+0005.113 (0) Table drwp_comments: Total expected rows (approximate): 21
+0005.140 (0) Table drwp_comments: Total rows added: 22 in 0.01 seconds
+0005.158 (0) Table drwp_comments: finishing file (backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_comments.table.gz - 28.2 Kb)
+0005.490 (0) Table drwp_links: Total expected rows (approximate): 0
+0005.511 (0) Table drwp_links: Total rows added: 0 in 0.00 seconds
+0005.530 (0) Table drwp_links: finishing file (backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_links.table.gz - 0.4 Kb)
+0005.976 (0) Table drwp_postmeta: Total expected rows (approximate): 206700
+0006.186 (0) [Warning] Table drwp_postmeta has very many rows (206700) - we hope your web hosting company gives you enough resources to dump out that table in the backup
+0025.722 (0) Table drwp_postmeta: Total rows added: 220344 in 19.52 seconds
+0026.008 (0) Table drwp_postmeta: finishing file (backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_postmeta.table.gz - 1868.3 Kb)
+0026.349 (0) Table drwp_posts: Total expected rows (approximate): 3440
+0026.811 (0) Table drwp_posts: Total rows added: 2801 in 0.44 seconds
+0026.830 (0) Table drwp_posts: finishing file (backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_posts.table.gz - 621.5 Kb)
+0027.207 (0) Table drwp_registration_log: Total expected rows (approximate): 0
+0027.232 (0) Table drwp_registration_log: Total rows added: 0 in 0.00 seconds
+0027.251 (0) Table drwp_registration_log: finishing file (backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_registration_log.table.gz - 0.4 Kb)
+0027.589 (0) Table drwp_signups: Total expected rows (approximate): 0
+0027.612 (0) Table drwp_signups: Total rows added: 0 in 0.00 seconds
+0027.630 (0) Table drwp_signups: finishing file (backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_signups.table.gz - 0.5 Kb)
+0028.059 (0) Table drwp_site: Total expected rows (approximate): 1
+0028.081 (0) Table drwp_site: Total rows added: 1 in 0.00 seconds
+0028.100 (0) Table drwp_site: finishing file (backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_site.table.gz - 0.4 Kb)
+0028.558 (0) Table drwp_sitemeta: Total expected rows (approximate): 36
+0028.581 (0) Table drwp_sitemeta: Total rows added: 36 in 0.00 seconds
+0028.600 (0) Table drwp_sitemeta: finishing file (backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_sitemeta.table.gz - 1.4 Kb)
+0029.076 (0) Table drwp_term_relationships: Total expected rows (approximate): 1102
+0029.111 (0) Table drwp_term_relationships: Total rows added: 1061 in 0.02 seconds
+0029.133 (0) Table drwp_term_relationships: finishing file (backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_term_relationships.table.gz - 3.3 Kb)
+0029.489 (0) Table drwp_term_taxonomy: Total expected rows (approximate): 219
+0029.518 (0) Table drwp_term_taxonomy: Total rows added: 219 in 0.01 seconds
+0029.538 (0) Table drwp_term_taxonomy: finishing file (backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_term_taxonomy.table.gz - 1.8 Kb)
+0029.892 (0) Table drwp_terms: Total expected rows (approximate): 218
+0029.920 (0) Table drwp_terms: Total rows added: 218 in 0.01 seconds
+0029.939 (0) Table drwp_terms: finishing file (backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_terms.table.gz - 3.3 Kb)
+0030.346 (0) Table drwp_adintegration: Total expected rows (approximate): 0
+0030.367 (0) Table drwp_adintegration: Total rows added: 0 in 0.00 seconds
+0030.387 (0) Table drwp_adintegration: finishing file (backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_adintegration.table.gz - 0.3 Kb)
+0030.722 (0) Table drwp_avhec_category_groups: Total expected rows (approximate): 4
+0030.744 (0) Table drwp_avhec_category_groups: Total rows added: 4 in 0.00 seconds
+0030.763 (0) Table drwp_avhec_category_groups: finishing file (backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_avhec_category_groups.table.gz - 0.3 Kb)
+0031.107 (0) Table drwp_cfs_values: Total expected rows (approximate): 0
+0031.129 (0) Table drwp_cfs_values: Total rows added: 0 in 0.00 seconds
+0031.149 (0) Table drwp_cfs_values: finishing file (backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_cfs_values.table.gz - 0.3 Kb)
+0031.490 (0) Table drwp_cpk_wpcsv_export_queue: Total expected rows (approximate): 1092
+0031.531 (0) Table drwp_cpk_wpcsv_export_queue: Total rows added: 1092 in 0.02 seconds
+0031.552 (0) Table drwp_cpk_wpcsv_export_queue: finishing file (backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_cpk_wpcsv_export_queue.table.gz - 6 Kb)
+0031.897 (0) Table drwp_cpk_wpcsv_log: Total expected rows (approximate): 3
+0031.932 (0) Table drwp_cpk_wpcsv_log: Total rows added: 3 in 0.00 seconds
+0031.968 (0) Table drwp_cpk_wpcsv_log: finishing file (backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_cpk_wpcsv_log.table.gz - 0.5 Kb)
+0032.327 (0) Table drwp_icl_cms_nav_cache: Total expected rows (approximate): 0
+0032.351 (0) Table drwp_icl_cms_nav_cache: Total rows added: 0 in 0.00 seconds
+0032.371 (0) Table drwp_icl_cms_nav_cache: finishing file (backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_icl_cms_nav_cache.table.gz - 0.3 Kb)
+0032.751 (0) Table drwp_icl_content_status: Total expected rows (approximate): 0
+0032.774 (0) Table drwp_icl_content_status: Total rows added: 0 in 0.00 seconds
+0032.794 (0) Table drwp_icl_content_status: finishing file (backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_icl_content_status.table.gz - 0.3 Kb)
+0033.180 (0) Table drwp_icl_core_status: Total expected rows (approximate): 0
+0033.204 (0) Table drwp_icl_core_status: Total rows added: 0 in 0.00 seconds
+0033.224 (0) Table drwp_icl_core_status: finishing file (backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_icl_core_status.table.gz - 0.3 Kb)
+0033.585 (0) Table drwp_icl_flags: Total expected rows (approximate): 64
+0033.609 (0) Table drwp_icl_flags: Total rows added: 64 in 0.00 seconds
+0033.629 (0) Table drwp_icl_flags: finishing file (backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_icl_flags.table.gz - 0.8 Kb)
+0033.986 (0) Table drwp_icl_languages: Total expected rows (approximate): 64
+0034.012 (0) Table drwp_icl_languages: Total rows added: 64 in 0.01 seconds
+0034.032 (0) Table drwp_icl_languages: finishing file (backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_icl_languages.table.gz - 1.5 Kb)
+0034.378 (0) Table drwp_icl_languages_translations: Total expected rows (approximate): 3974
+0034.519 (0) Table drwp_icl_languages_translations: Total rows added: 3974 in 0.12 seconds
+0034.542 (0) Table drwp_icl_languages_translations: finishing file (backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_icl_languages_translations.table.gz - 26 Kb)
+0034.931 (0) Table drwp_icl_locale_map: Total expected rows (approximate): 5
+0034.953 (0) Table drwp_icl_locale_map: Total rows added: 5 in 0.00 seconds
+0034.973 (0) Table drwp_icl_locale_map: finishing file (backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_icl_locale_map.table.gz - 0.3 Kb)
+0035.321 (0) Table drwp_icl_message_status: Total expected rows (approximate): 0
+0035.344 (0) Table drwp_icl_message_status: Total rows added: 0 in 0.00 seconds
+0035.364 (0) Table drwp_icl_message_status: finishing file (backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_icl_message_status.table.gz - 0.4 Kb)
+0035.707 (0) Table drwp_icl_node: Total expected rows (approximate): 0
+0035.733 (0) Table drwp_icl_node: Total rows added: 0 in 0.00 seconds
+0035.752 (0) Table drwp_icl_node: finishing file (backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_icl_node.table.gz - 0.3 Kb)
+0036.092 (0) Table drwp_icl_reminders: Total expected rows (approximate): 0
+0036.114 (0) Table drwp_icl_reminders: Total rows added: 0 in 0.00 seconds
+0036.133 (0) Table drwp_icl_reminders: finishing file (backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_icl_reminders.table.gz - 0.3 Kb)
+0036.472 (0) Table drwp_icl_string_positions: Total expected rows (approximate): 1
+0036.495 (0) Table drwp_icl_string_positions: Total rows added: 1 in 0.00 seconds
+0036.514 (0) Table drwp_icl_string_positions: finishing file (backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_icl_string_positions.table.gz - 0.4 Kb)
+0036.862 (0) Table drwp_icl_string_status: Total expected rows (approximate): 0
+0036.884 (0) Table drwp_icl_string_status: Total rows added: 0 in 0.00 seconds
+0036.904 (0) Table drwp_icl_string_status: finishing file (backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_icl_string_status.table.gz - 0.3 Kb)
+0037.253 (0) Table drwp_icl_string_translations: Total expected rows (approximate): 3493
+0037.405 (0) Table drwp_icl_string_translations: Total rows added: 3493 in 0.13 seconds
+0037.426 (0) Table drwp_icl_string_translations: finishing file (backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_icl_string_translations.table.gz - 85.4 Kb)
+0037.771 (0) Table drwp_icl_strings: Total expected rows (approximate): 3641
+0037.921 (0) Table drwp_icl_strings: Total rows added: 3641 in 0.13 seconds
+0037.941 (0) Table drwp_icl_strings: finishing file (backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_icl_strings.table.gz - 147.3 Kb)
+0038.290 (0) Table drwp_icl_translate: Total expected rows (approximate): 24325
+0039.833 (0) Table drwp_icl_translate: Total rows added: 24325 in 1.52 seconds
+0039.857 (0) Table drwp_icl_translate: finishing file (backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_icl_translate.table.gz - 748.1 Kb)
+0040.229 (0) Table drwp_icl_translate_job: Total expected rows (approximate): 481
+0040.262 (0) Table drwp_icl_translate_job: Total rows added: 481 in 0.01 seconds
+0040.281 (0) Table drwp_icl_translate_job: finishing file (backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_icl_translate_job.table.gz - 2.7 Kb)
+0040.666 (0) Table drwp_icl_translation_status: Total expected rows (approximate): 477
+0040.794 (0) Table drwp_icl_translation_status: Total rows added: 477 in 0.11 seconds
+0040.814 (0) Table drwp_icl_translation_status: finishing file (backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_icl_translation_status.table.gz - 308.3 Kb)
+0041.158 (0) Table drwp_icl_translations: Total expected rows (approximate): 2542
+0041.259 (0) Table drwp_icl_translations: Total rows added: 2542 in 0.08 seconds
+0041.279 (0) Table drwp_icl_translations: finishing file (backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_icl_translations.table.gz - 22.6 Kb)
+0041.619 (0) Table drwp_mf_custom_fields: Total expected rows (approximate): 0
+0041.641 (0) Table drwp_mf_custom_fields: Total rows added: 0 in 0.00 seconds
+0041.661 (0) Table drwp_mf_custom_fields: finishing file (backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_mf_custom_fields.table.gz - 0.4 Kb)
+0042.008 (0) Table drwp_mf_custom_groups: Total expected rows (approximate): 0
+0042.030 (0) Table drwp_mf_custom_groups: Total rows added: 0 in 0.00 seconds
+0042.049 (0) Table drwp_mf_custom_groups: finishing file (backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_mf_custom_groups.table.gz - 0.3 Kb)
+0042.399 (0) Table drwp_mf_custom_taxonomy: Total expected rows (approximate): 0
+0042.421 (0) Table drwp_mf_custom_taxonomy: Total rows added: 0 in 0.00 seconds
+0042.441 (0) Table drwp_mf_custom_taxonomy: finishing file (backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_mf_custom_taxonomy.table.gz - 0.3 Kb)
+0042.853 (0) Table drwp_mf_post_meta: Total expected rows (approximate): 0
+0042.875 (0) Table drwp_mf_post_meta: Total rows added: 0 in 0.00 seconds
+0042.894 (0) Table drwp_mf_post_meta: finishing file (backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_mf_post_meta.table.gz - 0.3 Kb)
+0043.243 (0) Table drwp_mf_posttypes: Total expected rows (approximate): 0
+0043.265 (0) Table drwp_mf_posttypes: Total rows added: 0 in 0.00 seconds
+0043.284 (0) Table drwp_mf_posttypes: finishing file (backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_mf_posttypes.table.gz - 0.3 Kb)
+0043.625 (0) Table drwp_pods_tests: Total expected rows (approximate): 0
+0043.651 (0) Table drwp_pods_tests: Total rows added: 0 in 0.00 seconds
+0043.670 (0) Table drwp_pods_tests: finishing file (backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_pods_tests.table.gz - 0.3 Kb)
+0044.012 (0) Table drwp_podsrel: Total expected rows (approximate): 0
+0044.034 (0) Table drwp_podsrel: Total rows added: 0 in 0.00 seconds
+0044.053 (0) Table drwp_podsrel: finishing file (backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_podsrel.table.gz - 0.4 Kb)
+0044.401 (0) Table drwp_relevanssi: Total expected rows (approximate): 99187
+0055.996 (0) Table drwp_relevanssi: Total rows added: 89444 in 11.57 seconds
+0056.019 (0) Table drwp_relevanssi: finishing file (backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_relevanssi.table.gz - 762.5 Kb)
+0056.372 (0) Table drwp_relevanssi_log: Total expected rows (approximate): 0
+0056.394 (0) Table drwp_relevanssi_log: Total rows added: 0 in 0.00 seconds
+0056.413 (0) Table drwp_relevanssi_log: finishing file (backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_relevanssi_log.table.gz - 0.4 Kb)
+0056.759 (0) Table drwp_relevanssi_stopwords: Total expected rows (approximate): 317
+0056.785 (0) Table drwp_relevanssi_stopwords: Total rows added: 317 in 0.01 seconds
+0056.805 (0) Table drwp_relevanssi_stopwords: finishing file (backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_relevanssi_stopwords.table.gz - 1.2 Kb)
+0057.152 (0) Table drwp_rg_form: Total expected rows (approximate): 0
+0057.175 (0) Table drwp_rg_form: Total rows added: 0 in 0.00 seconds
+0057.196 (0) Table drwp_rg_form: finishing file (backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_rg_form.table.gz - 0.3 Kb)
+0057.556 (0) Table drwp_rg_form_meta: Total expected rows (approximate): 0
+0057.579 (0) Table drwp_rg_form_meta: Total rows added: 0 in 0.00 seconds
+0057.599 (0) Table drwp_rg_form_meta: finishing file (backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_rg_form_meta.table.gz - 0.3 Kb)
+0057.950 (0) Table drwp_rg_form_view: Total expected rows (approximate): 0
+0057.973 (0) Table drwp_rg_form_view: Total rows added: 0 in 0.00 seconds
+0057.994 (0) Table drwp_rg_form_view: finishing file (backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_rg_form_view.table.gz - 0.3 Kb)
+0058.341 (0) Table drwp_rg_lead: Total expected rows (approximate): 0
+0058.363 (0) Table drwp_rg_lead: Total rows added: 0 in 0.00 seconds
+0058.383 (0) Table drwp_rg_lead: finishing file (backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_rg_lead.table.gz - 0.5 Kb)
+0058.761 (0) Table drwp_rg_lead_detail: Total expected rows (approximate): 0
+0058.783 (0) Table drwp_rg_lead_detail: Total rows added: 0 in 0.00 seconds
+0058.803 (0) Table drwp_rg_lead_detail: finishing file (backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_rg_lead_detail.table.gz - 0.3 Kb)
+0059.138 (0) Table drwp_rg_lead_detail_long: Total expected rows (approximate): 0
+0059.161 (0) Table drwp_rg_lead_detail_long: Total rows added: 0 in 0.00 seconds
+0059.181 (0) Table drwp_rg_lead_detail_long: finishing file (backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_rg_lead_detail_long.table.gz - 0.3 Kb)
+0059.528 (0) Table drwp_rg_lead_meta: Total expected rows (approximate): 0
+0059.550 (0) Table drwp_rg_lead_meta: Total rows added: 0 in 0.00 seconds
+0059.571 (0) Table drwp_rg_lead_meta: finishing file (backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_rg_lead_meta.table.gz - 0.4 Kb)
+0059.976 (0) Table drwp_rg_lead_notes: Total expected rows (approximate): 0
+0059.999 (0) Table drwp_rg_lead_notes: Total rows added: 0 in 0.00 seconds
+0060.019 (0) Table drwp_rg_lead_notes: finishing file (backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_rg_lead_notes.table.gz - 0.4 Kb)
+0060.366 (0) Table drwp_wsal_metadata: Total expected rows (approximate): 476
+0060.399 (0) Table drwp_wsal_metadata: Total rows added: 403 in 0.01 seconds
+0060.420 (0) Table drwp_wsal_metadata: finishing file (backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_wsal_metadata.table.gz - 3.9 Kb)
+0060.765 (0) Table drwp_wsal_occurrences: Total expected rows (approximate): 80
+0060.790 (0) Table drwp_wsal_occurrences: Total rows added: 80 in 0.01 seconds
+0060.811 (0) Table drwp_wsal_occurrences: finishing file (backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_wsal_occurrences.table.gz - 1.3 Kb)
+0061.149 (0) Table drwp_wysija_campaign: Total expected rows (approximate): 2
+0061.171 (0) Table drwp_wysija_campaign: Total rows added: 2 in 0.00 seconds
+0061.191 (0) Table drwp_wysija_campaign: finishing file (backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_wysija_campaign.table.gz - 0.4 Kb)
+0061.539 (0) Table drwp_wysija_campaign_list: Total expected rows (approximate): 1
+0061.565 (0) Table drwp_wysija_campaign_list: Total rows added: 1 in 0.00 seconds
+0061.586 (0) Table drwp_wysija_campaign_list: finishing file (backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_wysija_campaign_list.table.gz - 0.3 Kb)
+0062.005 (0) Table drwp_wysija_custom_field: Total expected rows (approximate): 0
+0062.027 (0) Table drwp_wysija_custom_field: Total rows added: 0 in 0.00 seconds
+0062.048 (0) Table drwp_wysija_custom_field: finishing file (backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_wysija_custom_field.table.gz - 0.3 Kb)
+0062.464 (0) Table drwp_wysija_email: Total expected rows (approximate): 4
+0062.490 (0) Table drwp_wysija_email: Total rows added: 4 in 0.01 seconds
+0062.513 (0) Table drwp_wysija_email: finishing file (backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_wysija_email.table.gz - 15.1 Kb)
+0062.926 (0) Table drwp_wysija_email_user_stat: Total expected rows (approximate): 0
+0062.947 (0) Table drwp_wysija_email_user_stat: Total rows added: 0 in 0.00 seconds
+0062.970 (0) Table drwp_wysija_email_user_stat: finishing file (backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_wysija_email_user_stat.table.gz - 0.3 Kb)
+0063.394 (0) Table drwp_wysija_email_user_url: Total expected rows (approximate): 0
+0063.417 (0) Table drwp_wysija_email_user_url: Total rows added: 0 in 0.00 seconds
+0063.437 (0) Table drwp_wysija_email_user_url: finishing file (backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_wysija_email_user_url.table.gz - 0.3 Kb)
+0063.855 (0) Table drwp_wysija_form: Total expected rows (approximate): 2
+0063.879 (0) Table drwp_wysija_form: Total rows added: 2 in 0.00 seconds
+0063.901 (0) Table drwp_wysija_form: finishing file (backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_wysija_form.table.gz - 1.3 Kb)
+0064.251 (0) Table drwp_wysija_list: Total expected rows (approximate): 4
+0064.275 (0) Table drwp_wysija_list: Total rows added: 4 in 0.00 seconds
+0064.296 (0) Table drwp_wysija_list: finishing file (backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_wysija_list.table.gz - 0.6 Kb)
+0064.754 (0) Table drwp_wysija_queue: Total expected rows (approximate): 0
+0064.777 (0) Table drwp_wysija_queue: Total rows added: 0 in 0.00 seconds
+0064.797 (0) Table drwp_wysija_queue: finishing file (backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_wysija_queue.table.gz - 0.3 Kb)
+0065.283 (0) Table drwp_wysija_url: Total expected rows (approximate): 0
+0065.308 (0) Table drwp_wysija_url: Total rows added: 0 in 0.00 seconds
+0065.328 (0) Table drwp_wysija_url: finishing file (backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_wysija_url.table.gz - 0.3 Kb)
+0065.729 (0) Table drwp_wysija_url_mail: Total expected rows (approximate): 0
+0065.751 (0) Table drwp_wysija_url_mail: Total rows added: 0 in 0.00 seconds
+0065.772 (0) Table drwp_wysija_url_mail: finishing file (backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_wysija_url_mail.table.gz - 0.3 Kb)
+0066.197 (0) Table drwp_wysija_user: Total expected rows (approximate): 325
+0066.241 (0) Table drwp_wysija_user: Total rows added: 325 in 0.02 seconds
+0066.261 (0) Table drwp_wysija_user: finishing file (backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_wysija_user.table.gz - 14.1 Kb)
+0066.712 (0) Table drwp_wysija_user_field: Total expected rows (approximate): 4
+0066.735 (0) Table drwp_wysija_user_field: Total rows added: 4 in 0.00 seconds
+0066.756 (0) Table drwp_wysija_user_field: finishing file (backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_wysija_user_field.table.gz - 0.5 Kb)
+0067.105 (0) Table drwp_wysija_user_history: Total expected rows (approximate): 0
+0067.127 (0) Table drwp_wysija_user_history: Total rows added: 0 in 0.00 seconds
+0067.147 (0) Table drwp_wysija_user_history: finishing file (backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_wysija_user_history.table.gz - 0.3 Kb)
+0067.505 (0) Table drwp_wysija_user_list: Total expected rows (approximate): 652
+0067.540 (0) Table drwp_wysija_user_list: Total rows added: 652 in 0.01 seconds
+0067.561 (0) Table drwp_wysija_user_list: finishing file (backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_wysija_user_list.table.gz - 2 Kb)
+0067.871 (0) Skipping table (lacks our prefix (drwp_)): wp_ahm_download_stats
+0067.891 (0) Skipping table (lacks our prefix (drwp_)): wp_commentmeta
+0067.911 (0) Skipping table (lacks our prefix (drwp_)): wp_comments
+0067.932 (0) Skipping table (lacks our prefix (drwp_)): wp_download_log
+0067.954 (0) Skipping table (lacks our prefix (drwp_)): wp_edd_customers
+0067.975 (0) Skipping table (lacks our prefix (drwp_)): wp_fc_action
+0067.995 (0) Skipping table (lacks our prefix (drwp_)): wp_fc_action_history
+0068.015 (0) Skipping table (lacks our prefix (drwp_)): wp_fc_emails
+0068.035 (0) Skipping table (lacks our prefix (drwp_)): wp_fc_workflow_steps
+0068.055 (0) Skipping table (lacks our prefix (drwp_)): wp_fc_workflows
+0068.078 (0) Skipping table (lacks our prefix (drwp_)): wp_links
+0068.100 (0) Skipping table (lacks our prefix (drwp_)): wp_mrc
+0068.121 (0) Skipping table (lacks our prefix (drwp_)): wp_options
+0068.140 (0) Skipping table (lacks our prefix (drwp_)): wp_postmeta
+0068.159 (0) Skipping table (lacks our prefix (drwp_)): wp_posts
+0068.178 (0) Skipping table (lacks our prefix (drwp_)): wp_pp_group_members
+0068.197 (0) Skipping table (lacks our prefix (drwp_)): wp_pp_groups
+0068.216 (0) Skipping table (lacks our prefix (drwp_)): wp_ppc_exception_items
+0068.236 (0) Skipping table (lacks our prefix (drwp_)): wp_ppc_exceptions
+0068.255 (0) Skipping table (lacks our prefix (drwp_)): wp_ppc_roles
+0068.275 (0) Skipping table (lacks our prefix (drwp_)): wp_term_relationships
+0068.295 (0) Skipping table (lacks our prefix (drwp_)): wp_term_taxonomy
+0068.313 (0) Skipping table (lacks our prefix (drwp_)): wp_terms
+0068.332 (0) Skipping table (lacks our prefix (drwp_)): wp_usermeta
+0068.351 (0) Skipping table (lacks our prefix (drwp_)): wp_users
+0068.370 (0) Skipping table (lacks our prefix (drwp_)): wp_wpfb_cats
+0068.388 (0) Skipping table (lacks our prefix (drwp_)): wp_wpfb_files
+0068.407 (0) Skipping table (lacks our prefix (drwp_)): wp_wpfb_files_id3
+0068.426 (0) Skipping table (lacks our prefix (drwp_)): wp_wysija_campaign
+0068.445 (0) Skipping table (lacks our prefix (drwp_)): wp_wysija_campaign_list
+0068.465 (0) Skipping table (lacks our prefix (drwp_)): wp_wysija_custom_field
+0068.484 (0) Skipping table (lacks our prefix (drwp_)): wp_wysija_email
+0068.503 (0) Skipping table (lacks our prefix (drwp_)): wp_wysija_email_user_stat
+0068.522 (0) Skipping table (lacks our prefix (drwp_)): wp_wysija_email_user_url
+0068.541 (0) Skipping table (lacks our prefix (drwp_)): wp_wysija_form
+0068.560 (0) Skipping table (lacks our prefix (drwp_)): wp_wysija_list
+0068.579 (0) Skipping table (lacks our prefix (drwp_)): wp_wysija_queue
+0068.599 (0) Skipping table (lacks our prefix (drwp_)): wp_wysija_url
+0068.618 (0) Skipping table (lacks our prefix (drwp_)): wp_wysija_url_mail
+0068.639 (0) Skipping table (lacks our prefix (drwp_)): wp_wysija_user
+0068.659 (0) Skipping table (lacks our prefix (drwp_)): wp_wysija_user_field
+0068.679 (0) Skipping table (lacks our prefix (drwp_)): wp_wysija_user_history
+0068.698 (0) Skipping table (lacks our prefix (drwp_)): wp_wysija_user_list
+0068.719 (0) backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_options.table.gz (1/118): adding to final database dump
+0068.758 (0) backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_users.table.gz (2/118): adding to final database dump
+0068.779 (0) backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_usermeta.table.gz (3/118): adding to final database dump
+0068.808 (0) backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_blog_versions.table.gz (4/118): adding to final database dump
+0068.827 (0) backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_blogs.table.gz (5/118): adding to final database dump
+0068.846 (0) backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_commentmeta.table.gz (6/118): adding to final database dump
+0068.866 (0) backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_comments.table.gz (7/118): adding to final database dump
+0068.891 (0) backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_links.table.gz (8/118): adding to final database dump
+0068.913 (0) backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_postmeta.table.gz (9/118): adding to final database dump
+0070.092 (0) backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_posts.table.gz (10/118): adding to final database dump
+0070.260 (0) backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_registration_log.table.gz (11/118): adding to final database dump
+0070.280 (0) backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_signups.table.gz (12/118): adding to final database dump
+0070.301 (0) backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_site.table.gz (13/118): adding to final database dump
+0070.320 (0) backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_sitemeta.table.gz (14/118): adding to final database dump
+0070.342 (0) backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_term_relationships.table.gz (15/118): adding to final database dump
+0070.365 (0) backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_term_taxonomy.table.gz (16/118): adding to final database dump
+0070.386 (0) backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_terms.table.gz (17/118): adding to final database dump
+0070.408 (0) backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_adintegration.table.gz (18/118): adding to final database dump
+0070.428 (0) backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_avhec_category_groups.table.gz (19/118): adding to final database dump
+0070.448 (0) backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_cfs_values.table.gz (20/118): adding to final database dump
+0070.469 (0) backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_cpk_wpcsv_export_queue.table.gz (21/118): adding to final database dump
+0070.493 (0) backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_cpk_wpcsv_log.table.gz (22/118): adding to final database dump
+0070.512 (0) backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_icl_cms_nav_cache.table.gz (23/118): adding to final database dump
+0070.532 (0) backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_icl_content_status.table.gz (24/118): adding to final database dump
+0070.553 (0) backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_icl_core_status.table.gz (25/118): adding to final database dump
+0070.575 (0) backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_icl_flags.table.gz (26/118): adding to final database dump
+0070.595 (0) backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_icl_languages.table.gz (27/118): adding to final database dump
+0070.614 (0) backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_icl_languages_translations.table.gz (28/118): adding to final database dump
+0070.653 (0) backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_icl_locale_map.table.gz (29/118): adding to final database dump
+0070.673 (0) backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_icl_message_status.table.gz (30/118): adding to final database dump
+0070.693 (0) backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_icl_node.table.gz (31/118): adding to final database dump
+0070.715 (0) backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_icl_reminders.table.gz (32/118): adding to final database dump
+0070.735 (0) backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_icl_string_positions.table.gz (33/118): adding to final database dump
+0070.755 (0) backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_icl_string_status.table.gz (34/118): adding to final database dump
+0070.775 (0) backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_icl_string_translations.table.gz (35/118): adding to final database dump
+0070.824 (0) backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_icl_strings.table.gz (36/118): adding to final database dump
+0070.880 (0) backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_icl_translate.table.gz (37/118): adding to final database dump
+0071.123 (0) backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_icl_translate_job.table.gz (38/118): adding to final database dump
+0071.146 (0) backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_icl_translation_status.table.gz (39/118): adding to final database dump
+0071.250 (0) backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_icl_translations.table.gz (40/118): adding to final database dump
+0071.284 (0) backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_mf_custom_fields.table.gz (41/118): adding to final database dump
+0071.304 (0) backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_mf_custom_groups.table.gz (42/118): adding to final database dump
+0071.324 (0) backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_mf_custom_taxonomy.table.gz (43/118): adding to final database dump
+0071.344 (0) backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_mf_post_meta.table.gz (44/118): adding to final database dump
+0071.366 (0) backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_mf_posttypes.table.gz (45/118): adding to final database dump
+0071.386 (0) backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_pods_tests.table.gz (46/118): adding to final database dump
+0071.406 (0) backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_podsrel.table.gz (47/118): adding to final database dump
+0071.426 (0) backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_relevanssi.table.gz (48/118): adding to final database dump
+0071.915 (0) backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_relevanssi_log.table.gz (49/118): adding to final database dump
+0071.935 (0) backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_relevanssi_stopwords.table.gz (50/118): adding to final database dump
+0071.956 (0) backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_rg_form.table.gz (51/118): adding to final database dump
+0071.976 (0) backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_rg_form_meta.table.gz (52/118): adding to final database dump
+0071.995 (0) backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_rg_form_view.table.gz (53/118): adding to final database dump
+0072.015 (0) backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_rg_lead.table.gz (54/118): adding to final database dump
+0072.035 (0) backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_rg_lead_detail.table.gz (55/118): adding to final database dump
+0072.054 (0) backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_rg_lead_detail_long.table.gz (56/118): adding to final database dump
+0072.073 (0) backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_rg_lead_meta.table.gz (57/118): adding to final database dump
+0072.093 (0) backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_rg_lead_notes.table.gz (58/118): adding to final database dump
+0072.113 (0) backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_wsal_metadata.table.gz (59/118): adding to final database dump
+0072.138 (0) backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_wsal_occurrences.table.gz (60/118): adding to final database dump
+0072.157 (0) backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_wysija_campaign.table.gz (61/118): adding to final database dump
+0072.175 (0) backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_wysija_campaign_list.table.gz (62/118): adding to final database dump
+0072.194 (0) backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_wysija_custom_field.table.gz (63/118): adding to final database dump
+0072.213 (0) backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_wysija_email.table.gz (64/118): adding to final database dump
+0072.235 (0) backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_wysija_email_user_stat.table.gz (65/118): adding to final database dump
+0072.258 (0) backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_wysija_email_user_url.table.gz (66/118): adding to final database dump
+0072.277 (0) backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_wysija_form.table.gz (67/118): adding to final database dump
+0072.296 (0) backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_wysija_list.table.gz (68/118): adding to final database dump
+0072.315 (0) backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_wysija_queue.table.gz (69/118): adding to final database dump
+0072.334 (0) backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_wysija_url.table.gz (70/118): adding to final database dump
+0072.353 (0) backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_wysija_url_mail.table.gz (71/118): adding to final database dump
+0072.371 (0) backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_wysija_user.table.gz (72/118): adding to final database dump
+0072.394 (0) backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_wysija_user_field.table.gz (73/118): adding to final database dump
+0072.413 (0) backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_wysija_user_history.table.gz (74/118): adding to final database dump
+0072.431 (0) backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db-table-drwp_wysija_user_list.table.gz (75/118): adding to final database dump
+0072.452 (0) backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db.gz: finished writing out complete database file (4784 Kb)
+0072.824 (0) Total database tables backed up: 75 (backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db.gz, size: 4917120, checksum (SHA1): a2af61ce1326b896e5f45a95fa666592a8016d51)
+0073.105 (0) Saving backup history
+0073.175 (0) backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db.gz: db: This file has not yet been successfully uploaded: will queue
+0073.215 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0073.726 (0) Cloud backup selection (1/1): none (last)
+0073.747 (0) No remote despatch: user chose no remote backup service
+0073.934 (0) Recording as successfully uploaded: backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db.gz (11a8f805f677962a4c6c6b57a55ff3a7)
+0074.733 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=3, retain_db=10
+0074.756 (0) Number of backup sets in history: 6
+0074.776 (0) Examining backup set with datestamp: 1432629089 (May 26 2015 08:31:29)
+0074.801 (0) 1432629089: db: this set includes a database (backup_2015-05-26-0331_Digital_River_7bbe6d4def29-db.gz); db count is now 1
+0074.986 (0) 1432629089: this backup set remains non-empty (0/1); will retain in history
+0075.009 (0) Examining backup set with datestamp: 1432115280 (May 20 2015 09:48:00)
+0075.031 (0) 1432115280: db: this set includes a database (backup_2015-05-20-0448_Digital_River_cd0d15707eca-db.gz); db count is now 2
+0075.219 (0) 1432115280: this backup set remains non-empty (0/1); will retain in history
+0075.248 (0) Examining backup set with datestamp: 1432058700 (May 19 2015 18:05:00)
+0075.269 (0) 1432058700: db: this set includes a database (backup_2015-05-19-1305_Digital_River_ce25c3078794-db.gz); db count is now 3
+0075.453 (0) 1432058700: this backup set remains non-empty (0/1); will retain in history
+0075.478 (0) Examining backup set with datestamp: 1432050736 (May 19 2015 15:52:16)
+0075.499 (0) 1432050736: db: this set includes a database (backup_2015-05-19-1052_Digital_River_7520a9060479-db.gz); db count is now 4
+0075.684 (0) 1432050736: this backup set remains non-empty (0/1); will retain in history
+0075.708 (0) Examining backup set with datestamp: 1431962581 (May 18 2015 15:23:01)
+0075.728 (0) 1431962581: db: this set includes a database (backup_2015-05-18-1023_Digital_River_34f51329be5e-db.gz); db count is now 5
+0075.947 (0) 1431962581: this backup set remains non-empty (0/1); will retain in history
+0075.970 (0) Examining backup set with datestamp: 1431938459 (May 18 2015 08:40:59)
+0075.989 (0) 1431938459: db: this set includes a database (backup_2015-05-18-0340_Digital_River_df28bee81400-db.gz); db count is now 6
+0076.172 (0) 1431938459: this backup set remains non-empty (1/1); will retain in history
+0076.201 (0) Retain: saving new backup history (sets now: 6) and finishing retain operation
+0076.248 (0) Resume backup (7bbe6d4def29, 0): finish run
+0076.292 (0) Decremented the semaphore (d) by 1
+0076.318 (0) Semaphore (d) unlocked
+0076.338 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0076.551 (0) No email will/can be sent - the user has not configured an email address.
+0076.571 (0) The backup apparently succeeded and is now complete

@@ -1,0 +1,80 @@
+.video-text {
+    padding: rem 0 .5rem;
+    background-color: #e1f6fe;
+    // background-image: url(alex-img/bg-video-text.svg); 
+    background-size: cover;  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    
+
+    &--video {
+
+        width: 100%;
+
+        @media(min-width:$screen-sm-min) {
+        top: 3rem;
+        padding: 1rem 0 0;
+        }
+    }
+
+    @include media-breakpoint-down(sm) {
+        .carousel-inner {
+            padding-top: 3rem;
+        }
+    }
+
+    @include media-breakpoint-up(md) {
+        .carousel-inner {
+            // padding-bottom: 3rem;
+            padding-bottom: 0;
+            overflow: visible;
+        }
+    }
+
+    .carousel-indicators {
+        // bottom: -56px;
+        position: absolute;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        padding-bottom: 0;
+        bottom: 0;
+        left: 25%;
+
+            @include media-breakpoint-down(md) {
+                left: 12.5%;
+            }
+
+            @include media-breakpoint-down(sm) {
+                left: 0%;
+            }
+
+
+        li {
+            background: $white;
+        }
+
+        .active {
+            background: $green;
+        }
+    }
+
+
+    h2 {
+        margin-bottom: 1.25rem;
+        margin-top: 2rem;
+        
+        @media(min-width:$screen-sm-min) {
+             margin-top: 3rem;
+            }
+     
+    }
+
+    p {
+        color: $body-color;
+        padding-bottom: 3rem;
+    }
+
+
+}

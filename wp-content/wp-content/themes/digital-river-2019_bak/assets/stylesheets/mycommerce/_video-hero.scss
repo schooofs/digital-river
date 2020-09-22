@@ -1,0 +1,7 @@
+.video-hero {
+	.h1 {
+		@media(min-width:$screen-md-min) {
+			font-size: 7rem;
+		}
+	}
+}

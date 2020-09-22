@@ -1,0 +1,294 @@
+body {
+font-family: $arial;   
+}
+p{
+    font-size: 1em;
+    line-height: 1.25;
+}
+ul, li {
+    list-style: none;
+}
+ol li{
+  list-style:decimal;
+}
+ol{
+  padding-left: 1.2em;    
+}
+ul.bullet-list {
+    padding-left: 1.2em;    
+    
+    li {
+    list-style: initial;   
+    line-height: 1.1em;
+    padding-bottom: 0.4em;
+    }    
+}
+ul.no-bullet {
+    list-style: none;
+    li {
+        list-style: none;
+    }
+}
+.sub-12-no-margin {
+    .col-md-12 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+.green-button {
+    line-height: 1em;
+    color: $white;
+    background: none repeat scroll 0% 0% $green;
+    display: inline-block;
+    text-decoration: none;
+    font-family: $eng;
+    float: left;
+    clear: left;
+    padding: 0.5em 0.6em;
+    
+}
+.blue-box {
+    color: $white;
+    background: $blue;
+    border: 1em $blue-light solid;
+}
+.green-box {
+    color: $white;
+    background: $green;
+    border: 1em $green-light solid;
+
+}
+.purple-box {
+    color: $white;
+    background: $purple;
+    border: 1em $purple-light solid;
+
+}
+.green-under-line,.eye-brow {
+  font-family: $med;
+  color: $darkGray;
+  border-bottom: 5px solid $green;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: $font-size-green-under-line;
+}
+.cta_box {
+    padding: 2em;
+}
+
+.slide{
+  padding:30px 0;
+
+  &.map-bg{
+      background-image:url("../../payments/map.png");
+      background-size:cover;
+  }
+
+  &.option{
+    &.top-plus{
+      padding-top: 45px;
+    }
+    &.bottom-plus{
+      padding-bottom: 45px;
+    }
+    &.bottom-double{
+      padding-bottom: 60px;
+    }
+    &.top-double{
+      padding-top: 60px;
+    }
+  }
+}
+.blue-bg {
+    background-color: $blue;
+    color: $white;
+}
+
+.lblue-bg{
+    background-color: $lightBlue;
+    color: $white;
+}
+.orange-bg, .orange-bg p {
+    background-color: $orange;
+    color: $white;
+}
+.green-bg {
+    background-color: $green;
+}
+
+.lgreen-bg {
+    background-color: $green-light;
+}
+
+.gray-bg {
+background-color: $medGray;    
+color:$white;
+}
+.lgray-bg {
+    background-color: $lightGray;
+}
+
+
+
+.white-bg{
+  background:$white;
+}
+
+.med-gray-color{
+  color:$nineGray;
+}
+
+.black {
+    color: $black;
+}
+
+.white {
+  color: $white;
+}
+
+.green {
+  color:$green;
+}
+
+.section_heading {
+    font-family: $arial;
+        font-size: 1.35em;
+    margin-bottom: 0.25em;
+    margin-top: 0;
+}
+
+
+.image-wrapper, .media_container , .media_container img, .full-width-image img , .full-width-image img a, .full-width-image  {
+    width: 100%;
+}
+.image-wrapper {
+    img {
+        width: 100%;
+    }
+}
+    
+.content_container .container {
+padding-top: 1em;
+padding-bottom: 3em;    
+}
+
+
+
+//logo
+.logo{
+    //fill this out
+}
+
+// NEED DEFAULTS FOR UL and LI
+
+
+
+// eyebrow tag
+
+.eyebrow{
+    margin: 30px 0px 20px;
+    padding: 0px 2px;
+    font-family: $med;
+    color: $black;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    border-bottom: 6px solid $green;
+    display: inline-block;
+    line-height: 1;
+
+    &.option{
+        &.no-margin{
+           margin:0;
+        }
+    }
+}
+
+// sections - Swapout all .section with either section or p tags (p with margin-bottom)
+.section, p {
+    font-size: 1.1em;
+    line-height: 1.15;    
+}
+.section {
+  display:inline-block;
+ }
+p {  
+    font-family: $arial;
+    margin-bottom: 1em;
+}
+
+#resources{
+  .detailed-list-item {
+      margin-bottom:0;
+  }
+}
+
+.detailed-list-item {
+    margin-top:20px;
+    margin-bottom:25px;
+    display:inline-block;
+
+    &:first-child {
+        border:none;
+    }
+
+    img{
+        width: 100%;
+
+        &.border{
+            border:solid 1px $medMedGray;
+        }
+    }
+
+    .tag {
+      font-size:1em;
+      color:$green;
+      margin:0 0 7px;
+    }
+
+    a {
+      margin:0px 0px 10px;
+      text-decoration:none;
+      font-size:1.1em;
+    }
+    .title {
+      font-size:1.4em;
+      line-height: 1.15;
+      margin:0 0 5px;
+      color:$black;
+      font-family:  $med;
+    }
+
+    .sub_title{
+        font-size:1em;
+        font-family:$med;
+        color:$medGray;
+    }  
+
+    p.description, .description {
+      font-size:1em;
+      color:$black;
+      line-height:1.25;
+      margin:0 0 5px;
+    }
+
+    .meta-info-wrapper{
+        color:$darkGray;
+
+        span{
+            margin:0 10px 0 0;
+          
+            i{
+                margin:0 5px 0 0;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+.mobile-overlay {
+display: none;    
+} 

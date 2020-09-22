@@ -1,0 +1,75 @@
+.brick-partners-slider {
+    h2 {
+        text-align: center;
+    }
+
+    .glide {
+        margin: 3rem auto;
+        max-width: calc(100% - 6rem);
+
+        ul {
+            li {
+                width: 20%;
+
+
+            }
+        }
+
+        .glide__arrow {
+            box-shadow: none;
+            color: $blue;
+            margin-top: 0rem;
+
+            img {
+                width: 15px;
+                opacity: .6;
+                transition: .4s;
+            }
+
+            &:hover img {
+                opacity: 1;
+            }
+
+            &.glide__arrow--right {
+                right: -3.5rem;
+            }
+
+            &.glide__arrow--left {
+                left: -3.5rem;
+
+                img {
+                    transform: rotate(180deg);
+                    transform-origin: center center;
+                }
+            }
+        }
+    }
+
+
+    .partners-carousel--static {
+        margin: 3rem auto;
+        max-width: calc(100% - 6rem);
+        flex-direction: column;
+
+        .background-img {
+            margin-bottom: 1rem;
+            background-size: contain;
+        }
+
+        @include media-breakpoint-up(md) {
+            flex-direction: row;
+
+            .background-img {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    .background-img {
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        width: 90%;
+        height: 5rem;
+    }
+}

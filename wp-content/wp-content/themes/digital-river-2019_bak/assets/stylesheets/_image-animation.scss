@@ -1,0 +1,91 @@
+#fullServiceModels {
+    width: 100%;
+    max-width: 550px
+}
+
+@media (min-width:325px) {
+    #fullServiceModels g {
+        opacity: 0
+    }
+
+    #fullServiceModels #farLine {
+        -webkit-transform: translate(-65%, -76%);
+        transform: translate(-65%, -76%);
+        -webkit-transition: transform 1s .5s, opacity 1s .5s;
+        transition: transform 1s .5s, opacity 1s .5s;
+        transition-timing-function: cubic-bezier(.67, .15, .23, .91)
+    }
+
+    #fullServiceModels #closeLine {
+        -webkit-transform: translate(65%, 85%);
+        transform: translate(65%, 85%);
+        -webkit-transition: transform 1s .5s, opacity 1s .5s;
+        transition: transform 1s .5s, opacity 1s .5s;
+        transition-timing-function: cubic-bezier(.67, .15, .23, .91)
+    }
+
+    #fullServiceModels #rightRoadBlock {
+        -webkit-transform: translate(35%, 30%);
+        transform: translate(35%, 30%);
+        -webkit-transition: transform 1s .7s, opacity 1s .6s;
+        transition: transform 1s .7s, opacity 1s .6s;
+        transition-timing-function: cubic-bezier(.67, .15, .23, .91)
+    }
+
+    #fullServiceModels #leftRoadBlock {
+        -webkit-transform: translate(-22%, 20%);
+        transform: translate(-22%, 20%);
+        -webkit-transition: transform 1s .7s, opacity 1s .6s;
+        transition: transform 1s .7s, opacity 1s .6s;
+        transition-timing-function: cubic-bezier(.67, .15, .23, .91)
+    }
+
+    #fullServiceModels #bank {
+        -webkit-transform: translate(-50%, -30%);
+        transform: translate(-50%, -30%);
+        -webkit-transition: transform 1s .7s, opacity 1s .6s;
+        transition: transform 1s .7s, opacity 1s .6s;
+        transition-timing-function: cubic-bezier(.67, .15, .23, .91)
+    }
+
+    #fullServiceModels #files {
+        -webkit-transform: translate(35%, 20%);
+        transform: translate(35%, 20%);
+        -webkit-transition: transform 1s .5s, opacity 1s .6s;
+        transition: transform 1s .5s, opacity 1s .6s;
+        transition-timing-function: cubic-bezier(.67, .15, .23, .91)
+    }
+
+    #fullServiceModels #currency {
+        -webkit-transform: translate(-20%, 17%);
+        transform: translate(-20%, 17%);
+        -webkit-transition: transform 1s .3s, opacity 1s .3s;
+        transition: transform 1s .3s, opacity 1s .3s;
+        transition-timing-function: cubic-bezier(.67, .15, .23, .91)
+    }
+
+    #fullServiceModels #screen {
+        -webkit-transform: translate(39%, -57%);
+        transform: translate(39%, -57%);
+        -webkit-transition: transform 1s .5s, opacity 1s .5s;
+        transition: transform 1s .5s, opacity 1s .5s;
+        transition-timing-function: cubic-bezier(.67, .15, .23, .91)
+    }
+
+    .featured-image.animated #fullServiceModels g {
+        opacity: 1
+    }
+
+    .featured-image.animated #fullServiceModels #bank,
+    .featured-image.animated #fullServiceModels #cards,
+    .featured-image.animated #fullServiceModels #closeLine,
+    .featured-image.animated #fullServiceModels #currency,
+    .featured-image.animated #fullServiceModels #farLine,
+    .featured-image.animated #fullServiceModels #files,
+    .featured-image.animated #fullServiceModels #leftRoadBlock,
+    .featured-image.animated #fullServiceModels #rightRoadBlock,
+    .featured-image.animated #fullServiceModels #screen {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0)
+    }
+}

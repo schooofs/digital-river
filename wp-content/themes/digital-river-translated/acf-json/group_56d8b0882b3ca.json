@@ -1,0 +1,309 @@
+{
+    "key": "group_56d8b0882b3ca",
+    "title": "Resources Page",
+    "fields": [
+        {
+            "key": "field_54c59ce77264f",
+            "label": "Grid Box",
+            "name": "grid_box",
+            "type": "repeater",
+            "instructions": "This an outer box or a wrapper for boxes.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "row_min": "",
+            "row_limit": "",
+            "layout": "row",
+            "button_label": "Add Row",
+            "min": 0,
+            "max": 0,
+            "collapsed": "",
+            "sub_fields": [
+                {
+                    "key": "field_54c59d9c72650",
+                    "label": "Outer Box Width",
+                    "name": "width",
+                    "type": "select",
+                    "instructions": "Specify the width of the outer box. The inner boxes in this outer box will have this width.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "col1": "25 Percent",
+                        "col2": "50 Percent"
+                    },
+                    "default_value": [
+                        
+                    ],
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 0,
+                    "ajax": 0,
+                    "placeholder": "",
+                    "disabled": 0,
+                    "readonly": 0
+                },
+                {
+                    "key": "field_54c59e4072651",
+                    "label": "Inner Box",
+                    "name": "box",
+                    "type": "repeater",
+                    "instructions": "Add up to three inner boxes.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "row_min": "",
+                    "row_limit": "",
+                    "layout": "row",
+                    "button_label": "Add Inner Box",
+                    "min": 0,
+                    "max": 0,
+                    "collapsed": "",
+                    "sub_fields": [
+                        {
+                            "key": "field_54c59e8c72652",
+                            "label": "Hover Effect",
+                            "name": "effect",
+                            "type": "select",
+                            "instructions": "Select the type of effect on hover.",
+                            "required": 1,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "effect-zoom": "Zoom"
+                            },
+                            "default_value": [
+                                
+                            ],
+                            "allow_null": 0,
+                            "multiple": 0,
+                            "ui": 0,
+                            "ajax": 0,
+                            "placeholder": "",
+                            "disabled": 0,
+                            "readonly": 0
+                        },
+                        {
+                            "key": "field_54c59f1772653",
+                            "label": "Box Color",
+                            "name": "color",
+                            "type": "text",
+                            "instructions": "DR Blue: #00a7e1 DR Green: #BACB3F DR Gray: #646469",
+                            "required": 1,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "formatting": "html",
+                            "maxlength": "",
+                            "readonly": 0,
+                            "disabled": 0
+                        },
+                        {
+                            "key": "field_54c59fd472654",
+                            "label": "Box Image",
+                            "name": "image",
+                            "type": "image",
+                            "instructions": "Optional. A picture is not required.",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "preview_size": "thumbnail",
+                            "library": "all",
+                            "return_format": "array",
+                            "min_width": 0,
+                            "min_height": 0,
+                            "min_size": 0,
+                            "max_width": 0,
+                            "max_height": 0,
+                            "max_size": 0,
+                            "mime_types": ""
+                        },
+                        {
+                            "key": "field_54c5a06f72655",
+                            "label": "Box Heading",
+                            "name": "heading",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 1,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "formatting": "html",
+                            "maxlength": "",
+                            "readonly": 0,
+                            "disabled": 0
+                        },
+                        {
+                            "key": "field_54c5a0a572656",
+                            "label": "Supporting Copy",
+                            "name": "copy",
+                            "type": "textarea",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "maxlength": "",
+                            "rows": "",
+                            "new_lines": "",
+                            "readonly": 0,
+                            "disabled": 0
+                        },
+                        {
+                            "key": "field_54c5a20672657",
+                            "label": "Link Target",
+                            "name": "target",
+                            "type": "select",
+                            "instructions": "New Tab or Same Window",
+                            "required": 1,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "_blank": "New Tab",
+                                "_self": "Same Page",
+                                "": ""
+                            },
+                            "default_value": [
+                                
+                            ],
+                            "allow_null": 0,
+                            "multiple": 0,
+                            "ui": 0,
+                            "ajax": 0,
+                            "placeholder": "",
+                            "disabled": 0,
+                            "readonly": 0
+                        },
+                        {
+                            "key": "field_54c5a2fb72658",
+                            "label": "External Link",
+                            "name": "external_link",
+                            "type": "text",
+                            "instructions": "If there is an external link, the internal link will be overwritten",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "formatting": "none",
+                            "maxlength": "",
+                            "readonly": 0,
+                            "disabled": 0
+                        },
+                        {
+                            "key": "field_54c5a34072659",
+                            "label": "Internal Link",
+                            "name": "link",
+                            "type": "page_link",
+                            "instructions": "For internal links.",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "post_type": [
+                                
+                            ],
+                            "allow_null": 0,
+                            "multiple": 0,
+                            "taxonomy": [
+                                
+                            ]
+                        },
+                        {
+                            "key": "field_54c5a4037265a",
+                            "label": "Link Text",
+                            "name": "link_text",
+                            "type": "text",
+                            "instructions": "Notice: Optional. This link text will not show up, but it is good practice to describe the link.",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "formatting": "none",
+                            "maxlength": "",
+                            "readonly": 0,
+                            "disabled": 0
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "templates\/template-resources.php"
+            }
+        ]
+    ],
+    "menu_order": 24,
+    "position": "normal",
+    "style": "seamless",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1467894768
+}

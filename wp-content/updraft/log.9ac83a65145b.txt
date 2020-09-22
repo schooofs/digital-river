@@ -1,0 +1,18 @@
+0000.208 () Opened log file at time: Wed, 20 May 2015 08:24:50 +0000 on http://starsandbox.wpengine.com
+0000.211 () UpdraftPlus WordPress backup plugin (http://updraftplus.com): 1.9.64 WP: 4.1.5 PHP: 5.3.10-1ubuntu3.18 (Linux pod-10402 3.2.0-70-generic #105-Ubuntu SMP Wed Sep 24 19:49:16 UTC 2014 x86_64) MySQL: 5.5.42-37.1-log Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 74.5M | 83.5M) multisite: N mcrypt: Y LANG: C ZipArchive::addFile: Y
+0000.211 () Free space on disk containing Updraft's temporary directory: Unknown
+0000.211 () Restore job started. Entities to restore: themes
+0000.228 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.229 () Entity: themes
+0000.229 () restore_backup(backup_file=backup_2015-05-18-0340_Digital_River_df28bee81400-themes.zip, type=themes, info=a:2:{s:4:"path";s:55:"/nas/wp/www/cluster-10402/starsandbox/wp-content/themes";s:11:"description";s:6:"Themes";}, last_one=1)
+0000.229 () Unpacking backup... (backup_2015-05-18-0340_Digital_River_df28bee81400-themes.zip, 22.8 Mb)
+0001.281 () Moving old data: filesystem method / updraft_dir is potentially possible
+0001.281 () /nas/wp/www/cluster-10402/starsandbox/wp-content/themes-old: This directory already exists, and will be replaced
+0002.442 () Moving old data: can potentially use wp_filesystem method / -old
+0002.442 () Moving old data out of the way...
+0003.115 () Top-level entities being moved: twentyeleven, responsive, twentyfourteen, intuition, digital-river, digital_river, vantage, responsive-child, pilot-fish, twentythirteen, twentyfifteen, index.php, twentytwelve, digital-river-translated
+0003.123 () Moving unpacked backup into place...
+0003.590 () Top-level entities being moved: twentyeleven, responsive, twentyfourteen, intuition, digital-river, digital_river, vantage, responsive-child, pilot-fish, twentythirteen, twentyfifteen, index.php, twentytwelve, digital-river-translated
+0003.601 () Cleaning up rubbish...
+0003.606 () Restore successful!
+0003.606 () Restore successful

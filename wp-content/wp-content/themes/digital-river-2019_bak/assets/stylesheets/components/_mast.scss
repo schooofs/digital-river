@@ -1,0 +1,24 @@
+#mast {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4.25rem;
+  z-index: 1200;
+  background-color: $navy;
+  // background-color: transparent;
+  transform: translateZ(1001px);
+  transition: height 0.2s;
+
+  @include media-breakpoint-up(lg) {
+    height: 8rem;
+  }
+}
+
+.shrink-mast {
+  #mast {
+    @include media-breakpoint-up(lg) {
+      height: 5rem;
+    }
+  }
+}

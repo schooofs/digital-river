@@ -1,0 +1,108 @@
+0000.223 () Opened log file at time: Tue, 19 May 2015 18:09:34 +0000 on http://starsandbox.wpengine.com
+0000.223 () UpdraftPlus WordPress backup plugin (http://updraftplus.com): 1.9.64 WP: 4.1.5 PHP: 5.3.10-1ubuntu3.18 (Linux pod-10402 3.2.0-70-generic #105-Ubuntu SMP Wed Sep 24 19:49:16 UTC 2014 x86_64) MySQL: 5.5.42-37.1-log Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 74.5M | 83.5M) multisite: N mcrypt: Y LANG: C ZipArchive::addFile: Y
+0000.223 () Free space on disk containing Updraft's temporary directory: Unknown
+0000.223 () Restore job started. Entities to restore: db
+0000.411 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.411 () Entity: db
+0000.411 () restore_backup(backup_file=backup_2015-05-19-1052_Digital_River_7520a9060479-db.gz, type=db, info=a:0:{}, last_one=1)
+0000.411 () Unpacking backup...
+0000.443 () Database successfully unpacked
+0000.443 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.444 () Using direct MySQL access; value of use_mysqli is: 0
+0000.447 () Tried to raise max_allowed_packet from 16 Mb to 32 Mb, but failed (Access denied; you need (at least one of) the SUPER privilege(s) for this operation, b:0;)
+0000.447 () Max packet size: 16 Mb
+0000.447 () Entering maintenance mode
+0000.447 () Enabling Maintenance mode&#8230;
+0000.459 () Backup created by: 1.9.64
+0000.459 () <strong>Backup of:</strong> http://starsandbox.wpengine.com
+0000.459 () Content URL: http://starsandbox.wpengine.com/wp-content
+0000.459 () Old table prefix: drwp_
+0000.460 () Site information: multisite=0
+0000.461 () New table prefix: drwp_
+0000.475 () Restoring table (InnoDB): drwp_options
+0000.800 () Restoring table (InnoDB): drwp_users
+0000.836 () Restoring table (InnoDB): drwp_usermeta
+0001.048 () Restoring table (InnoDB): drwp_blog_versions
+0001.072 () Restoring table (InnoDB): drwp_blogs
+0001.102 () Restoring table (InnoDB): drwp_commentmeta
+0001.142 () Restoring table (InnoDB): drwp_comments
+0001.180 () Restoring table (InnoDB): drwp_links
+0001.371 () Restoring table (InnoDB): drwp_postmeta
+0004.081 () Database queries processed: 50 in 3.64 seconds
+0009.314 () Database queries processed: 100 in 8.87 seconds
+0014.305 () Database queries processed: 150 in 13.86 seconds
+0019.622 () Database queries processed: 200 in 19.18 seconds
+0024.820 () Database queries processed: 250 in 24.37 seconds
+0027.462 () Restoring table (InnoDB): drwp_posts
+0028.310 () Restoring table (InnoDB): drwp_registration_log
+0028.348 () Restoring table (InnoDB): drwp_signups
+0028.376 () Restoring table (InnoDB): drwp_site
+0028.396 () Restoring table (InnoDB): drwp_sitemeta
+0028.420 () Restoring table (InnoDB): drwp_term_relationships
+0028.553 () Restoring table (InnoDB): drwp_term_taxonomy
+0028.603 () Restoring table (InnoDB): drwp_terms
+0028.651 () Restoring table (InnoDB): drwp_adintegration
+0028.672 () Restoring table (InnoDB): drwp_avhec_category_groups
+0028.704 () Restoring table (InnoDB): drwp_cfs_values
+0028.725 () Restoring table (MyISAM): drwp_cpk_wpcsv_export_queue
+0028.820 () Restoring table (MyISAM): drwp_cpk_wpcsv_log
+0028.825 () Restoring table (MyISAM): drwp_icl_cms_nav_cache
+0028.832 () Restoring table (MyISAM): drwp_icl_content_status
+0028.840 () Restoring table (MyISAM): drwp_icl_core_status
+0028.844 () Restoring table (MyISAM): drwp_icl_flags
+0028.859 () Restoring table (MyISAM): drwp_icl_languages
+0028.873 () Restoring table (MyISAM): drwp_icl_languages_translations
+0029.232 () Restoring table (MyISAM): drwp_icl_locale_map
+0029.238 () Restoring table (MyISAM): drwp_icl_message_status
+0029.242 () Restoring table (MyISAM): drwp_icl_node
+0029.246 () Restoring table (MyISAM): drwp_icl_reminders
+0029.250 () Restoring table (MyISAM): drwp_icl_string_positions
+0029.255 () Restoring table (MyISAM): drwp_icl_string_status
+0029.261 () Restoring table (MyISAM): drwp_icl_string_translations
+0029.615 () Restoring table (MyISAM): drwp_icl_strings
+0030.461 () Restoring table (MyISAM): drwp_icl_translate
+0032.739 () Restoring table (MyISAM): drwp_icl_translate_job
+0032.787 () Restoring table (MyISAM): drwp_icl_translation_status
+0032.917 () Restoring table (MyISAM): drwp_icl_translations
+0033.204 () Restoring table (InnoDB): drwp_mf_custom_fields
+0033.219 () Restoring table (InnoDB): drwp_mf_custom_groups
+0033.234 () Restoring table (InnoDB): drwp_mf_custom_taxonomy
+0033.249 () Restoring table (InnoDB): drwp_mf_post_meta
+0033.273 () Restoring table (InnoDB): drwp_mf_posttypes
+0033.290 () Restoring table (InnoDB): drwp_pods_tests
+0033.304 () Restoring table (InnoDB): drwp_podsrel
+0033.424 () Restoring table (InnoDB): drwp_relevanssi
+0044.230 () Database queries processed: 500 in 43.78 seconds
+0045.210 () Restoring table (InnoDB): drwp_relevanssi_log
+0045.225 () Restoring table (InnoDB): drwp_relevanssi_stopwords
+0045.268 () Restoring table (InnoDB): drwp_rg_form
+0045.283 () Restoring table (InnoDB): drwp_rg_form_meta
+0045.306 () Restoring table (InnoDB): drwp_rg_form_view
+0045.325 () Restoring table (InnoDB): drwp_rg_lead
+0045.343 () Restoring table (InnoDB): drwp_rg_lead_detail
+0045.361 () Restoring table (InnoDB): drwp_rg_lead_detail_long
+0045.374 () Restoring table (InnoDB): drwp_rg_lead_meta
+0045.396 () Restoring table (InnoDB): drwp_rg_lead_notes
+0045.421 () Restoring table (InnoDB): drwp_wsal_metadata
+0045.485 () Restoring table (InnoDB): drwp_wsal_occurrences
+0045.514 () Restoring table (MyISAM): drwp_wysija_campaign
+0045.520 () Restoring table (MyISAM): drwp_wysija_campaign_list
+0045.524 () Restoring table (MyISAM): drwp_wysija_custom_field
+0045.531 () Restoring table (MyISAM): drwp_wysija_email
+0045.539 () Restoring table (MyISAM): drwp_wysija_email_user_stat
+0045.544 () Restoring table (MyISAM): drwp_wysija_email_user_url
+0045.548 () Restoring table (MyISAM): drwp_wysija_form
+0045.553 () Restoring table (MyISAM): drwp_wysija_list
+0045.559 () Restoring table (MyISAM): drwp_wysija_queue
+0045.563 () Restoring table (MyISAM): drwp_wysija_url
+0045.568 () Restoring table (MyISAM): drwp_wysija_url_mail
+0045.573 () Restoring table (MyISAM): drwp_wysija_user
+0045.611 () Restoring table (MyISAM): drwp_wysija_user_field
+0045.618 () Restoring table (MyISAM): drwp_wysija_user_history
+0045.622 () Restoring table (MyISAM): drwp_wysija_user_list
+0045.677 () Leaving maintenance mode
+0045.677 () Disabling Maintenance mode&#8230;
+0045.677 () Finished: lines processed: 572 in 45.23 seconds
+0045.679 () Cleaning up rubbish...
+0045.754 () Restore successful!
+0045.754 () Restore successful

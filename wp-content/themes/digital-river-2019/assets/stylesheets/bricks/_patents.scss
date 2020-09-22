@@ -1,0 +1,29 @@
+.brick-patents {
+  background-color: $white;
+  padding: 3rem 0;
+
+  h2 {
+    margin-bottom: 2rem;
+  }
+
+  .patent {
+    max-width: 12rem;
+    margin: 0 auto 2rem;
+    text-align: center;
+
+    img {
+      display: block;
+      margin: 0 auto 2rem;
+      max-width: 6rem;
+    }
+    
+    p {
+      color: $blue;
+      margin-bottom: 0;
+    }
+
+    a {
+      color: $green;
+    }
+  }
+}

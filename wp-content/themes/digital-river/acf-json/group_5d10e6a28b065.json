@@ -1,0 +1,571 @@
+{
+    "key": "group_5d10e6a28b065",
+    "title": "Commerce Connect",
+    "fields": [
+        {
+            "key": "field_5d10eee0a9181",
+            "label": "Sponsors",
+            "name": "sponsors",
+            "type": "repeater",
+            "instructions": "Sponsor Logo",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "field_5d1a50643b279",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_5d1a50643b279",
+                    "label": "Sponsor Name",
+                    "name": "sponsor_name",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_5d1a4ffd3b278",
+                    "label": "Sponsor Logo",
+                    "name": "sponsor_logo",
+                    "type": "image",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "url",
+                    "preview_size": "thumbnail",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": ""
+                },
+                {
+                    "key": "field_5d5d840d73f41",
+                    "label": "About Sponsor",
+                    "name": "sponsor_about",
+                    "type": "textarea",
+                    "instructions": "Short paragraph displayed below the sponsor logo",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "maxlength": "",
+                    "rows": "",
+                    "new_lines": ""
+                },
+                {
+                    "key": "field_5d5e9a1e4d6e8",
+                    "label": "Sponsor Website",
+                    "name": "sponsor_website",
+                    "type": "url",
+                    "instructions": "Link to the sponsor's website",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5d5d7db85ab9c",
+            "label": "Speaker Sponsors",
+            "name": "speaker_sponsors",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5d10eee0a9181",
+                        "operator": "!=empty"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "field_5d5d7e4a5ab9d",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_5d5d7e4a5ab9d",
+                    "label": "Sponsor Name",
+                    "name": "sponsor_name",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_5d5d7e6e5ab9e",
+                    "label": "Sponsor Logo",
+                    "name": "sponsor_logo",
+                    "type": "image",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "url",
+                    "preview_size": "thumbnail",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": ""
+                },
+                {
+                    "key": "field_5d5e9a8a4d6e9",
+                    "label": "Sponsor Website",
+                    "name": "sponsor_website",
+                    "type": "url",
+                    "instructions": "Link to the sponsor's website",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5d10eb6740099",
+            "label": "Agenda",
+            "name": "agenda",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "field_5d10ebda4009a",
+            "min": 0,
+            "max": 0,
+            "layout": "row",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_5d10ebda4009a",
+                    "label": "Time",
+                    "name": "time",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_5d10ec0c4009b",
+                    "label": "Topic",
+                    "name": "topic",
+                    "type": "text",
+                    "instructions": "Event Title\/Topic",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_5d10ec3f4009c",
+                    "label": "Speaker",
+                    "name": "speaker",
+                    "type": "text",
+                    "instructions": "Speaker first and last name",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_5d10ecc44009d",
+                    "label": "Speaker Title",
+                    "name": "speaker_title",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_5d10ecf74009e",
+                    "label": "Speaker Company",
+                    "name": "speaker_company",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_5d10ed2e4009f",
+                    "label": "Topic Info",
+                    "name": "topic_info",
+                    "type": "wysiwyg",
+                    "instructions": "1 to 2 paragraphs about the topic",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "tabs": "text",
+                    "media_upload": 0,
+                    "toolbar": "full",
+                    "delay": 0
+                }
+            ]
+        },
+        {
+            "key": "field_5d10e6baa83c1",
+            "label": "Speakers",
+            "name": "speakers",
+            "type": "repeater",
+            "instructions": "Add speaker info",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "field_5d10e71ea83c2",
+            "min": 0,
+            "max": 0,
+            "layout": "row",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_5d10e71ea83c2",
+                    "label": "Speaker Name",
+                    "name": "speaker_name",
+                    "type": "text",
+                    "instructions": "First and last name",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_5d10ea13f7f87",
+                    "label": "Speaker Title",
+                    "name": "speaker_title",
+                    "type": "text",
+                    "instructions": "Job Title",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_5d10e78aa83c3",
+                    "label": "Speaker Company",
+                    "name": "speaker_company",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_5d10e7c6a83c4",
+                    "label": "Speaker Image",
+                    "name": "speaker_image",
+                    "type": "image",
+                    "instructions": "The optimal aspect ratio is a square image. Rectangular images may result in part of the image getting cut-off.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "url",
+                    "preview_size": "thumbnail",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": 1500,
+                    "max_height": 1500,
+                    "max_size": "",
+                    "mime_types": ""
+                },
+                {
+                    "key": "field_5d10e8b2a83c5",
+                    "label": "Speaker Bio",
+                    "name": "speaker_bio",
+                    "type": "wysiwyg",
+                    "instructions": "1 to 2 paragraphs about the speaker.",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "tabs": "text",
+                    "media_upload": 0,
+                    "toolbar": "full",
+                    "delay": 0
+                }
+            ]
+        },
+        {
+            "key": "field_5d165d89ecf9b",
+            "label": "Registration Confirmation",
+            "name": "registration_confirmation",
+            "type": "wysiwyg",
+            "instructions": "Thank You message after a user fills out the registration form",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "basic",
+            "media_upload": 0,
+            "delay": 0
+        },
+        {
+            "key": "field_5d10f1f69adaf",
+            "label": "Registration Form",
+            "name": "registration_form",
+            "type": "code",
+            "instructions": "Enter custom HTML code here. You must wrap CSS in &lt;style&gt;&lt;\/style&gt; tags, and JavaScript in &lt;script&gt;&lt;\/script&gt; tags.",
+            "required": 1,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5d165d89ecf9b",
+                        "operator": "!=empty"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "language": "html",
+            "theme": "tomorrow_night_blue"
+        },
+        {
+            "key": "field_5d16528ce1569",
+            "label": "Location",
+            "name": "location",
+            "type": "wysiwyg",
+            "instructions": "Location information (text\/copy next to the Google Map)",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "basic",
+            "media_upload": 0,
+            "delay": 0
+        },
+        {
+            "key": "field_5d1653d9e156a",
+            "label": "Google Map",
+            "name": "google_map",
+            "type": "text",
+            "instructions": "Google Maps embed source (only include the link that will populate the [src] attribute)",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5d16528ce1569",
+                        "operator": "!=empty"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "https:\/\/maps.google.com\/maps?q=location&output=embed",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5d16523ee1568",
+            "label": "Contact Email",
+            "name": "contact_email",
+            "type": "email",
+            "instructions": "Email address for visitors with questions",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "CommerceConnect@digitalriver.com",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "template-commerce-connect.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1566493015
+}

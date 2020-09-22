@@ -1,0 +1,614 @@
+.contact-wrapper {
+    color: $light-blue;
+    padding-left: 1rem;
+    display: flex;
+    transition: .4s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .4s;
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    z-index: 99999;
+
+    @include media-breakpoint-up(md) {
+        &:before {
+            transition: .4s;
+            opacity: 0;
+            right: 6rem;
+            position: absolute;
+            content: 'Contact';
+        }
+        &:hover {
+            padding-left: 6rem;
+            box-shadow: -3px 2px 12px rgba($black, .1);
+            background-color: rgba($white, .75);
+            border-radius: 50px;
+            &:before {
+                opacity: 1;
+                position: absolute;
+                content: 'Contact';
+                border-radius: 50px;
+                right: 6rem;
+                transition-delay: .5s;
+                transition: .4s;
+            }
+        }
+        .icon-back {
+            background: $green;
+            // transform: rotateY(180deg);
+            transition-delay: .1s;
+            cursor: pointer;
+            transition: .4s;
+        }
+    }
+
+    .icon-back {
+        border-radius: 50%;
+        background: $light-blue;
+        height: 55px;
+        width: 55px;
+        margin-left: 1.5rem;
+        display: inline-block;
+        transition: .8s;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // transform: translate3d(0deg 0deg 0deg);
+        perspective: 300px;
+        transition-delay: .1s;
+
+        .contact-form {
+            display: none;
+        }
+
+        &.active {
+            // transform: scale(8) !important;
+            background-color: #fff;
+            color: $blue;
+            border-radius: 0;
+            // position: fixed;
+            left: 50%;
+            top: 50%;
+            transform: none;
+            cursor: initial;
+            z-index: $zindex-modal;
+            .contact-form {
+                padding: 2rem;
+                background: $white;
+                position: fixed;
+                z-index: 6;
+                width: 30vw;
+                height: 100vh;
+                right: 0;
+                z-index: $zindex-popover;
+                box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12),
+                    0 2px 2px rgba(0, 0, 0, 0.12),
+                    0 4px 4px rgba(0, 0, 0, 0.12),
+                    0 8px 8px rgba(0, 0, 0, 0.12),
+                    0 16px 16px rgba(0, 0, 0, 0.12);
+            }
+        }
+        img {
+            height: 30px;
+            width: 30px;
+            position: relative;
+            top: 0px;
+            left: 0px;
+        }
+        span {
+            display: inline-block;
+            position: relative;
+            top: 20px;
+            margin-right: 30px;
+        }
+    }
+}
+
+
+.ico-contact {
+    animation-duration: 900ms;
+    animation-timing-function: steps(27);
+    width: 30px;
+    height: 30px;
+    animation-fill-mode: forwards;
+    background-repeat: no-repeat;
+    transition: transform 0.4s;
+    transform-style: preserve-3d;
+    position: absolute;
+    animation-delay: 2s;
+}
+.ico-contact.play {
+    animation-name: contact-animation;
+    animation-fill-mode: forwards;
+}
+.morph-content {
+    z-index: $zindex-popover;
+    transform: translateZ(1002px);
+    // @include media-breakpoint-down(md) {
+    //     position: fixed;
+    //     top: 0;
+    // }
+    .contact-form {
+        .screen {
+            display: none;
+            &.active {
+                display: block;
+            }
+        }
+    }
+
+
+    // Form
+    .mktoForm {
+        left: 0 !important;
+        @include media-breakpoint-down(md) {
+            width: 500px !important;
+        }
+        @include media-breakpoint-down(xs) {
+            width: 100% !important;
+        }
+        .mktoFormCol {
+            margin-bottom: 0 !important;
+            width: 100%;
+        }
+        .mktoFieldDescriptor {
+            &+.mktoFieldDescriptor {
+                margin-left: 2%;
+            }
+        }
+        .mktoFormRow .mktoFormCol {
+            @include media-breakpoint-down(md) {
+                width: 100% !important;
+                margin: 0;
+            }
+        }
+        input[type=text],
+        textarea.mktoField,
+        input[type=url],
+        input[type=email],
+        input[type=tel],
+        input[type=number],
+        input[type=date],
+        select.mktoField {
+            width: 100% !important;
+        }
+        .mktoFieldWrap {
+            width: 100%;
+        }
+        .mktoButtonRow {
+            margin-top: 10px;
+            .mktoButtonWrap {
+                margin: 0 !important;
+            }
+        }
+        .mktoButtonWrap.mktoSimple .mktoButton:hover {
+            border: 1px solid $blue !important;
+        }
+        textarea.mktoField {
+            height: 90px !important;
+            @include media-breakpoint-up(sm) {
+                height: 179px !important;
+            }
+        }
+    }
+}
+
+
+/* Style for form modal */
+.content-style-form {
+    position: relative;
+    text-align: left;
+}
+.content-style-form form {
+    padding: 10px 30px;
+}
+.content-style-form label {
+    display: block;
+    padding: 10px 0 0;
+    color: $blue;
+    // 
+    // letter-spacing: 1px;
+    // font-weight: bold;
+}
+.content-style-form input[type="text"],
+.content-style-form input[type="password"] {
+    padding: 10px;
+    width: 100%;
+    border: 2px solid #ebd3bd;
+    background: transparent;
+    color: #b09a86;
+    font-weight: 300;
+    font-size: 2.2em;
+}
+.content-style-form input[type="text"]:focus,
+.content-style-form input[type="password"]:focus {
+    border-color: $light-blue;
+    color: $light-blue;
+}
+.content-style-form input:focus {
+    outline: 0;
+}
+.content-style-form button {
+    min-width: 300px;
+}
+.content-style-form .icon-close {
+    position: absolute;
+    top: -32px;
+    right: 0;
+    transform: rotate(0deg);
+    transition: .4s;
+    width: 30px;
+    height: 30px;
+    &:hover:before {
+        transform: rotate(315deg);
+    }
+    &:hover:after {
+        transform: rotate(405deg);
+    }
+    &:after {
+        content: '';
+        position: absolute;
+        width: 24px;
+        height: 2px;
+        background: $blue;
+        transform: rotate(-45deg);
+        transition: .4s;
+        transition-delay: .1s;
+        top: 1rem;
+    }
+    &:before {
+        content: '';
+        position: absolute;
+        width: 24px;
+        height: 2px;
+        background: $blue;
+        transform: rotate(45deg);
+        transition: .4s;
+        transition-delay: .1s;
+        top: 1rem;
+    }
+    img {
+        width: 20px;
+    }
+}
+.content-style-form .icon-close:hover {
+    color: $light-blue;
+}
+.js .content-style-form-1 h2,
+.js .content-style-form-1 p,
+.js .content-style-form-1 .icon-close {
+    opacity: 0;
+    -webkit-transition: opacity 0.2s 0.35s, -webkit-transform 0.2s 0.35s;
+    transition: opacity 0.2s 0.35s, transform 0.2s 0.35s;
+    // -webkit-transform: scale(0.85);
+    // transform: scale(0.85);
+}
+.content-style-form-1 p:first-child {
+    -webkit-transition-delay: 0.4s;
+    transition-delay: 0.4s;
+}
+.content-style-form-1 p:nth-child(2) {
+    -webkit-transition-delay: 0.45s;
+    transition-delay: 0.45s;
+}
+.content-style-form-1 p:nth-child(3) {
+    -webkit-transition-delay: 0.5s;
+    transition-delay: 0.5s;
+}
+.morph-button.open .content-style-form-1 h2,
+.morph-button.open .content-style-form-1 p,
+.morph-button.open .content-style-form-1 .icon-close {
+    opacity: 1;
+    // -webkit-transform: scale(1);
+    // transform: scale(1);
+    cursor: pointer;
+}
+.js .content-style-form-2 h2,
+.js .content-style-form-2 p,
+.js .content-style-form-2 .icon-close {
+    opacity: 0;
+    -webkit-transition: opacity 0.2s 0.3s, -webkit-transform 0.2s 0.3s;
+    transition: opacity 0.2s 0.3s, transform 0.2s 0.3s;
+    -webkit-transform: translateY(50px);
+    transform: translateY(50px);
+    cursor: pointer;
+}
+.content-style-form-2 p:first-child {
+    -webkit-transition-delay: 0.35s;
+    transition-delay: 0.35s;
+}
+.content-style-form-2 p:nth-child(2) {
+    -webkit-transition-delay: 0.4s;
+    transition-delay: 0.4s;
+}
+.content-style-form-2 p:nth-child(3) {
+    -webkit-transition-delay: 0.45s;
+    transition-delay: 0.45s;
+}
+.content-style-form-2 p:nth-child(4) {
+    -webkit-transition-delay: 0.5s;
+    transition-delay: 0.5s;
+}
+.morph-button.open .content-style-form-2 h2,
+.morph-button.open .content-style-form-2 p,
+.morph-button.open .content-style-form-2 .icon-close {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+.morph-button-inflow-2>button svg {
+    display: inline-block;
+    padding-right: 10px;
+    width: 20px;
+    height: 20px;
+    vertical-align: -5%;
+}
+.morph-button-inflow-2>button svg path {
+    fill: $light-blue;
+}
+/* Morph Button: Default Styles */
+.morph-button {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+}
+.morph-button>button {
+    position: relative;
+    padding: 0 1em;
+    border: none;
+    background-color: #e85657;
+    color: #f9f6e5;
+    letter-spacing: 1px;
+    font-weight: 700;
+    line-height: 80px;
+    overflow: hidden;
+}
+.morph-button.open>button {
+    pointer-events: none;
+}
+.morph-content {
+    pointer-events: none;
+}
+.morph-button.open .morph-content {
+    pointer-events: auto;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12),
+        0 2px 2px rgba(0, 0, 0, 0.12),
+        0 4px 4px rgba(0, 0, 0, 0.12),
+        0 8px 8px rgba(0, 0, 0, 0.12),
+        0 16px 16px rgba(0, 0, 0, 0.12);
+    border-top: 4px solid $light-blue;
+}
+/* Common styles for overlay and modal type (fixed morph) */
+.morph-button-fixed,
+.morph-button-fixed .morph-content {
+    // width: 300px;
+    // height: 80px;
+}
+.morph-button-fixed>button {
+    z-index: 1000;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: opacity 0.1s 0.5s;
+    transition: opacity 0.1s 0.5s;
+}
+.morph-button-fixed.open>button {
+    opacity: 0;
+    -webkit-transition: opacity 0.1s;
+    transition: opacity 0.1s;
+}
+.morph-button-fixed .morph-content {
+    position: fixed;
+    z-index: 900;
+    opacity: 0;
+    -webkit-transition: opacity 0.3s 0.5s, width 0.4s 0.1s, height 0.4s 0.1s, top 0.4s 0.1s, left 0.4s 0.1s, margin 0.4s 0.1s;
+    transition: opacity 0.3s 0.5s, width 0.4s 0.1s, height 0.4s 0.1s, top 0.4s 0.1s, left 0.4s 0.1s, margin 0.4s 0.1s;
+}
+.morph-button-fixed.open .morph-content {
+    opacity: 1;
+}
+.morph-button-fixed .morph-content>div {
+    visibility: hidden;
+    height: 0;
+    opacity: 0;
+    width: 100%;
+    -webkit-transition: opacity 0.1s, visibility 0s 0.1s, height 0s 0.1s;
+    transition: opacity 0.1s, visibility 0s 0.1s, height 0s 0.1s;
+}
+.morph-button-fixed.open .morph-content>div {
+    visibility: visible;
+    height: auto;
+    opacity: 1;
+    -webkit-transition: opacity 0.3s 0.5s;
+    transition: opacity 0.3s 0.5s;
+}
+.morph-button-fixed.active>button {
+    z-index: 2000;
+}
+.morph-button-fixed.active .morph-content {
+    z-index: 1900;
+}
+/* Transitions for overlay button and sidebar button */
+.morph-button-overlay .morph-content,
+.morph-button-sidebar .morph-content {
+    -webkit-transition: opacity 0.3s 0.5s, width 0.4s 0.1s, height 0.4s 0.1s, top 0.4s 0.1s, left 0.4s 0.1s;
+    transition: opacity 0.3s 0.5s, width 0.4s 0.1s, height 0.4s 0.1s, top 0.4s 0.1s, left 0.4s 0.1s;
+}
+.morph-button-overlay.open .morph-content,
+.morph-button-sidebar.open .morph-content {
+    -webkit-transition: width 0.4s 0.1s, height 0.4s 0.1s, top 0.4s 0.1s, left 0.4s 0.1s;
+    transition: width 0.4s 0.1s, height 0.4s 0.1s, top 0.4s 0.1s, left 0.4s 0.1s;
+}
+/* Morph Button Style: Overlay */
+.morph-button.morph-button-overlay {
+    margin: 50px auto;
+}
+.morph-button-overlay .morph-content {
+    overflow: hidden;
+    background: #e85657;
+}
+.morph-button-overlay.open .morph-content {
+    top: 0 !important;
+    left: 0 !important;
+    width: 100%;
+    height: 100%;
+}
+/* Morph Button Style: Modal */
+.morph-button-modal::before {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 8;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    content: '';
+    opacity: 0;
+    -webkit-transition: opacity 0.5s;
+    transition: opacity 0.5s;
+    pointer-events: none;
+}
+.morph-button-modal.open::before {
+    opacity: 1;
+    pointer-events: auto;
+}
+.morph-button-modal.active::before {
+    z-index: $zindex-popover;
+}
+.morph-button-modal .morph-content {
+    overflow: hidden;
+    -webkit-transition: opacity 0.3s 0.5s, width 0.4s 0.1s, height 0.4s 0.1s, top 0.4s 0.1s, left 0.4s 0.1s, margin 0.4s 0.1s;
+    transition: opacity 0.3s 0.5s, width 0.4s 0.1s, height 0.4s 0.1s, top 0.4s 0.1s, left 0.4s 0.1s, margin 0.4s 0.1s;
+}
+.morph-button-modal.open .morph-content {
+    top: 40% !important;
+    left: 50% !important;
+    margin: -210px 0 0 -300px;
+    width: 600px;
+    height: 420px;
+    -webkit-transition: width 0.4s 0.1s, height 0.4s 0.1s, top 0.4s 0.1s, left 0.4s 0.1s, margin 0.4s 0.1s;
+    transition: width 0.4s 0.1s, height 0.4s 0.1s, top 0.4s 0.1s, left 0.4s 0.1s, margin 0.4s 0.1s;
+    align-items: flex-start;
+    padding: 1.5rem;
+    padding-top: 4rem;
+    @include media-breakpoint-up(lg) {
+        padding: 3rem;
+    }
+}
+.morph-button.morph-button-modal-2 {
+    display: inline-block;
+    margin: 10px 15px;
+}
+.morph-button-modal-2>button,
+.morph-button-modal-2 .morph-content {
+    border-radius: 50%;
+    background: $light-blue;
+    height: 55px;
+    width: 55px;
+    // margin-left: 1.5rem;
+    display: inline-block;
+    transition: .8s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // transform: translate3d(0deg 0deg 0deg);
+    perspective: 300px;
+    transition-delay: .1s;
+}
+.radio-wrapper {
+    display: flex;
+    align-items: center;
+    input {
+        margin-right: 1rem;
+    }
+}
+.morph-button-modal-2.open .morph-content {
+    // margin: -210px 0 0 -170px;
+    margin: -218px 0 0 -279px;
+    width: 540px;
+    height: 620px;
+    border-radius: 0;
+    background: $white;
+}
+.morph-button-modal-2.open .morph-content>div {
+    -webkit-transition: opacity 0.3s 0.3s;
+    transition: opacity 0.3s 0.3s;
+}
+/* Helper classes */
+.noscroll {
+    overflow: hidden;
+}
+.morph-button-overlay.scroll .morph-content {
+    overflow-y: scroll;
+}
+.morph-button-sidebar.scroll .morph-content {
+    overflow: auto;
+}
+/* No JS fallback: let's hide the button and show the content */
+.no-js .morph-button>button {
+    display: none;
+}
+.no-js .morph-button {
+    margin: 10px 0;
+    float: none;
+}
+.no-js .morph-button,
+.no-js .morph-button .morph-content,
+.no-js .morph-button .morph-content>div {
+    position: relative;
+    width: auto;
+    height: auto;
+    opacity: 1;
+    visibility: visible;
+    top: auto;
+    left: auto;
+    -webkit-transform: none;
+    transform: none;
+    pointer-events: auto;
+}
+.no-js .morph-button .morph-content .icon-close {
+    display: none;
+}
+.no-js .morph-button-sidebar {
+    width: 300px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    height: 100%;
+    background: #e85657;
+    overflow: auto;
+}
+.no-transition {
+    -webkit-transition: none !important;
+    transition: none !important;
+}
+/* Media Queries */
+@media screen and (max-width: 600px) {
+    .morph-button-modal.open .morph-content {
+        top: 0% !important;
+        left: 0% !important;
+        position: fixed;
+        margin: 0;
+        width: 100%;
+        // height: 100%;
+        height: 100vh;
+        overflow-y: scroll;
+        -webkit-transition: width 0.4s 0.1s, height 0.4s 0.1s, top 0.4s 0.1s, left 0.4s 0.1s;
+        transition: width 0.4s 0.1s, height 0.4s 0.1s, top 0.4s 0.1s, left 0.4s 0.1s;
+    }
+}
+@media screen and (max-width: 400px) {
+    .morph-button-fixed>button {
+        font-size: 75%;
+    }
+}
+@keyframes contact-animation {
+    0% {
+        background-position: 0px 0px;
+    }
+    100% {
+        background-position: -810px 0px;
+    }
+}

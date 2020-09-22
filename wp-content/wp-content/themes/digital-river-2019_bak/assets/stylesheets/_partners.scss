@@ -1,0 +1,129 @@
+.partners-accordion {
+  margin-bottom: 3rem;
+  width: 100%;
+
+  dd {
+    margin-bottom: -1px;
+  }
+
+  .open-close-circle {
+    width: 30px;
+    height: 30px;
+    min-width: 30px;
+    min-height: 30px;
+    border: 1px solid $green;
+    border-radius: 50%;
+    position: relative;
+    display: inline-block;
+    transition: .4s;
+    margin-right: 1.5rem;
+
+    &:before {
+      content: '';
+      width: 1px;
+      height: 18px;
+      background: $green;
+      position: absolute;
+      top: 6px;
+      left: 50%;
+      transition: .4s;
+    }
+
+    &:after {
+      content: '';
+      height: 1px;
+      width: 18px;
+      background: $green;
+      position: absolute;
+      left: 6px;
+      top: 50%;
+      transition: .4s;
+    }
+  }
+
+  // End of circle
+
+  .card {
+    background: none;
+    border: 0;
+  }
+
+  .card-header {
+    padding: 1rem 1.25rem;
+    border-bottom: 1px solid rgba($primary, .5);
+    border-top: 1px solid rgba($primary, .5);
+    background-color: $white;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    &:focus {
+      outline: 5px auto $white;
+    }
+
+    &.-ba-is-active {
+      .open-close-circle {
+        // &:hover {
+        border: 1px solid $primary;
+
+        &:before {
+          transform: rotate(270deg);
+          background: $primary;
+        }
+
+        &:after {
+          transform: rotate(270deg);
+          opacity: 0;
+        }
+        // }
+      }
+    }
+
+    h2 {
+      display: flex;
+      padding: 1rem 0;
+      font-size: 1.25rem;
+      margin: 0;
+      text-align: left;
+
+      @include media-breakpoint-up(md) {
+        font-size: 1.75rem;
+      }
+    }
+  }
+
+  button {
+    font-size: 100%;
+    font-weight: 300;
+    color: $dark-blue;
+    background: none;
+    border: 0;
+  }
+
+  p,
+  .card-body {
+    color: $gray-body;
+  }
+}
+
+// Badger
+// .badger-accordion {}
+
+.badger-accordion__panel {
+  max-height: 75vh;
+  overflow: hidden;
+  // transition: .4s;
+  transition: max-height ease-in-out 0.4s;
+
+  // scss-lint:disable ImportantRule
+  &.-ba-is-hidden {
+    max-height: 0 !important;
+    visibility: hidden;
+  }
+
+  // transition is added via `badger-accordion--initalised` to stop animation on initalition
+  .badger-accordion--initalised & {
+    transition: max-height ease-in-out 0.4s;
+  }
+}

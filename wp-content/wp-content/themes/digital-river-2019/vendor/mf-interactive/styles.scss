@@ -1,0 +1,978 @@
+/* MarketForce Specific Styles
+******************************/
+$primary:#003058; // dark blue
+$secondary:#00a7e1; // light blue
+$tertiary:#a9c623; // neon green
+$ltGray:#dadada;
+$gray:#bebebe;
+$navHeight:130px;
+$sideNavDot:24;
+$speed:500ms; // base animation speed
+$fontPath:'font/';
+$imgPath:'img/';
+@font-face {
+    font-family:'MrEaves';
+    src:url($fontPath + 'MrEaves.woff2') format('woff2'),
+        url($fontPath + 'MrEaves.woff') format('woff');
+    font-weight:normal;
+    font-style:normal;
+}
+@font-face {
+    font-family:'MrEaves-bold';
+    src:url($fontPath + 'MrEaves-bold.woff2') format('woff2'),
+        url($fontPath + 'MrEaves-bold.woff') format('woff');
+    font-weight:normal;
+    font-style:normal;
+}
+body {
+    &[class*="mfTrigger"] {
+        #mfStage {
+            position:fixed;
+        }
+        [class*="mfTrigger"] {
+            display:none;
+        }
+    }
+    &.mfTrigger0 {
+        .mfTrigger0 {display:block;}
+        #mfHero .mfContent,
+        #mfHero .mfIllusration {
+            width:100%;
+            max-width:900px;
+            left:50%;
+            transform:translate(-50%,-50%);
+            p {
+                max-width:750px;
+                font-size:21px;
+                margin-left:auto;
+                margin-right:auto;
+            }
+            #mfScroll {
+                position:absolute;
+                top:calc(100% + 15px);
+                font-size:24px;
+                color:$secondary;
+                display:block;
+                left:50%;
+                transform:translateX(-50%);
+                &::after {
+                    content:"";
+                    height:75px;
+                    width:75px;
+                    display:block;
+                    position:absolute;
+                    top:calc(100% - 25px);
+                    left:50%;
+                    transform:translateX(-50%);
+                    background:url($imgPath + 'scroll-caret.gif') center/cover no-repeat;
+                }
+            }
+        }
+        #mfHero .mfIllusration {
+            max-width:100%;
+            left:0;
+            top:0;
+            transform:translateY(0) perspective(1000px) rotateY(0deg);
+            svg {
+                position:absolute;
+                top:$navHeight;
+                max-width:1200px;
+                left:50%;
+                transform:translateX(-50%);
+                width:100%;
+                &#mfVortext {
+                    top:$navHeight;
+                    max-width:1200px;
+                    left:50%;
+                    transform:translateX(-50%);
+                    circle {
+                        stroke-width:1px;
+                        &.v-cls-2 {stroke-dasharray:5;}
+                    }
+                }
+                #shield,
+                #pin1,
+                #box,
+                #card,
+                #commerceUI,
+                #browser {
+                    transition:none;
+                }
+                #buyNow,
+                #commerceUI,
+                #browser,
+                #shield,
+                #card,
+                #box,
+                #pin1 {
+                    opacity:0.7;
+                }
+                #buyNow {
+                    transform:translate(7%,-67%) scale(.75);
+                }
+                #browser,
+                #commerceUI {
+                    transform:translate(-47%,-2%) scale(.25);
+                }
+                #shield {
+                    transform:translate(26%,-40%) scale(.25);
+                }
+                #card {
+                    transform:translate(53%,-2%) scale(.6);
+                    .cls-39, .cls-7 {fill:#939393;}
+                }
+                #box {
+                    transform:translate(-9%,16%) scale(.45);
+                }
+                #pin1 {
+                    transform:translate(-51.75%,29%);
+                    .cls-7 {fill:#fff;}
+                    .cls-12 {fill:#00456e;}
+                    ellipse {opacity:0}
+                }
+            }
+        }
+    }
+    &.mfTrigger1 {
+        .mfTrigger1 {display:block;}
+        #mfHero .mfIllusration {
+            svg {
+                #shoppingCard,
+                #shoppingUI,
+                #browser {
+                    -webkit-animation:scaleIn 200ms cubic-bezier(.21,.66,.53,1.26) $speed both;
+                            animation:scaleIn 200ms cubic-bezier(.21,.66,.53,1.26) $speed both;
+                }
+                #buyNowBG {
+                    -webkit-animation:slideInR 800ms ease 100ms both;
+                            animation:slideInR 800ms ease 100ms both;
+                }
+                #buyNow {
+                    opacity:1;
+                }
+            }
+        }
+    } 
+    &.mfTrigger2 {
+        .mfTrigger2 {display:block;}
+        #mfHero .mfContent {
+            left:calc(45% + 200px);
+        }
+        #mfHero .mfIllusration {
+            left:calc(8% + 200px);
+            transform:translateY(-52%) perspective(1000px) rotateY(30deg); 
+            svg {
+                #commerceUI,
+                #browser {
+                    -webkit-animation:scaleIn 200ms cubic-bezier(.21,.66,.53,1.26) $speed both;
+                            animation:scaleIn 200ms cubic-bezier(.21,.66,.53,1.26) $speed both;
+                }
+                #ccBottom,
+                #ccTop {
+                    -webkit-animation:slideInL 600ms ease $speed both;
+                            animation:slideInL 600ms ease $speed both;
+                }
+                #ccBottom {
+                    -webkit-animation-name:slideInR;
+                            animation-name:slideInR;
+                }
+            }
+        }
+    } 
+    &.mfTrigger3 {
+        .mfTrigger3 {display:block;}
+        #mfHero .mfIllusration svg {
+            #map, 
+            #box {
+                -webkit-animation:fadeIn 200ms cubic-bezier(.21,.66,.53,1.26) $speed both;
+                        animation:fadeIn 200ms cubic-bezier(.21,.66,.53,1.26) $speed both;
+            }
+            #box {
+                transform:translatex(21px) perspective(1000px) rotateY(14deg);
+            }
+            #startDot {
+                -webkit-animation:scaleIn 200ms cubic-bezier(.21,.66,.53,1.26) $speed both;
+                        animation:scaleIn 200ms cubic-bezier(.21,.66,.53,1.26) $speed both;
+            }
+            #arch1,
+            #arch2,
+            #arch3 {
+                -webkit-animation:dash 200ms ease $speed + 500ms both;
+                        animation:dash 200ms ease $speed + 500ms both;
+            }
+            #arch1 {
+                -webkit-animation-name:dash-reverse;
+                        animation-name:dash-reverse;
+            }
+            #arch2 {
+                -webkit-animation-delay:$speed + 1000ms;
+                        animation-delay:$speed + 1000ms;
+            }
+            #arch3 {
+                -webkit-animation-delay:$speed + 1500ms;
+                        animation-delay:$speed + 1500ms;
+            }
+            #pin1, 
+            #pin2,
+            #pin3 {
+                transform-origin:626.9370422363281px 223.52670288085938px;
+                -webkit-animation:springUp 1000ms ease-out $speed + 800ms both;
+                        animation:springUp 1000ms ease-out $speed + 800ms both;
+            }
+            #pin2 {
+                transform-origin:572.9370422363281px 277.5267028808594px;
+                -webkit-animation-delay:$speed + 1200ms;
+                        animation-delay:$speed + 1200ms;
+            }
+            #pin3 {
+                transform-origin:591.9370422363281px 408.5267028808594px;
+                -webkit-animation-delay:$speed + 1700ms;
+                        animation-delay:$speed + 1700ms;
+            }
+        }
+    } 
+    &.mfTrigger4 {
+        .mfTrigger4 {display:block;}
+        #mfHero .mfContent {
+            left:calc(45% + 200px);
+        }
+        #mfHero .mfIllusration {
+            left:calc(8% + 200px);
+            transform:translateY(-52%) perspective(1000px) rotateY(30deg);
+            svg {
+                #paymentsScreen {
+                    -webkit-animation:scaleIn 200ms cubic-bezier(.21,.66,.53,1.26) $speed both;
+                            animation:scaleIn 200ms cubic-bezier(.21,.66,.53,1.26) $speed both;
+                }
+                #card {
+                    -webkit-animation:slideInL 600ms ease $speed + 200ms both;
+                            animation:slideInL 600ms ease $speed + 200ms both;
+                }
+            }
+        }
+    } 
+    &.mfTrigger5 {
+        .mfTrigger5 {display:block;}
+        #mfStage {
+            position:absolute;
+            top:calc(400vh + 100px);
+        }
+        #mfSideNav {
+            position:absolute;
+            top:calc(450vh + 165px);
+        }
+        #mfHero .mfIllusration svg {
+            #shield {
+                -webkit-animation:scaleIn 200ms cubic-bezier(.21,.66,.53,1.26) $speed forwards;
+                        animation:scaleIn 200ms cubic-bezier(.21,.66,.53,1.26) $speed forwards;
+            }
+            #scBottom,
+            #scTop {
+                -webkit-animation:slideInL 600ms ease $speed + 200ms both;
+                        animation:slideInL 600ms ease $speed + 200ms both;
+            }
+            #scBottom {
+                -webkit-animation-name:slideInR;
+                        animation-name:slideInR;
+            }
+        }
+    }
+    &.mfTrigger1 #mfSideNav ul li [href="#mfTrigger1"],
+    &.mfTrigger2 #mfSideNav ul li [href="#mfTrigger2"],
+    &.mfTrigger3 #mfSideNav ul li [href="#mfTrigger3"],
+    &.mfTrigger4 #mfSideNav ul li [href="#mfTrigger4"],
+    &.mfTrigger5 #mfSideNav ul li [href="#mfTrigger5"] {
+        color:$tertiary;
+        max-width:200px;
+        &::before {
+            background:$tertiary;
+        }
+    }
+    &.mfTrigger0 #mfSideNav,
+    &:not([class*="mfTrigger"]) #mfSideNav {
+        display:none;
+    }
+}
+#mfStage {
+    font-family:'MrEaves', arial, sans-serif;
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    padding:130px 0 0 0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+    overflow:hidden;
+    background:#001f45 url($imgPath + 'mfBG.jpg') center/cover no-repeat;
+}
+#mfSideNav {
+    position:fixed;
+    z-index:100;
+    top:calc(50% + 65px);
+    left:5%;
+    opacity:1;
+    transform:translateY(-50%);
+    width:175px;
+    height:464px; // hardcode to avoide half pixel blur
+    ul {
+        margin:0;
+        padding:0;
+        list-style:none;
+        li {
+            display:block;
+            a {
+                color:$gray;
+                padding-left:$sideNavDot + 15 + px;
+                position:relative;
+                text-decoration:none;
+                font-size:13px;
+                height:$sideNavDot + px;
+                line-height:$sideNavDot + px;
+                white-space:nowrap;
+                display:block;
+                margin:37px 0;
+                &::before {
+                    content:'';
+                    position:absolute;
+                    height:$sideNavDot + px;
+                    width:$sideNavDot + px;
+                    background:$gray;
+                    border-radius:50%;
+                    left:0;
+                    top:0;
+                }
+                &.mfSkip {
+                    color:$secondary;
+                    padding:0;
+                    &::before {display:none;}
+                }
+            }
+        }
+    }
+}
+#mfHero {
+    h1,h2,p,a {
+        margin:0;
+        padding:0;
+        border:0;
+        font:inherit;
+        vertical-align:baseline;
+        line-height:1.4;
+    }
+    h1 {
+        font-size:54px;
+        color:$secondary;
+        line-height:1;
+        margin-bottom:15px;
+    }
+    h2 {
+        font-size:35px;
+        font-family:'MrEaves-bold', 'MrEaves', arial, sans-serif;
+    }
+    p {
+        font-size:18px;
+        + p {
+            margin-top:24px;
+        }
+    }
+    a {
+        color:$secondary;
+    }
+    a,
+    a:hover,
+    a:focus,
+    a:active {
+        text-decoration:none;
+        background-color:transparent;
+    }
+    .mfContent,
+    .mfIllusration {
+        color:#fff;
+        position:absolute;
+        width:30%;
+        left:calc(8% + 200px);
+        top:calc(50% + 65px);
+        transform:translateY(-50%);
+        transform-origin:center center;
+        transition:transform $speed,
+                   left $speed,
+                   top $speed;
+    }
+    .mfIllusration {
+        width:38%;
+        left:calc(35% + 200px);
+        transform:translateY(-52%) perspective(1000px) rotateY(-30deg);
+        transition:transform $speed,
+                   left $speed,
+                   top $speed,
+                   width $speed,
+                   max-width $speed;
+        svg {
+            pointer-events:none;
+            transform-origin:center center;
+            position:relative;
+            overflow:visible;
+            &#mfVortext {
+                position:absolute;
+                top:50%;
+                max-width:100%;
+                width:100%;
+                height:auto;
+                left:50%;
+                transform:translate(-50%, -50%);
+                transition:all $speed;
+            }
+            // paymnets
+            #shield,
+            #scBottom,
+            #scTop,
+            // orders
+            #startDot,
+            #arch1,
+            #pin1,
+            #arch2,
+            #pin2,
+            #arch3,
+            #pin3,
+            #map, 
+            #box,
+            // payments
+            #card,
+            #paymentsScreen,
+            // commerce
+            #commerceUI,
+            #ccTop,
+            #ccBottom,
+            // shopping
+            #buyNowBG,
+            #buyNow,
+            #shoppingCard,
+            #shoppingUI,
+            #browser {
+                transform-origin:center center;
+                opacity:0;
+                transition:all $speed;
+            }
+            #arch1,
+            #arch2,
+            #arch3 {
+                stroke-dasharray:12;
+             }
+        }
+    }
+    .mfSection {
+        height:100vh;
+    }
+    #mfScroll {
+        display:none;
+    }
+    .partnerLogos {
+        margin-top:15px;
+        display:flex;
+        flex-wrap:wrap;
+        align-items:center;
+        justify-content:space-between;
+        max-width:350px;
+        img {
+            display:block;
+            margin:15px 5px 15px 0;
+            &[alt="Adobe"] {
+                width:130px;
+                height:31.09px;
+            }
+            &[alt="Magento"] {
+                width:150px;
+                height:41.42px;
+            }
+            &[alt="Salesforce"] {
+                width:87px;
+                height:60.89px;
+            }
+        }
+    }
+}
+// Keyframes Animations
+@-webkit-keyframes scaleIn {
+  0% {
+    opacity:0;
+    -webkit-transform:scale(0.21);
+            transform:scale(0.21);
+  }
+  85% {
+    -webkit-transform:scale(1.1);
+            transform:scale(1.1);
+  }
+  100% {
+    opacity:1;
+    -webkit-transform:scale(1);
+            transform:scale(1);
+  }
+}
+@keyframes scaleIn {
+  0% {
+    opacity:0;
+    -webkit-transform:scale(0.21);
+            transform:scale(0.21);
+  }
+  85% {
+    -webkit-transform:scale(1.1);
+            transform:scale(1.1);
+  }
+  100% {
+    opacity:1;
+    -webkit-transform:scale(1);
+            transform:scale(1);
+  }
+}
+@-webkit-keyframes slideInL {
+  0% {
+    opacity:0;
+    -webkit-transform:translateX(30%);
+            transform:translateX(30%);
+  }
+  85% {
+    opacity:1;
+  }
+  100% {
+    opacity:1;
+    -webkit-transform:translateX(0);
+            transform:translateX(0);
+  }
+}
+@keyframes slideInL {
+  0% {
+    opacity:0;
+    -webkit-transform:translateX(30%);
+            transform:translateX(30%);
+  }
+  85% {
+    opacity:1;
+  }
+  100% {
+    opacity:1;
+    -webkit-transform:translateX(0);
+            transform:translateX(0);
+  }
+}
+@-webkit-keyframes slideInR {
+  0% {
+    opacity:0;
+    -webkit-transform:translateX(-30%);
+            transform:translateX(-30%);
+  }
+  85% {
+    opacity:1;
+  }
+  100% {
+    opacity:1;
+    -webkit-transform:translateX(0);
+            transform:translateX(0);
+  }
+}
+@keyframes slideInR {
+  0% {
+    opacity:0;
+    -webkit-transform:translateX(-30%);
+            transform:translateX(-30%);
+  }
+  85% {
+    opacity:1;
+  }
+  100% {
+    opacity:1;
+    -webkit-transform:translateX(0);
+            transform:translateX(0);
+  }
+}
+@-webkit-keyframes springUp {
+  0% {
+    opacity:0;
+    -webkit-transform:skew(-45deg) scale(0);
+            transform:skew(-45deg) scale(0);
+  }
+  5% {
+    opacity:0.5;
+    -webkit-transform:skew(-37.5deg) scale(1);
+            transform:skew(-37.5deg) scale(1);
+  }
+  10% {
+    opacity:1;
+    -webkit-transform:skew(0deg) scale(1);
+            transform:skew(0deg) scale(1);
+  }
+  15% {
+    opacity:1;
+    -webkit-transform:skew(17deg) scale(1);
+            transform:skew(17deg) scale(1);
+  }
+  30% {
+    opacity:1;
+    -webkit-transform:skew(-38.25deg) scale(1);
+            transform:skew(-38.25deg) scale(1);
+  }
+  45% {
+    opacity:1;
+    -webkit-transform:skew(2.25deg) scale(1);
+            transform:skew(2.25deg) scale(1);
+  }
+  60% {
+    opacity:1;
+    -webkit-transform:skew(-1deg) scale(1);
+            transform:skew(-1deg) scale(1);
+  }
+  70% {
+    opacity:1;
+    -webkit-transform:skew(0.5deg) scale(1);
+            transform:skew(0.5deg) scale(1);
+  }
+  100% {
+    opacity:1;
+    -webkit-transform:skew(0deg) scale(1);
+            transform:skew(0deg) scale(1);
+  }
+}
+@keyframes springUp {
+  0% {
+    opacity:0;
+    -webkit-transform:skew(-45deg) scale(0);
+            transform:skew(-45deg) scale(0);
+  }
+  5% {
+    opacity:0.5;
+    -webkit-transform:skew(-37.5deg) scale(1);
+            transform:skew(-37.5deg) scale(1);
+  }
+  10% {
+    opacity:1;
+    -webkit-transform:skew(0deg) scale(1);
+            transform:skew(0deg) scale(1);
+  }
+  15% {
+    opacity:1;
+    -webkit-transform:skew(17deg) scale(1);
+            transform:skew(17deg) scale(1);
+  }
+  30% {
+    opacity:1;
+    -webkit-transform:skew(-38.25deg) scale(1);
+            transform:skew(-38.25deg) scale(1);
+  }
+  45% {
+    opacity:1;
+    -webkit-transform:skew(2.25deg) scale(1);
+            transform:skew(2.25deg) scale(1);
+  }
+  60% {
+    opacity:1;
+    -webkit-transform:skew(-1deg) scale(1);
+            transform:skew(-1deg) scale(1);
+  }
+  70% {
+    opacity:1;
+    -webkit-transform:skew(0.5deg) scale(1);
+            transform:skew(0.5deg) scale(1);
+  }
+  100% {
+    opacity:1;
+    -webkit-transform:skew(0deg) scale(1);
+            transform:skew(0deg) scale(1);
+  }
+}
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+@-webkit-keyframes dash {
+  0% {
+    opacity:0;
+    stroke-dashoffset:50;
+  }
+  75% {
+    opacity:0.75;
+    stroke-dashoffset:0;
+  }
+  100% {
+    opacity:1;
+    stroke-dashoffset:0;
+  }
+}
+@keyframes dash {
+  0% {
+    opacity:0;
+    stroke-dashoffset:50;
+  }
+  75% {
+    opacity:0.75;
+    stroke-dashoffset:0;
+  }
+  100% {
+    opacity:1;
+    stroke-dashoffset:0;
+  }
+}
+@-webkit-keyframes dash-reverse {
+  0% {
+    opacity:0;
+    stroke-dashoffset:-50;
+  }
+  75% {
+    opacity:0.75;
+    stroke-dashoffset:0;
+  }
+  100% {
+    opacity:1;
+    stroke-dashoffset:0;
+  }
+}
+@keyframes dash-reverse {
+  0% {
+    opacity:0;
+    stroke-dashoffset:-50;
+  }
+  75% {
+    opacity:0.75;
+    stroke-dashoffset:0;
+  }
+  100% {
+    opacity:1;
+    stroke-dashoffset:0;
+  }
+}
+// IE Hacks
+body.ie {
+    #mfHero .mfIllusration svg {
+        &#mfVortext {
+            width:632px;
+            height:632px;
+        }
+        &#mfSVG {
+            width:632px;
+            height:494px;
+        }
+    }
+    &.mfTrigger0 {
+        #mfHero .mfIllusration svg {
+            &#mfVortext {
+                width:1200px;
+                height:1200px;
+            }
+            &#mfSVG {
+                opacity:0;
+            }
+        }
+    }
+}
+// Media Queries
+@media (max-width:1000px) {
+    #mfSideNav {
+        top:$navHeight;
+        transform:none;
+        width:90%;
+        height:auto;
+        ul {
+            display:flex;
+            justify-content:space-evenly;
+            li a {
+                max-width:$sideNavDot + 15 + px;
+                overflow:hidden;
+                margin:0;
+                transition:max-width $speed;
+                &.mfSkip {
+                    max-width:200px;
+                }
+            }
+        }
+    }
+    body.mfTrigger5 #mfSideNav {
+        top:calc(400vh + 230px);
+    }
+    #mfHero .mfContent,
+    #mfHero .mfIllusration {
+        width:45%;
+        left:5%;
+    }
+    #mfHero .mfIllusration {
+        left:50%;
+    }
+    body.mfTrigger0 #mfHero .mfContent {
+        position:absolute;
+        top:calc(50% + 65px);
+    }
+    body.mfTrigger2 #mfHero .mfContent,
+    body.mfTrigger4 #mfHero .mfContent {
+        left:50%;
+    }
+    body.mfTrigger2 #mfHero .mfIllusration,
+    body.mfTrigger4 #mfHero .mfIllusration {
+        left:5%;
+    }
+    body.mfTrigger0 #mfHero .mfIllusration svg {
+        #browser,
+        #commerceUI {
+            transform:translate(-47%,12%) scale(.25);
+        }
+        #card {
+            transform:translate(50%,25%) scale(0.6);
+        }
+        #box {
+            transform:translate(-11%,43%) scale(0.45);
+        }
+        #pin1 {
+            transform:translate(-53.8%,56%);
+        }
+    }
+}
+@media (max-width:750px) {
+    #mfSideNav {
+        display:none
+    }
+    #mfStage,
+    body[class*=mfTrigger] #mfStage,
+    body.mfTrigger5 #mfStage {
+        align-items:flex-end;
+        position:static;
+    }
+    body.mfTrigger0 #mfHero .mfContent,
+    #mfHero .mfContent {
+        position:relative;
+        top:auto;
+        left:auto;
+        transform:none;
+        > [class*="mfTrigger"] {height:100vh;}
+        > .mfTrigger5 {height:auto;padding-bottom:30px;}
+    }
+    body.mfTrigger1 #mfHero .mfIllusration {top:calc(50vh + 250px);}
+    body.mfTrigger2 #mfHero .mfIllusration {top:calc(150vh + 250px);}
+    body.mfTrigger3 #mfHero .mfIllusration {top:calc(250vh + 250px);}
+    body.mfTrigger4 #mfHero .mfIllusration {top:calc(350vh + 250px);}
+    body.mfTrigger5 #mfHero .mfIllusration {top:calc(450vh + 250px);}
+    body[class*=mfTrigger] [class*=mfTrigger] {
+        display:block;
+    }
+    body.mfTrigger0 #mfHero .mfContent #mfScroll {
+        position:fixed;
+        top:auto;
+        bottom:100px;
+    }
+    #mfHero {
+        position:relative;
+    }
+    #mfHero .mfSection {
+        position:absolute;
+        top:0;
+        width:100%;
+        pointer-events:none;
+        &#mfTrigger1 {top:100px;}
+        &#mfTrigger2 {top:calc(100vh + 100px);}
+        &#mfTrigger3 {top:calc(200vh + 100px);}
+        &#mfTrigger4 {top:calc(300vh + 100px);}
+        &#mfTrigger5 {top:calc(400vh + 100px);}
+    }
+    #mfHero .partnerLogos {
+        margin-top:0;
+        img {margin:5px 5px 15px 0;}
+    }
+    body.mfTrigger0 #mfHero .mfContent,
+    body.mfTrigger0 #mfHero .mfIllusration {
+        p, h1 {
+            padding-left:15px;
+            padding-right:15px;
+        }
+        p {font-size:18px;}
+    }
+    body.mfTrigger0 #mfHero .mfIllusration {
+        top:65px;
+    }
+    #mfHero {
+        h1 {font-size:46px;margin-top:150px;}
+        h2 {font-size:28px;}
+        p {font-size:16px;}
+        .mfIllusration {
+            position:absolute;
+            left:50%;
+            width:300px;
+            top:calc(50% - 110px);
+            transform:translate(-50%, 0) perspective(1000px) rotateY(-30deg);
+            transition:transform .5s;
+        }
+    }
+    #mfHero .mfContent,
+    body.mfTrigger2 #mfHero .mfContent,
+    body.mfTrigger4 #mfHero .mfContent {
+        position:relative;
+        top:auto;
+        left:auto;
+        width:92%;
+        margin:auto;
+        transform:none;
+    }
+    body.mfTrigger2 #mfHero .mfIllusration,
+    body.mfTrigger4 #mfHero .mfIllusration {
+        left:50%;
+        transform:translate(-50%, 0) perspective(1000px) rotateY(30deg);
+    }
+    body.mfTrigger5 #mfHero .mfIllusration,
+    body:not([class*="mfTrigger"]) #mfHero .mfIllusration {
+        position:absolute;
+    }
+}
+@media (max-width:575px) {
+    body.mfTrigger0 #mfHero .mfIllusration {opacity:0.5}
+    #mfHero .mfIllusration {
+        top:$navHeight;
+        transform:translate(-50%, 0) perspective(1000px) rotateY(-30deg)
+    }
+    body.mfTrigger2 #mfHero .mfIllusration,
+    body.mfTrigger4 #mfHero .mfIllusration {
+        transform:translate(-50%, 0) perspective(1000px) rotateY(30deg);
+    }
+    #mfHero {
+        h1 {margin-top:58px;}
+    }
+    body.mfTrigger0 #mfHero .mfContent #mfScroll {bottom:50px;}
+}
+@media (max-width:380px) {
+    body.mfTrigger0 #mfHero .mfContent,
+    body.mfTrigger0 #mfHero .mfIllusration {
+        p {font-size:16px;}
+    }
+    #mfHero {
+        h1 {font-size:36px;margin-top:80px}
+        h2 {font-size:22px;}
+        p {font-size:13px;}
+    }
+}
+@media (min-height:920px) {
+    body.mfTrigger0 #mfHero .mfIllusration svg #box {
+        transform:translate(-9%,22%) scale(.45);
+    }
+    body.mfTrigger0 #mfHero .mfIllusration svg #pin1 {
+        transform:translate(-51.75%,35%);
+    }
+}
+@media (max-height:700px) {
+    body.mfTrigger0 #mfHero .mfIllusration {opacity:0.25}
+}
+@media (max-height:625px) and (max-width:750px) {
+    #mfHero h1 {margin-top:-10px}
+    body.mfTrigger1 #mfHero .mfIllusration {top:calc(50vh + 168px);}
+    body.mfTrigger2 #mfHero .mfIllusration {top:calc(150vh + 168px);}
+    body.mfTrigger3 #mfHero .mfIllusration {top:calc(250vh + 168px);}
+    body.mfTrigger4 #mfHero .mfIllusration {top:calc(350vh + 168px);}
+    body.mfTrigger5 #mfHero .mfIllusration {top:calc(450vh + 168px);}
+}

@@ -1,0 +1,91 @@
+.thank-you {
+    background-color: #002c53;
+    // background: url('/wp-content/uploads/sites/8/hero-pattern-blue.jpg');
+    background-image: url('/wp-content/uploads/sites/8/bg-corner-hero.svg');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: cover;
+    padding-top: 6rem;
+    position: relative;
+    overflow: hidden;
+    background-attachment: fixed;
+    &:after {
+        content: '';
+        position: absolute;
+        background-size: 40% auto;
+        background-repeat: no-repeat;
+        background-position: bottom right;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+    }
+    @include media-breakpoint-up(md) {
+        padding-top: 10rem;
+    }
+    .hero-title {
+        @include media-breakpoint-down(md) {
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+    }
+
+    * h1 {
+        //color: $light-blue;            
+        font-size: 3rem;
+        line-height: 3.25rem;
+        padding-top: 40px;
+        padding-bottom: 20px;
+        text-align: center;
+        width: 100%;
+        @include media-breakpoint-up(md) {
+            font-size: 65px;
+            line-height: 65px;
+            padding-top: 40px;
+            padding-bottom: 20px;
+            text-align: center !important;
+        }
+    }
+    
+    .headline {
+        color: #fff;
+        text-align: center;
+        margin: 0px;
+        font-size: 24px;
+        line-height: 32px;
+        @include media-breakpoint-up(md) {
+            margin: 0px 80px;
+            font-size: 26px;
+            line-height: 33px;
+        }
+    }
+    .links {
+        padding-top: 30px;
+    }
+    .partner-link {
+        font-size: 26px;
+        line-height: 33px;
+        padding-left: 50px;
+    }
+    .intro {
+        height: auto;
+        padding: 2rem 0 3rem;
+        background: $white;
+        .bread {
+            font-size: 15px;
+            padding-top: 20px;
+            padding-bottom: 40px;
+        }
+        .title {
+            color: $dark-blue;
+            font-size: 40px;
+            line-height: 24px;
+            padding-bottom: 30px;
+        }
+        p {
+            color: $gray-body;
+        }
+    }
+
+}

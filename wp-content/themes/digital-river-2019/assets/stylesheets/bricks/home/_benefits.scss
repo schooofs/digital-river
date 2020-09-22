@@ -1,0 +1,79 @@
+.brick-home-benefits {
+  padding: 4rem 0;
+
+  a {
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  .col-lg-4 {
+    margin-bottom: 2rem;
+  }
+
+  .callout {
+    position: relative;
+    padding: 2rem 2rem 4rem;
+    border: 1px solid $light-blue;
+    overflow: hidden;
+    height: 100%;
+
+    &::after {
+      content: "";
+      width: 200%;
+      height: 14rem;
+      background-color: $primary;
+      position: absolute;
+      left: 50%;
+      transform: rotate(45deg) translate(-35rem, -20rem);
+      opacity: 0;
+      transition: .6s;
+    }
+
+    &:hover {
+      background-color: rgba($primary, .1);
+      animation: pulse .4s cubic-bezier(0.600, 0, 0.735, 0.045) 0 1 forwards;
+
+      &::after {
+        opacity: 0.25;
+        transform: rotate(45deg) translate(-200px, 650px);
+        transition-delay: .1s;
+      }
+
+      .callout-body {
+        animation: pulse .4s cubic-bezier(0.600, 0, 0.735, 0.045) 0 1 forwards;
+      }
+    }
+
+    h4 {
+      font-weight: bold;
+      line-height: 1;
+
+      @include media-breakpoint-up(lg) {
+        min-height: 4rem;
+      }
+    }
+
+    p {
+      font-size: 1rem;
+      line-height: 1.5;
+      margin-bottom: 2rem;
+    }
+
+    .img-background {
+      width: 4rem;
+      height: 4rem;
+      background-size: contain;
+      background-position: left bottom;
+      margin-bottom: 1rem;
+    }
+
+    .icon-arrow {
+      position: absolute;
+      bottom: 2rem;
+      right: 2rem;
+      width: 3rem;
+      height: 3rem;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+.vertical-line-left {
+	border-left:solid 1px $light-gray;
+
+	&::before {
+		content:"";
+		position: absolute;
+		top:0;
+	    left: -5px;
+	    width: 10px;
+	    height: 10px;
+	    border-radius: 50%;
+	    background: #E9E9E9;
+	}
+
+	&::after {
+		content:"";
+		position: absolute;
+		bottom:0;
+	    left: -5px;
+	    width: 10px;
+	    height: 10px;
+	    border-radius: 50%;
+	    background: #E9E9E9;
+	}
+}

@@ -1,0 +1,1050 @@
+// Mixins
+$mobile-mod: "(max-width: 990px) and (min-width: 280px)";
+$font-mod: "(max-width: 1160px) and (min-width: 892px)";
+$tablet-mod: "(max-width: 1200px) and (min-width: 875px)";
+
+@import "bootstrap/variables";
+
+
+
+body{
+  overflow-x: hidden;
+}
+
+.scrub-wrapper{
+
+  position: relative;
+
+  .ratio{
+    display:none;
+
+    @media (min-width: 990px) {
+      display:block;
+      border-top:solid 5px $purple;
+    }
+  }
+
+
+
+
+  .heading {
+    right: auto;
+    text-align: center;
+    font-family: "DIN Next W01 Light", sans-serif;
+    color: #FFF;
+    background: #6f29d3;
+    z-index: 1010;
+    padding: 5px 10px;
+    z-index: 99999;
+    font-size:2em;
+    width:100%;
+
+    @media (min-width: 990px) {
+      width: 530px;
+      font-size: 2.5em;
+      left:50%;
+      margin-left:-265px;
+      position: absolute;
+    }
+  }
+}
+
+
+.module2{
+  width:100%;
+  top:0;
+  position:absolute;
+  border-top: 2px solid $purple;
+  @media #{$mobile-mod} {
+    position: inherit;
+    display: inline;
+    width: 100%;
+    height: 100%;
+  }
+
+  &.moveCoverStart{
+    .panelStart{
+      z-index: 1002;
+    }
+    .svg-Cover-Position-Start{
+      z-index: 1001;
+      &.removeAnimation{
+        transform: translate(0px, 0px);
+      }
+    }
+    .CTAPanel-Start{
+      z-index: 1003;
+    }
+    .CTAPanel-Scale{
+      z-index: 999;
+    }
+    .CTAPanel-Dominate{
+      z-index: 999;
+    }
+    .panelScale{
+      z-index: 998;
+    }
+    .svg-Cover-Position-Scale{
+      z-index: 996;
+    }
+    .panelDominate{
+      z-index: 999;
+    }
+    .svg-Cover-Position-Dominate{
+      z-index: 996;
+    }
+  }
+  &.moveCoverScale{
+    .panelStart{
+      z-index: 999;
+    }
+    .svg-Cover-Position-Start{
+      z-index: 998;
+    }
+    .CTAPanel-Start{
+      z-index: 999;
+    }
+    .CTAPanel-Scale{
+      z-index: 1007;
+      &.removeAnimation{
+        transform: translate(0px, 0px);
+      }
+    }
+    .panelScale{
+      z-index: 1005;
+    }
+    .svg-Cover-Position-Scale{
+      z-index: 1006;
+      &.removeAnimation{
+        transform: translate(155%, 0px);
+      }
+    }
+    .svg-Cover-Second-Position-Scale{
+      z-index: 1000;
+      &.removeAnimation{
+        transform: translate(-150%, 0px);
+      }
+    }
+
+    .panelDominate{
+      z-index: 1004;
+    }
+    .svg-Cover-Position-Dominate{
+      z-index: 996;
+    }
+  }
+  &.movePanelScale{
+    .panelStart{
+      z-index: 999;
+    }
+    .svg-Cover-Position-Start{
+      z-index: 998;
+    }
+    .CTAPanel-Scale{
+      z-index: 1007;
+    }
+    .panelScale{
+      z-index: 1002;
+      &.removeAnimation{
+        transform: translate(0px, 0px);
+      }
+    }
+    .svg-Cover-Position-Scale{
+      z-index: 1006;
+    }
+    .svg-Cover-Second-Position-Scale{
+      z-index: 1005;
+      &.removeAnimation{
+        transform: translate(0px, 0px);
+      }
+    }
+    .panelDominate{
+      z-index: 1004;
+    }
+    .svg-Cover-Position-Dominate{
+      z-index: 996;
+    }
+  }
+    &.moveCoverDominate{
+    .panelStart{
+      z-index: 998;
+    }
+    .CTAPanel-Start{
+      z-index: 1001;
+    }
+    .svg-Cover-Position-Start{
+      z-index: 997;
+    }
+    .panelScale{
+      z-index: 999;
+    }
+    .svg-Cover-Position-Scale{
+      z-index: 996;
+    }
+    .CTAPanel-Scale{
+      z-index: 1001;
+    }
+    .panelDominate{
+      z-index: 1002;
+    }
+    .svg-Cover-Position-Dominate{
+      z-index: 1001;
+      &.removeAnimation{
+        transform: translate(0px, 0px);
+      }
+    }
+  }
+
+
+  .panelStart {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 200%;
+    transform: translate(25%, 0px);
+    @media #{$mobile-mod} {
+      display: block;
+      position: inherit;
+      width: 100%;
+      height: 300px;
+      left: 0;
+      top: 0;
+      transform: translate(0px, 0px);
+      background: 
+      linear-gradient(
+        rgba(31, 30, 36, 0.6), 
+        rgba(31, 30, 36, 0.6)
+      ), 
+      url('http://55x6d1oo46s209smp10ge1wlsl.wpengine.netdna-cdn.com/wp-content/themes/digital-river-translated/img/gaming/img/m-start.jpg') no-repeat center center;
+      img{
+        display: none;
+      }
+    }
+  }
+  .panelScale {
+    position: absolute;
+    left: -100%;
+    top: 0;
+    width: 200%;
+    z-index: 1003;
+    transition: transform 1000ms;
+    transform: translate(25%, 0px);
+    @media #{$mobile-mod} {
+      display: block;
+      position: inherit;
+      height: 300px;
+      width: 100%;
+      left: 0;
+      top: 0;
+      transform: translate(0px, 0px);
+      background: 
+      linear-gradient(
+        rgba(78, 76, 79, 0.6), 
+        rgba(78, 76, 79, 0.6)
+      ), 
+      url('http://55x6d1oo46s209smp10ge1wlsl.wpengine.netdna-cdn.com/wp-content/themes/digital-river-translated/img/gaming/img/m-scale.jpg') no-repeat center center;
+      img{
+        display: none;
+      }
+    }
+    &.movePanelScale{
+      transform: translate(0px, 0px);
+    }
+  }
+  .panelDominate {
+    position: absolute;
+    right: -100%;
+    top: 0;
+    width: 200%;
+    z-index: 1003;
+    transform: translate(-25.5%, 0px);
+    @media #{$mobile-mod} {
+      display: block;
+      position: inherit;
+      height: 300px;
+      width: 100%;
+      right: 0;
+      top: 0;
+      z-index: 1001;
+      transform: translate(0px, 0px);
+      background: 
+      linear-gradient(
+        rgba(44, 44, 44, 0.6), 
+        rgba(44, 44, 44, 0.6)
+      ), 
+      url('http://55x6d1oo46s209smp10ge1wlsl.wpengine.netdna-cdn.com/wp-content/themes/digital-river-translated/img/gaming/img/m-dominate.jpg') no-repeat center center;
+      img{
+        display: none;
+      }
+    }
+  }
+  
+  .svg-Cover-Position-Start{
+    transition: transform 1000ms;
+    transform: translate(0%, 0px);
+
+
+    @media (min-width: 990px) {
+      z-index: -1;
+      transform: translate(-80%, 0px);
+    }
+
+    @media #{$mobile-mod} {
+      display: block;
+      background: none;
+      position: absolute;
+      img{
+        display: none;
+      }
+    }
+    &.moveCoverStart{
+      transform: translate(0%, 0px);
+    }
+  }
+  .svg-Cover-Position-Scale{
+    transition: transform 1000ms;
+
+    @media (min-width: 990px) {
+      transform: translate(145%, 0px);
+    }
+
+    @media #{$mobile-mod} {
+      img{
+        display: none;
+      }
+    }
+    &.moveCoverScale{
+      transform: translate(-5%, 0px);
+  
+    }
+  }
+  .svg-Cover-Second-Position-Scale {
+    left: -300%;
+    top: 0;
+    width: 100%;
+    position: absolute;
+    transition: transform 1000ms;
+    transform: translate(-75%, 0px);
+    z-index: -100;
+
+    @media (min-width: 990px) {
+      width: 400%;
+    }
+
+    @media #{$mobile-mod} {
+      display: none;
+      img{
+        display: none;
+      }
+    }
+    &.moveCoverScaleSecondary{
+      transform: translate(-25%, 0px);
+    }
+  }
+  
+  .svg-Cover-Second-Position-Scale-BKGD {
+    left: -300%;
+    top: 0;
+    width:100%;
+    position: absolute;
+    transition: transform 1000ms;
+    transform: translate(50%, 0px);
+    z-index: -100;
+
+    @media (min-width: 990px) {
+      width: 400%;
+    }
+
+    @media #{$mobile-mod} {
+      display: none;
+      img{
+        display: none;
+      }
+    }
+  }
+  .svg-Cover-Second-Position-Scale-Bkgd {
+    width: 100%;
+    height: 100%;
+    background: #4e4c4f
+    // image as a fallback to width issue with image for Scale section
+    // url('../img/module-image-scale-bkgd.jpg')
+    ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index:-1000;
+  
+    @media #{$mobile-mod} {
+      display: none;
+      img{
+        display: none;
+      }
+    }
+  }
+  .svg-Cover-Position-Dominate{
+    &.moveCoverDominate{
+      transform: translate(-80%, 0px);
+    }
+  }
+  
+  .coverContainer{
+    position: relative;
+  }
+  .CTAPanel-Description{
+    position: absolute;
+    top: 0; 
+    left: 0;
+    width:100%; 
+    z-index: 1003;
+
+    @media (min-width: 990px) {
+      width: 25%; 
+    }
+
+    @media #{$mobile-mod} {
+      height: 300px;
+    }
+    &.StartDesc{
+      @media (min-width: 990px) {
+        margin: 5% 0 200px 32%;
+      }
+    }
+    &.ScaleDesc{
+      @media (min-width: 990px) {
+        margin: 5% 0 200px 19%;
+      }
+    }
+    &.DominateDesc{
+      @media (min-width: 990px) {
+        margin: 5% 0 200px 42%;
+      }
+    }
+    
+  }
+  .CTAPanel-Start{
+    margin: 50px;
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    width: 50%; 
+    z-index: 1003;
+    opacity: 0;
+    @media #{$mobile-mod} {
+      opacity: 1;
+      width: 100%;
+      height: 100%;
+      margin: 0;
+    }
+    &.fadeInStart{
+      animation: fade 1s forwards;
+      @keyframes fade {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+    }
+  }
+  
+  .CTAPanel-Scale{
+    margin: 33% 0 0 9%;
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    width: 50%; 
+    z-index: 1003;
+    opacity: 0;
+    transition: transform 1000ms;
+    transform: translate(0px, 0px);
+    display: block;
+
+    @media #{$mobile-mod} {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      z-index: 1140;
+    }
+    &.moveCTAPanelScale{
+      transform: translate(-100%, 0px);
+    }
+    &.fadeInScale{
+      animation: fade 1s forwards;
+  
+      @keyframes fade {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+    }
+  }
+  .CTAPanel-Dominate{
+    margin: 30% 0 50% 15%;
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    width: 50%; 
+    opacity: 0;
+    z-index: 1004;
+    @media #{$mobile-mod} {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      z-index: 1140;
+    }
+    &.fadeInDominate{
+      animation: fade 1s forwards;
+  
+      @keyframes fade {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+    }
+  }
+  
+  button.closeCover{
+    top: 10px;
+    right: 0;
+    color: $white;
+    position: absolute;
+    background: none;
+    border: none;
+    outline: none;
+    display: block;
+    transition: opacity 0.3s ease-in-out 0s;
+    @media #{$mobile-mod} {
+      display: none;
+      }
+    &:after{
+      content:"\2716";
+    }
+    &:hover{
+      background: none;
+      opacity: 0.7;
+    }
+  }
+
+}
+
+
+// MEDIA QUERIES FOR IMAGES //
+
+// IMG BASED TRIAL //
+
+.imgWidth{
+  width: 100%;
+  display: block;
+  border-bottom: solid 3px $purple;
+  display: none;
+
+  @media (min-width: 990px) {
+    display:block;
+  }  
+}
+
+img{ max-width: 100%; height: auto; }
+
+
+
+  .CTAPanelType{
+    h1{
+      font-family: $eng;
+      color: $white;
+      margin: 0;
+    }
+
+    .h3{
+      margin: 0;
+      line-height: 1.5em;
+
+      @media (min-width: 1200px) {
+
+      }
+
+      @media (max-width: 1200px) {
+        font-size: 1.4em;
+
+      }
+      @media (max-width: 990px) and (min-width: 320px) {
+        margin-bottom: 10px;
+      } 
+    }
+    p{
+      font-family: $light;
+      color: $white;
+      font-size: 1.1em;
+      margin: 0;
+      line-height: 1.75em;
+
+      &.lead{
+
+        @media (max-width: 1200px){
+            font-size:16px;
+        }
+      }
+    }
+    button.read-more, button.read-more:visited{
+      margin: 3px 0 0 0;
+      font-size: 1.2em;
+      background: none;
+      border: none;
+      font-family: $eng;
+      color: $white;
+      text-decoration: none;
+      padding: 0;
+      &:hover, &:active{
+        background: none;
+      }
+      &:focus{
+        border: none;
+        background: none;
+        outline: none;
+      }
+      &:after{
+        margin: 0 0 0 10px;
+        display: inline-block;
+        content:"\2716";
+        opacity: 1;
+        transition: transform 0.3s ease-in-out 0s;
+        transform: rotate(45deg);
+      }
+      &:after:active{
+        margin: 0;
+        padding: 0;
+      }
+      &:hover::after {
+        transform: rotate(90deg);
+      }
+    }
+  }
+
+
+// IE FIX //
+
+.module2-Second{
+  top:0;
+  width:100%;
+  position:absolute;
+  border-top: 2px solid $purple;
+
+  @media #{$mobile-mod} {
+    display: none;
+  }
+
+  &.moveCoverStart{
+    .panelStart{
+      z-index: 1002;
+    }
+    .svg-Cover-Position-Start{
+      z-index: 1001;
+      &.removeAnimation{
+        transform: translate(-75%, 0px);
+      }
+    }
+    .CTAPanel-Start{
+      z-index: 1003;
+    }
+    .panelScale{
+      z-index: 998;
+    }
+    .svg-Cover-Position-Scale{
+      z-index: 996;
+    }
+    .panelDominate{
+      z-index: 999;
+    }
+    .svg-Cover-Position-Dominate{
+      z-index: 996;
+    }
+  }
+  &.moveCoverScale{
+    .panelStart{
+      z-index: 999;
+    }
+    .svg-Cover-Position-Start{
+      z-index: 998;
+    }
+    .panelScale{
+      z-index: 1005;
+    }
+    .svg-Cover-Position-Scale{
+      z-index: 1006;
+      &.removeAnimation{
+        transform: translate(155%, 0px);
+      }
+    }
+    .svg-Cover-Second-Position-Scale{
+      z-index: 1000;
+      &.removeAnimation{
+        transform: translate(-55%, 0px);
+      }
+    }
+
+    .panelDominate{
+      z-index: 1004;
+    }
+    .svg-Cover-Position-Dominate{
+      z-index: 996;
+    }
+  }
+  &.movePanelScale{
+    .panelStart{
+      z-index: 999;
+    }
+    .svg-Cover-Position-Start{
+      z-index: 998;
+    }
+    .panelScale{
+      z-index: 1002;
+      &.removeAnimation{
+        transform: translate(0px, 0px);
+      }
+    }
+    .svg-Cover-Position-Scale{
+      z-index: 1006;
+    }
+    .svg-Cover-Second-Position-Scale{
+      z-index: 1005;
+      &.removeAnimation{
+        transform: translate(0%, 0px);
+      }
+    }
+    .panelDominate{
+      z-index: 1004;
+    }
+    .svg-Cover-Position-Dominate{
+      z-index: 996;
+    }
+  }
+    &.moveCoverDominate{
+    .panelStart{
+      z-index: 998;
+    }
+    .CTAPanel-Start{
+      z-index: 1001;
+    }
+    .svg-Cover-Position-Start{
+      z-index: 997;
+    }
+    .panelScale{
+      z-index: 999;
+    }
+    .svg-Cover-Position-Scale{
+      z-index: 996;
+    }
+    .panelDominate{
+      z-index: 1002;
+    }
+    .svg-Cover-Position-Dominate{
+      z-index: -1001;
+      &.removeAnimation{
+        transform: translate(130%, 0px);
+      }
+    }
+  }
+
+
+  .panelStart {
+    position: relative;
+  }
+  .panelScale {
+    position: relative;
+    width: 100%;
+    left: -43%;
+    transition: transform 1000ms;
+    transform: translate(0px, 0px);
+    z-index: 999;
+    &.movePanelScale{
+      transform: translate(-60%, 0px);
+    }
+  }
+  .panelDominate {
+    position: relative;
+    width: 100%;
+    left: -60%;
+    display: block;
+    z-index: 1003;
+  }
+  
+  .svg-Cover-Position-Start{
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform 1000ms;
+    transform: translate(-75%, 0px);
+    z-index: -1;
+    &.moveCoverStart{
+      transform: translate(12%, 0px);
+    }
+  }
+  .svg-Cover-Position-Scale{
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: transform 1000ms;
+    transform: translate(145%, 0px);
+    &.moveCoverScale{
+      transform: translate(103%, 0px);
+  
+    }
+  }
+  .svg-Cover-Second-Position-Scale {
+    left: 0;
+    top: 0;
+    position: absolute;
+    transition: transform 1000ms;
+    transform: translate(-55%, 0px);
+    z-index: -100;
+    &.moveCoverScaleSecondary{
+      transform: translate(-15%, 0px);
+    }
+  }
+  .svg-Cover-Second-Position-Scale-Bkgd {
+    width: 200%;
+    height: 400px;
+    background: #4e4c4f;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    transform: translate(0%, 0px);
+    z-index: -1000;
+  }
+  .svg-Cover-Position-Dominate{
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: transform 1000ms;
+    transform: translate(150%, 0px);
+    display: block;
+    &.moveCoverDominate{
+      transform: translate(15%, 0px);
+    }
+  }
+  
+  .coverContainer{
+    position: relative;
+  }
+  .CTAPanel-Description{
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    width: 25%; 
+    z-index: 1003;
+    &.StartDesc{
+      margin: 2% 0 200px 22%;
+    }
+    &.ScaleDesc{
+      margin: 2% 0 200px 13%; 
+    }
+    &.DominateDesc{
+      margin: 2% 0 200px 38%; 
+      @media #{$tablet-mod} {
+        margin: 2% 0 200px 49%; 
+      }
+    }
+    
+  }
+  button.closeCover{
+      top: -20px;
+      right: 5px;
+      color: $white;
+      position: absolute;
+      background: none;
+      border: none;
+      outline: none;
+      display: block;
+      @media #{$tablet-mod} {
+
+      }
+      &:after{
+        content:"\2716";
+      }
+    }
+  .CTAPanel-Start{
+    margin: 50px;
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    width: 50%; 
+    z-index: 1003;
+    opacity: 0;
+    &.fadeInStart{
+      animation: fade 1s forwards;
+  
+      @keyframes fade {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+    }
+  }
+  
+  .CTAPanel-Scale{
+    margin: 45% 0 0 45%;
+    @media #{$tablet-mod} {
+      margin: 45% 0 0 67%; 
+    }
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    width: 50%; 
+    z-index: 1003;
+    opacity: 0;
+    &.fadeInScale{
+      animation: fade 1s forwards;
+  
+      @keyframes fade {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+    }
+  }
+  .CTAPanel-Dominate{
+    margin: 30% 0 0 55%;
+    @media #{$tablet-mod} {
+      margin: 30% 0 0 80%; 
+    }
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    width: 50%; 
+    opacity: 0;
+    &.fadeInDominate{
+      animation: fade 1s forwards;
+  
+      @keyframes fade {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+    }
+  }
+
+}
+
+.Cover-Position{
+  width: 100%;
+  top: 0;
+  position:absolute;
+  left: 10px;
+  transform: translate(0px, 0px);
+  z-index: 1004;
+
+  @media (min-width: 990px) {
+    position: absolute;
+    top: 0;
+    right: -300%;
+    width: 400%;
+    transition: transform 1000ms;
+    z-index:1000;
+  }
+}
+
+.CTAPanel{
+    margin:55px 20px;
+    padding: 35px 30px;
+
+    @media (min-width: 990px) {
+      margin: 55px 50px;
+    }  
+}
+
+.module2 .CTAPanel-Description {
+    height: 300px;
+    margin: 75px 0px;
+    width: 95%;
+    padding: 0 20px;
+
+    @media (min-width: 990px) {
+      width: 33%;
+      margin: 45px 0px;
+    }
+}
+
+.CTAPanelType{
+    h1{
+      font-family: $eng;
+      color: $white;
+      margin: 0;  
+    }
+    h2{
+      margin: 50px 0 10px;
+    }
+    button.read-more, button.read-more:visited{
+      margin: 3px 0 0 0;
+      font-size: 1.2em;
+      background: none;
+      border: none;
+      font-family: $eng;
+      color: $white;
+      text-decoration: none;
+      padding: 0;
+      @media #{$mobile-mod} {
+        display: none;
+      }
+      &:hover, &:active{
+        background: none;
+      }
+      &:focus{
+        border: none;
+        background: none;
+        outline: none;
+      }
+      &:after{
+          margin: 0 0 0 10px;
+          display: inline-block;
+          content: "\f067";
+          font-family: FontAwesome;
+          opacity: 1;
+          transition: transform 0.3s ease-in-out 0s;
+          width: 31px;
+          height: 31px;
+          border-radius: 50%;
+          padding: 2px 6px 0px;
+          animation: read-more-pulse 2000ms ease both infinite;
+          border: solid 4px transparent;
+          background: #343438;
+          position: relative;
+          top: 1px;
+          line-height: 1.45;
+          font-size: 0.8em;
+
+          @keyframes read-more-pulse {
+            0%, 100% {
+              opacity: 1;
+              border-color: transparent;
+            }
+            50% {
+              opacity: .75;
+              border-color: #f1f2f4;
+            }
+          }
+      }
+      &:after:active{
+        margin: 0;
+        padding: 0;
+      }
+      &:hover::after {
+        transform: rotate(90deg);
+      }
+    }
+  }

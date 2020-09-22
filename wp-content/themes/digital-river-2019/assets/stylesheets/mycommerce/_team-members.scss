@@ -1,0 +1,48 @@
+       
+    .leadership-pic {
+        border: 2px #00A7E1 solid;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+
+   .leaders {
+            min-height: 410px;
+    }
+
+  
+    @media (min-width: 768px) {
+         .leaders {
+            min-height: 450px;
+        }
+    }
+
+@media (min-width: 992px) {
+         .leaders {
+            min-height: 400px;
+        }
+    }
+
+   @media (min-width: 1200px) {
+         .leaders {
+            min-height: 430;
+        }
+    }
+
+   @media (min-width: 1300px) {
+         .leaders {
+            min-height: 400;
+        }
+    }
+
+  @media (min-width: 1400px) {
+         .leaders {
+            min-height: 420px;
+        }
+    }
+
+
+   @media (min-width: 1700px) {
+         .leaders {
+            min-height: 380px;
+        }
+    }

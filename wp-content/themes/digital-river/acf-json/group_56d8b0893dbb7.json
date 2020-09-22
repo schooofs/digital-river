@@ -1,0 +1,367 @@
+{
+    "key": "group_56d8b0893dbb7",
+    "title": "Events",
+    "fields": [
+        {
+            "key": "field_55a665c7ab81f",
+            "label": "Event Type",
+            "name": "event_type",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "event": "Event",
+                "webinar": "Webinar"
+            },
+            "default_value": [],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_598b33dd01584",
+            "label": "Event Start Date",
+            "name": "event_start_date",
+            "type": "date_picker",
+            "instructions": "Enter the event date here, or the first day of your event if it spans multiple days",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_55a665c7ab81f",
+                        "operator": "==",
+                        "value": "event"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "display_format": "F j, Y",
+            "return_format": "F j, Y",
+            "first_day": 0
+        },
+        {
+            "key": "field_5230e17735157",
+            "label": "Event End Date",
+            "name": "event_end_date",
+            "type": "date_picker",
+            "instructions": "If your event does not span multiple days, enter the start date here as well",
+            "required": 1,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_55a665c7ab81f",
+                        "operator": "==",
+                        "value": "event"
+                    },
+                    {
+                        "field": "field_55a665c7ab81f",
+                        "operator": "==",
+                        "value": "event"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "33.3",
+                "class": "",
+                "id": ""
+            },
+            "display_format": "F j, Y",
+            "return_format": "F j, Y",
+            "first_day": 0
+        },
+        {
+            "key": "field_5230e726dfe1a",
+            "label": "Event Location",
+            "name": "event_location",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_55a665c7ab81f",
+                        "operator": "==",
+                        "value": "event"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "33.3",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_520bd3fa70276",
+            "label": "Pre Event Link URL",
+            "name": "link_url",
+            "type": "text",
+            "instructions": "This url will be used until the event ends.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "40",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_55a66663ab820",
+            "label": "Post Event Link URL",
+            "name": "post_event_link_url",
+            "type": "text",
+            "instructions": "This url will be used after event has ended.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_55ad62dab434c",
+                        "operator": "==",
+                        "value": "add"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_55a665c7ab81f",
+                        "operator": "==",
+                        "value": "webinar"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "40",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_55ad140d83025",
+            "label": "Upcoming Button Text",
+            "name": "upcoming_button_text",
+            "type": "text",
+            "instructions": "This button label will be used until the event ends.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_55a665c7ab81f",
+                        "operator": "==",
+                        "value": "event"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "40",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5230e731dfe1b",
+            "label": "Event Long Description",
+            "name": "event_description",
+            "type": "textarea",
+            "instructions": "This description will be displayed while the event is in the Upcoming News & Webinars column.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_55a665c7ab81f",
+                        "operator": "==",
+                        "value": "event"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
+        },
+        {
+            "key": "field_55a667b7ab821",
+            "label": "Post Event Recap",
+            "name": "post_event_recap",
+            "type": "textarea",
+            "instructions": "A short summary of the event. Keep it simple, keep it short.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_55ad62dab434c",
+                        "operator": "==",
+                        "value": "add"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
+        },
+        {
+            "key": "field_55ad170b8f19d",
+            "label": "Recap Button Text",
+            "name": "recap_button_text",
+            "type": "text",
+            "instructions": "This button label will be used after the event has ended.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_55ad62dab434c",
+                        "operator": "==",
+                        "value": "add"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_59c52e5424d39",
+            "label": "Webinar Start Date",
+            "name": "event_start_date",
+            "type": "date_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_55a665c7ab81f",
+                        "operator": "==",
+                        "value": "webinar"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "40",
+                "class": "",
+                "id": ""
+            },
+            "display_format": "F j, Y",
+            "return_format": "F j, Y",
+            "first_day": 1
+        },
+        {
+            "key": "field_59c52eb424d3a",
+            "label": "On-Demand Webinar Expiration Date",
+            "name": "event_end_date",
+            "type": "date_picker",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_55a665c7ab81f",
+                        "operator": "==",
+                        "value": "webinar"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "40",
+                "class": "",
+                "id": ""
+            },
+            "display_format": "F j, Y",
+            "return_format": "F j, Y",
+            "first_day": 1
+        },
+        {
+            "key": "field_55ad62dab434c",
+            "label": "Add To Past Events Sidebar",
+            "name": "add_to_past_events_sidebar",
+            "type": "checkbox",
+            "instructions": "This field is for adding past events that are too old to automatically be added.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "add": "Add"
+            },
+            "allow_custom": 0,
+            "save_custom": 0,
+            "default_value": [],
+            "layout": "vertical",
+            "toggle": 0,
+            "return_format": "value"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "events"
+            }
+        ]
+    ],
+    "menu_order": 50,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "the_content"
+    ],
+    "active": 1,
+    "description": "",
+    "modified": 1506377893
+}

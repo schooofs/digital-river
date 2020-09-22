@@ -1,0 +1,26 @@
+@mixin create-spacing($size-abbr, $rems) {
+  .marg-t-#{$size-abbr}-#{$rems} {
+    margin-top: #{$rems}rem !important;
+  }
+  .marg-b-#{$size-abbr}-#{$rems} {
+    margin-bottom: #{$rems}rem !important;
+  }
+  .marg-l-#{$size-abbr}-#{$rems} {
+    margin-left: #{$rems}rem !important;
+  }
+  .marg-r-#{$size-abbr}-#{$rems} {
+    margin-right: #{$rems}rem !important;
+  }
+  .pad-t-#{$size-abbr}-#{$rems} {
+    padding-top: #{$rems}rem !important;
+  }
+  .pad-b-#{$size-abbr}-#{$rems} {
+    padding-bottom: #{$rems}rem !important;
+  }
+  .pad-l-#{$size-abbr}-#{$rems} {
+    padding-left: #{$rems}rem !important;
+  }
+  .pad-r-#{$size-abbr}-#{$rems} {
+    padding-right: #{$rems}rem !important;
+  }
+}

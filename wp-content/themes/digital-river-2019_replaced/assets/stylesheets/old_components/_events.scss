@@ -1,0 +1,29 @@
+#upcoming-events-slider {
+
+	.resource {
+		float:none;
+		margin:0 auto;
+
+		.svg-wrapper {
+			display: block;
+		}
+	}
+
+	&.owl-carousel {
+
+		.owl-prev,
+		.owl-next, {
+			background-color:transparent;
+		}
+
+		.owl-prev {
+			left: -50px;
+		}
+
+		.owl-next {
+			right:-50px;
+		}
+	}
+
+
+}

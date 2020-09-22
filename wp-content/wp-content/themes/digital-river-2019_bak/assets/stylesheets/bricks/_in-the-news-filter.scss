@@ -1,0 +1,49 @@
+.brick-in-the-news-filter {
+  background-color: $white;
+  padding: 3rem 0 0;
+
+  h2 {
+    margin-bottom: 0;
+  }
+
+  .in-the-news-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+  }
+
+  .article-filter { 
+    display: flex;
+    align-items: center;
+    color: $navy;
+
+    select {
+      margin-left: 1rem;
+      min-width: 6rem;
+    }
+
+    .select2-container {
+      margin-left: 1rem;
+    }
+  }
+}
+
+// News Detail
+
+main.news-detail {
+  //padding-top: 12rem;
+  background: #fff;
+  padding-bottom: 6rem;
+
+  @include media-breakpoint-down(md) {
+    //padding-top: 7rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  #breadrumbs {
+    margin-bottom: 2rem;
+    font-size: 1.125rem;
+  }
+}
+

@@ -1,0 +1,64 @@
+.brick-home-benefits {
+  background-size: cover;
+  padding: 5rem 0;
+
+  .flex-sticky {
+    flex-direction: column;
+    display: flex;
+  }
+
+  .benefits-left {
+    margin-bottom: 1rem;
+    position: sticky;
+    top: 7rem;
+  }
+
+  .benefits-right {
+
+     a {
+       &:hover {
+         color: $dark-blue;
+       }
+     }
+
+    .row {
+      margin-bottom: 2rem;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .large-title {
+    color: $dark-blue;
+    padding-bottom: 1rem;
+  }
+
+  p {
+    color: $gray-body;
+    font-size: 20px;
+    line-height: 27px;
+  }
+
+  .small-title {
+    color: $dark-blue;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .benefits-icon {
+    max-width: 6rem;
+    margin-bottom: 1rem;
+
+    @include media-breakpoint-only(md) {
+      max-width: 100%;
+    }
+
+    @include media-breakpoint-up(lg) {
+      max-width: 6rem;
+      float: right;
+      padding-top: .75rem;
+    }
+  }
+}

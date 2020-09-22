@@ -1,0 +1,34 @@
+.dr_overlay {
+   position: fixed;
+   width: 100%;
+   height: 100%;
+   background-color: $navy;
+   z-index: -1;
+   opacity: 0;
+   transition: opacity 0.2s, z-index 0.2s;
+ }
+
+.overlay-active {
+  .dr_overlay {
+    z-index: 1090;
+    opacity: 0.8;
+  }
+}
+
+.dr_overlay-mast { 
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: $navy;
+  z-index: -1;
+  opacity: 0;
+  transition: opacity 0.2s, z-index 0.2s;
+  top: 0;
+}
+
+.search-active {
+  .dr_overlay-mast {
+    z-index: 1090;
+    opacity: 0.8;
+  }
+}

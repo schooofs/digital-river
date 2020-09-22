@@ -1,0 +1,19 @@
+.locations {
+
+    .client-feature-wrapper {
+        margin: 20px 0;
+    }
+
+    .client-feature-wrapper .client-feature {
+        height: 350px;
+        max-width: none;
+    }
+
+    @media (max-width:768px){
+        .client-feature-wrapper .client-feature {
+            margin-bottom: 20px;
+            height: 300px;
+         }
+
+    }
+}

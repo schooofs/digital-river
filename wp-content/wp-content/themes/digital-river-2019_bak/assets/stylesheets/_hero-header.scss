@@ -1,0 +1,52 @@
+
+    .box {
+     position: relative;
+}
+
+    .buttonScroll {
+            display: none;
+    }
+  
+        
+@media (min-width: 768px) {
+    .heroHeader {
+            background-image: url(images/background-image.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+     
+           
+    }
+
+    .buttonScroll {
+            display: block;
+            font-size:30px; 
+            color: white; 
+            border-radius: 50%;
+            position: absolute;
+            left: 50%;
+            transition: translateX(50);
+            margin-top: 10px;
+        }
+   .activePadding {
+        margin-top: -20px;
+    }
+}
+@media (min-width: 992px) {
+    .buttonScroll {
+            margin-top: 10px;
+        }
+    
+    .activePadding {
+        margin-top: -20px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .buttonScroll {
+            margin-top: 10px;
+        }
+    
+   .activePadding {
+        margin-top: -25px;
+    }
+}

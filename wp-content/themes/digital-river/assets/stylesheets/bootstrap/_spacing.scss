@@ -1,0 +1,13 @@
+@each $size-abbr, $grid-size in $grid-sizes {
+  @for $i from 0 through 16 {
+    $size: nth($grid-size, 1);
+    @if $size == 0 {
+      @include create-spacing($size-abbr, $i);
+    }
+    @else {
+      @media (min-width: $size) {
+          @include create-spacing($size-abbr, $i);
+      }
+    }
+  }
+}

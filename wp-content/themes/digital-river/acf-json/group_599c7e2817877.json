@@ -1,0 +1,43 @@
+{
+    "key": "group_599c7e2817877",
+    "title": "3 Across Fields",
+    "fields": [
+        {
+            "key": "field_599c7e3a3a13c",
+            "label": "Top Paragraph",
+            "name": "top_paragraph",
+            "type": "textarea",
+            "instructions": "Enter top copy here",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": "wpautop"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "brick",
+                "operator": "==",
+                "value": "three_across"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1503430162
+}

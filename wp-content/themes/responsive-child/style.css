@@ -1,0 +1,568 @@
+/*
+ Theme Name:   responsive-child
+ Theme URI:    
+ Description:  Responsive Child Theme
+ Author:       
+ Author URI:   
+ Template:     responsive
+ Version:      
+ Tags:         
+ Text Domain:  responsive-child
+*/
+
+/*
+For older themes, and themes that do not use wp_enqueue_style() to enqueue their stylesheet, use the following line where twentyfourteen is the name of the directory where the theme resides:
+
+@import url("../responsive/core/css/style.css");
+*/
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+
+/* =Globals
+-------------------------------------------------------------- */
+#container {
+	margin: 0 auto;
+	max-width: 1200px;
+	padding: 0px 25px;
+}
+
+#header {
+    margin: 0;
+}
+
+/* =Header
+-------------------------------------------------------------- */
+#logo {
+	float: left;
+	margin: 0 auto;
+	padding:5px;
+	display:none;
+}
+
+/* =Top Menu
+-------------------------------------------------------------- */
+.top-menu {
+	font-family:"DIN 1451 Engschrift";
+	text-transform:uppercase;
+	float: right;
+	margin: 0px 0 10px 0;
+	padding-bottom: 20px;
+	vertical-align: text-top;
+}
+
+.top-menu li {
+	display: inline;
+	list-style-type: none;
+	border:none;
+}
+
+.top-menu li a {
+	color: #989898;
+	padding: 0 10px 0 10px;
+	font-size:20px;
+	border:none;
+}
+
+.top-menu > li:first-child > a {
+	border: none;
+}
+
+.top-menu li a:hover {
+	color: #989898;
+}
+
+/* =Header Menu (Primary)
+-------------------------------------------------------------- */
+.link_text{
+	font-family:"DIN 1451 Engschrift";
+	color: #807e82;
+	font-size: large;
+	font-weight: 100;
+	text-transform: uppercase;
+}
+
+.menu {
+	font-family: "DIN 1451 Engschrift";
+	text-transform: uppercase;
+    background-color: #ffffff;
+    background-image: none;
+	clear: none;
+	margin: 0 auto;
+	float:right;
+}
+
+.main-nav {
+	clear: both;
+}
+
+.menu,
+.menu ul {
+	display: block;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.menu li {
+	display: inline;
+	border: none;
+	display: block;
+	float: left;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	z-index: 5;
+}
+
+.menu li:hover {
+	display: inline;
+	white-space: normal;
+	z-index: 10000;
+}
+
+.menu li li {
+	display: inline;
+	float: none;
+}
+
+.menu ul {
+	left: 0;
+	position: absolute;
+	top: 0;
+	visibility: hidden;
+	z-index: 10;
+}
+
+.menu li:hover > ul {
+	top: 100%;
+	visibility: visible;
+}
+
+.menu li li:hover > ul {
+	left: 100%;
+	top: 0;
+}
+
+.menu:after,
+.menu ul:after {
+	clear: both;
+	content: '.';
+	display: block;
+	height: 0;
+	overflow: visible;
+	visibility: visible;
+}
+
+.menu,
+.menu ul {
+	min-height: 0;
+}
+
+.menu ul,
+.menu ul ul {
+	margin: 0;
+	padding: 0;
+}
+
+.menu ul li a:hover,
+.menu li li a:hover {
+	display: inline;
+	color: #a1a1a1;
+	text-decoration: none;
+}
+
+.menu ul {
+	margin-top: 1px;
+	min-width: 15em;
+	width: auto;
+}
+
+.menu a {
+	font-family: "DIN 1451 Engschrift";
+	border-left: none;
+	color: #a1a1a1;
+	cursor: pointer;
+	display: block;
+	font-size: 30px;
+	font-weight: 300;
+	height: 45px;
+	line-height: 45px;
+	margin: 0;
+	padding: 0 0.5em;
+	position: relative;
+	text-decoration: none;
+	text-shadow: none;
+	white-space: nowrap;
+}
+
+.menu a:hover {
+	background-color: #a1a1a1;
+	background-image: none;
+	background-image: none;
+	background-image: none;
+	background-image: none;
+	background-image: none;
+	background-image: none;
+	color: #ffffff;
+	filter: none;
+}
+
+ul.menu > li:hover {
+	background-color: #009ad7;
+	color: #ffffff;
+}
+
+.menu .current_page_item a,
+.menu .current-menu-item a {
+	background-color: transparent;
+}
+
+.front-page .menu .current_page_item a {
+	background: #ffffff;
+	background-color: transparent;
+	background-image: none;
+	filter: none;
+}
+
+.menu li li {
+	display: inline;
+	background: #ffffff;
+	background-image: none;
+	border: 1px solid #e5e5e5;
+	color: #444444;
+	filter: none;
+	margin: -1px 0 1px 0;
+	width: auto;
+}
+
+.menu li li a {
+	display: inline;
+	background: transparent !important;
+	border: none;
+	color: #444444;
+	font-size: 12px;
+	font-weight: 400;
+	height: auto;
+	height: 20px;
+	line-height: 20px;
+	padding: 5px 10px;
+	text-shadow: none;
+	white-space: nowrap;
+	width: auto;
+}
+
+.menu li li a:hover {
+	display: inline;
+	background: #f5f5f5 !important;
+	background-image: none;
+	border: none;
+	color: #444444;
+	filter: none;
+	white-space: nowrap;
+	width: auto;
+}
+
+.menu li li:hover {
+	display: inline;
+	background: #f5f5f5 !important;
+	filter: none;
+	width:auto;
+	white-space: nowrap;
+}
+
+.menu ul > li + li {
+	border-top: 0;
+}
+
+.menu li li:hover > ul {
+	left: 100%;
+	top: 0;
+}
+
+.menu > li:first-child > a {
+	border-left: none;
+}
+
+.menu a#responsive_menu_button {
+	display: none;
+}
+
+.main-nav #responsive_current_menu_item {
+	display: none;
+}
+
+/*.js .main-nav .menu {*/
+/*display: block;*/
+/*}*/
+
+/* =Primary Main Menu IE Fixes
+-------------------------------------------------------------- */
+.ie7 .menu ul {
+	background: url(core/images/ie7-fix.gif) repeat;
+}
+
+.ie7 .menu li li a {
+	min-width: 100%;
+}
+
+/* =Sub-Header Menu
+-------------------------------------------------------------- */
+.sub-header-menu {
+	background-color: #ffffff;
+	border: 1px solid #e5e5e5;
+	border-top: none;
+	clear: both;
+	margin: 0 auto;
+}
+
+.sub-header-menu,
+.sub-header-menu ul {
+	display: block;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.sub-header-menu li {
+	display: inline;
+	border: 0;
+	display: block;
+	float: left;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	z-index: 5;
+}
+
+.sub-header-menu li:hover {
+	white-space: normal;
+	z-index: 10000;
+}
+
+.sub-header-menu li li {
+	float: none;
+}
+
+.sub-header-menu ul {
+	left: 0;
+	position: absolute;
+	top: 0;
+	visibility: visible;
+	z-index: 10;
+}
+
+.sub-header-menu li:hover > ul {
+	top: 100%;
+	visibility: visible;
+}
+
+.sub-header-menu li li:hover > ul {
+	left: 100%;
+	top: 0;
+}
+
+.sub-header-menu:after,
+.sub-header-menu ul:after {
+	clear: both;
+	content: '.';
+	display: block;
+	height: 0;
+	overflow: visible;
+	visibility: visible;
+}
+
+.sub-header-menu,
+.sub-header-menu ul {
+	min-height: 0;
+}
+
+.sub-header-menu ul,
+.sub-header-menu ul ul {
+	margin: 0;
+	padding: 0;
+}
+
+.sub-header-menu ul li a:hover,
+.sub-header-menu li li a:hover {
+	color: #484848;
+	text-decoration: none;
+}
+
+.sub-header-menu ul {
+	margin-top: 1px;
+	min-width: 15em;
+	width: auto;
+}
+
+.sub-header-menu a {
+	border-left: 1px solid #e5e5e5;
+	color: #333333;
+	cursor: pointer;
+	display: block;
+	font-size: 12px;
+	font-weight: 400;
+	height: 35px;
+	line-height: 35px;
+	margin: 0;
+	padding: 0 0.9em;
+	position: relative;
+	text-decoration: none;
+	text-shadow: none;
+}
+
+.sub-header-menu a:hover {
+	-moz-background-clip: padding-box;
+	-webkit-background-clip: padding-box;
+	background-color: #f9f9f9;
+	background-clip: padding-box;
+}
+
+.sub-header-menu .current_page_item a,
+.sub-header-menu .current-menu-item a {
+	background-color: #f9f9f9;
+}
+
+.sub-header-menu li li {
+	background: #ffffff;
+	background-image: none;
+	border: 1px solid #e5e5e5;
+	color: #444444;
+	filter: none;
+	margin: -1px 0 1px 0;
+	width: auto;
+}
+
+.sub-header-menu li li a {
+	border: none;
+	color: #444444;
+	font-size: 12px;
+	font-weight: 400;
+	height: auto;
+	height: 20px;
+	line-height: 20px;
+	padding: 5px 10px;
+	text-shadow: none;
+}
+
+.sub-header-menu li li a:hover {
+	background: #f9f9f9;
+	background-image: none;
+	border: none;
+	color: #444444;
+	filter: none;
+}
+
+.sub-header-menu ul > li + li {
+	border-top: 0;
+}
+
+.sub-header-menu li li:hover > ul {
+	left: 100%;
+	top: 0;
+}
+
+.sub-header-menu > li:first-child > a {
+	border-left: none;
+}
+
+.sub-header-menu ul.children a,
+.sub-header-menu .current_page_ancestor,
+.sub-header-menu .current_page_ancestor ul a {
+	background: none;
+	background-image: none;
+	filter: none;
+}
+
+/* =Sub Header Menu IE Fixes
+-------------------------------------------------------------- */
+.ie7 .sub-header-menu ul {
+	background: url(core/images/ie7-fix.gif) repeat;
+}
+
+.ie7 .sub-header-menu li li a {
+	min-width: 100%;
+}
+
+/* =Featured Content
+-------------------------------------------------------------- */
+#featured {
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	background-color: #ffffff;
+	border: none;
+	border-radius: 4px;
+	padding-bottom: 10px;
+	width: 100%;
+}
+
+#featured p {
+	font-size: 18px;
+	font-weight: 200;
+	line-height: 27px;
+	padding: 0 40px 0 40px;
+	text-align: center;
+}
+
+#featured-image {
+	margin: 0px;
+}
+
+#featured-image .fluid-width-video-wrapper {
+	margin-left: -20px;
+}
+
+.featured-image img {
+	margin-top: 0px;
+}
+
+/* =Titles
+-------------------------------------------------------------- */
+.featured-title {
+	font-family: "DIN1451W15-Mittelschrif";
+	font-size: 100px;
+	text-transform:uppercase;
+	letter-spacing: 100%;
+	margin-left: 100px;
+	padding-top: 0px;
+	text-align: left;
+}
+
+.featured-subtitle {
+	padding: 0 10px;
+	text-align: center;
+}
+
+.widget-title h3,
+.widget-title-home h3 {
+	display: block;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 23px;
+	margin: 0;
+	padding: 0 0 20px 0;
+	text-align: left;
+}
+
+.top-widget .widget-title h3 {
+	font-size: 14px;
+	padding: 0;
+	text-align: right;
+}
+
+.widget-title a {
+	border-bottom: none;
+	padding: 0 !important;
+}
+
+.title-404 {
+	color: #993333;
+}
+
+/* =WordPress Core
+-------------------------------------------------------------- */
+.alignnone {
+	background-size: contain;
+	background-position: center;
+}

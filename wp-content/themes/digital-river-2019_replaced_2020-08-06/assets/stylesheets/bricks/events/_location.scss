@@ -1,0 +1,19 @@
+.brick-events-location {
+  padding: 3rem 0;
+
+  .map-container {
+    overflow: hidden;
+    padding-bottom: 100%;
+    position: relative;
+    height: 0;
+    border: 0.5rem solid $white;
+
+    iframe {
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+    }
+  }
+}

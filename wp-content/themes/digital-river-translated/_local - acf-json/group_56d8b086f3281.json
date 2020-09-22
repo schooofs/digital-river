@@ -1,0 +1,186 @@
+{
+    "key": "group_56d8b086f3281",
+    "title": "PDF Page Selector",
+    "fields": [
+        {
+            "key": "field_5670965ed4a4a",
+            "label": "Add Pages",
+            "name": "add_pages",
+            "type": "repeater",
+            "instructions": "PLEASE NOTE: The last PDF page will always have a contact info panel that is a 1\/4 row so for the last page you should only have a total of 3\/4 or 2\/3 of Rows. If you need a full page add a blank PDF page via \"PDF Pages\" click \"Publish\" and add that PDF Page at the bottom. This will allow for the contact footer to appear appropriately.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "row_min": "",
+            "row_limit": "",
+            "layout": "table",
+            "button_label": "Add Page",
+            "min": 0,
+            "max": 0,
+            "collapsed": "",
+            "sub_fields": [
+                {
+                    "key": "field_5670967fd4a4b",
+                    "label": "Page",
+                    "name": "page",
+                    "type": "post_object",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "post_type": [
+                        "pdf"
+                    ],
+                    "taxonomy": [
+                        
+                    ],
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "return_format": "object",
+                    "ui": 1
+                }
+            ]
+        },
+        {
+            "key": "field_5684309cdb451",
+            "label": "Footer URL",
+            "name": "footer_url",
+            "type": "text",
+            "instructions": "Add the corresponding URL Name here",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "digitalriver.com",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "formatting": "html",
+            "maxlength": "",
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "key": "field_56843108db452",
+            "label": "Footer URL Link",
+            "name": "footer_url_link",
+            "type": "text",
+            "instructions": "Add the corresponding URL Link here",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "http:\/\/digitalriver.com",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "formatting": "html",
+            "maxlength": "",
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "key": "field_56842c5fab57f",
+            "label": "Footer Trademarks",
+            "name": "footer_trademarks",
+            "type": "text",
+            "instructions": "add footer trade marks here (i.e. Digital River and Blank are registered trademarks of Digital River, Inc)",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "Digital River and Blank are registered trademarks of Digital River, Inc",
+            "prepend": "",
+            "append": "",
+            "formatting": "html",
+            "maxlength": "",
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "key": "field_56c25d9a4f1aa",
+            "label": "Digital River or MyCommece",
+            "name": "digital_river_or_mycommece",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "dr": "Digital River",
+                "drwp": "Digital River World Payments",
+                "myc": "MyCommerce"
+            },
+            "default_value": [
+                
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_56980989de0d7",
+            "label": "Upload PDF",
+            "name": "upload_pdf",
+            "type": "file",
+            "instructions": "Upload corresponding PDF to print here.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "library": "all",
+            "return_format": "url",
+            "min_size": 0,
+            "max_size": 0,
+            "mime_types": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "templates\/template-value-brief.php"
+            }
+        ]
+    ],
+    "menu_order": 13,
+    "position": "normal",
+    "style": "seamless",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "the_content"
+    ],
+    "active": 1,
+    "description": "",
+    "modified": 1477604391
+}

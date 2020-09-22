@@ -1,0 +1,80 @@
+.three-col {
+    padding-top: 5rem;
+    padding-bottom: 7rem;
+    background-size: cover;
+
+    .flex-wrap {
+        // Fix for IE11
+        width: 100%;
+    }
+
+    [class^=col-] {
+        justify-content: space-between;
+        flex-direction: column;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        margin-bottom: 1.5rem;
+
+
+        @include media-breakpoint-up(md) {
+            text-align: left;
+            align-items: flex-start;
+            margin-bottom: 0;
+        }
+    }
+
+    h3 {
+        color: $dark-blue;
+        font-size: 1.75rem;
+    }
+
+    p {
+        color: $gray-body;
+    }
+
+    .cta {
+        background: $green;
+    }
+
+    .image-container {
+        padding-bottom: 2.5rem;
+
+		@include media-breakpoint-up(sm) {
+            width: 100%;
+			border-bottom: 4px solid rgba($primary, .5);
+		}
+
+		@include media-breakpoint-down(sm) {
+            width: 33%;
+            border-bottom: 2px solid rgba($primary, .5);
+            padding-top: 2rem;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+		}
+		
+        margin-bottom: 1.5rem;
+    }
+
+
+
+    img.icon {
+        width: 35%;
+        display: block;
+        margin: auto;
+        transition: .4s;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+
+    }
+
+    .btn {
+        margin-top: 1.5rem;
+        max-width: 196px;
+
+    }
+
+}

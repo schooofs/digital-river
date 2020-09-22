@@ -1,0 +1,73 @@
+{
+    "key": "group_5715369f4ec2c",
+    "title": "Brick Headline Add On",
+    "fields": [
+        {
+            "key": "field_5715395b2db4e",
+            "label": "Headline",
+            "name": "headline",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": "",
+            "readonly": 0,
+            "disabled": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "slide",
+                "operator": "==",
+                "value": "Clients"
+            }
+        ],
+        [
+            {
+                "param": "slide",
+                "operator": "==",
+                "value": "InteractiveGrid"
+            }
+        ],
+        [
+            {
+                "param": "slide",
+                "operator": "==",
+                "value": "ResourcesSlider"
+            }
+        ],
+        [
+            {
+                "param": "slide",
+                "operator": "==",
+                "value": "Contact"
+            }
+        ],
+        [
+            {
+                "param": "slide",
+                "operator": "==",
+                "value": "GeneralMasterheader"
+            }
+        ]
+    ],
+    "menu_order": 8,
+    "position": "acf_after_title",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1466190713
+}

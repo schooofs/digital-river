@@ -1,0 +1,85 @@
+{
+    "key": "group_5967ddb1c19be",
+    "title": "Value brief — flexible",
+    "fields": [
+        {
+            "key": "field_596cc8dadd802",
+            "label": "Heading",
+            "name": "vb_flexible_heading",
+            "type": "clone",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "clone": [
+                "group_595fab59878b1"
+            ],
+            "display": "seamless",
+            "layout": "block",
+            "prefix_label": 0,
+            "prefix_name": 1
+        },
+        {
+            "key": "field_5967dddb95f1f",
+            "label": "Add left content",
+            "name": "value_brief_summary_l",
+            "type": "wysiwyg",
+            "instructions": "Use the editor to format headlines, paragraphs and bullet-points. Try to make the left and right columns even in content so both sides look uniform.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        },
+        {
+            "key": "field_597b997485310",
+            "label": "Add right content",
+            "name": "value_brief_summary_r",
+            "type": "wysiwyg",
+            "instructions": "Use the editor to format headlines, paragraphs and bullet-points. Try to make the left and right columns even in content so both sides look uniform.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "template-value-brief.php"
+            }
+        ]
+    ],
+    "menu_order": 3,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "the_content"
+    ],
+    "active": 1,
+    "description": "",
+    "modified": 1504716980
+}

@@ -1,0 +1,23 @@
+$('#upcoming-events-slider').owlCarousel({
+    loop:false,
+    nav:true,
+    navText: ['<img width="50" height="50" src="/wp-content/themes/digital-river-2019/assets/images/icons_ArrowSingleLeftWhite.svg" />','<img width="50" height="50" src="/wp-content/themes/digital-river-2019/assets/images/icons_ArrowSingleRightWhite.svg" />'],
+    margin:10,
+    autoplay:false,
+    autoplayHoverPause:true,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            dots:false,
+        },
+        800:{
+            items:2,
+            dots:false,
+        },
+        1000:{
+            items:3,
+            loop:false,
+        }
+    }
+})

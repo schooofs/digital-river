@@ -1,0 +1,12 @@
+.target {
+  margin-top:-40vh;
+  padding-top:40vh;
+  &:target + .xtarget {
+    animation: highlight 1.5s ease-out;
+  }
+}
+
+@keyframes highlight {
+  0%   { background-color:#b6e8fb; outline:10px solid #b6e8fb; }
+  100% { background-color:transparent; outline:10px solid transparent; }
+}

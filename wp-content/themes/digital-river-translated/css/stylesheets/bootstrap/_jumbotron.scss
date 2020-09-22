@@ -1,0 +1,198 @@
+//
+// Jumbotron
+// --------------------------------------------------
+
+
+.masthead {
+
+  .container {
+    max-width: 100%;
+  }
+
+
+  h1,
+  .h1 {
+      font-size: 30px;
+
+      @media (min-width : 350px){
+        font-size: 35px;
+      }
+
+      @media (min-width : 605px){
+        font-size: 40px;
+      }
+
+      @media (min-width : 768px){
+        font-size: 45px;
+      }
+
+      @media (min-width : 1200px){
+        font-size: 50px;
+      }
+
+      @media (min-width : 1200px){
+        font-size: $jumbotron-heading-font-size;
+      }
+  }
+
+
+  .masthead_background {
+      z-index: 50;
+      width: 100%;
+      background-image: url("../../img/mast-head-image-v6.png");
+      opacity: 1;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-size: 452% auto;
+      background-position: 60% 0px;
+
+      @media (min-width : 300px){
+          background-size: 417% auto;
+          background-position: 60% 0px;
+      }
+
+      @media (min-width : 450px){
+          background-size: 231% auto;
+          background-position: 60% 0px;
+      }
+
+      @media (min-width : 605px){
+          background-size: 172% auto;
+          background-position: 45% 0px;
+      }
+
+      @media (min-width : 768px){
+          background-size: 112% auto;
+          background-position: 33% 0px;
+      }
+
+      @media (min-width : 768px){
+          background-size: 150% auto;
+          background-position: 50% 0px;
+      }
+
+      @media (min-width : 875px){
+          background-size: 116% auto;
+          background-position: 45% 0px;
+      }
+
+      @media (min-width : 992px){
+          background-size: 145% auto;
+          background-position: 46% 0px;
+      }
+
+      @media (min-width : 1050px){
+          background-size: 116% auto;
+          background-position: 63% 0px;
+      }
+
+      @media (min-width : 1100px){
+          background-size: 116% auto;
+          background-position: 51% 0px;
+      }
+
+      @media (min-width : 1200px){
+          background-size: 142% auto;
+          background-position: 45% 0px;
+      }
+
+      @media (min-width : 1275px){
+          background-size: 122% auto;
+          background-position: 50% 0px;
+      }
+
+      @media (min-width : 1350px){
+          background-size: 116% auto;
+          background-position: 50% 0px;
+      }
+
+      @media (min-width : 1450px){
+          background-size: 112% auto;
+          background-position: 45% 0px;
+      }
+
+      @media (min-width : 1550px){
+          background-size: 100% auto;
+          background-position: 0px -54px;
+      }
+  }
+
+
+.masthead_background img{
+  min-width: 100%;
+}
+
+.masthead_background .secondary_bg {
+  margin-top: -40px;
+}
+ .content {
+  z-index: 100;
+  position: relative;
+}
+
+ .breadcrumbs {
+  z-index: 75;
+  font-size: .92em;
+  line-height: 20px;
+  position: relative;
+  margin: 0 auto 21px;
+padding-top: 20px;
+   padding: 0 2% 0 2%;
+color: $white;
+max-width: 980px;
+     width: 100%;
+   
+}
+ .breadcrumbs a {
+  font-weight:400;
+  font-size: .92em;
+  color:#FFFFFF;
+  text-decoration: none;
+}
+
+ .breadcrumbs a:hover{
+  text-decoration:underline;
+}
+    .title-cont {
+            z-index: 99;
+     position: absolute;
+    }
+.title,
+ .tagline, .subtitle {
+  color:#FFF;
+
+}
+ .title {
+  font-size: 4em;
+  line-height: 50px;
+    max-width: 980px;
+    font-weight: 300;
+    letter-spacing: .5px;
+    font-family: $eng;
+     padding: 0 2% 0 2%;
+     margin: 0 0 0 0;
+     width: 100%;
+    }
+
+
+ .tagline {
+  font-size: 1.7em;
+  line-height: 24px;
+  letter-spacing: -10%;
+  margin: 15px 0 17px 0;
+
+
+}
+ .subtitle {
+font-size: 1.28em;
+margin: 0 0 0 0;
+line-height: 2em;
+font-family: $arial;
+   padding: 0 2% 0 2%;
+color: $white;
+max-width: 980px;
+     width: 100%;
+   
+    }
+}
+

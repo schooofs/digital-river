@@ -1,0 +1,827 @@
+/* old bootstrap 3 styles - don't use these */
+$screen-xs-min: 572px;
+$screen-xs: 768px;
+$screen-xs-max: 768px;
+$screen-sm-min: 768px;
+$screen-sm: 992px;
+$screen-sm-max: 992px;
+$screen-md-min: 992px;
+$screen-lg-min: 1200px;
+$screen-lg: 1200px;
+$screen-xl-min: 1200.001px;
+/* end old bootstrap variables */
+
+@import "drfonts";
+@import "colors";
+@import "bootstrap";
+
+// Required Core Stylesheet
+@import "node_modules/@glidejs/glide/src/assets/sass/glide.core";
+// Optional Theme Stylesheet
+@import "node_modules/@glidejs/glide/src/assets/sass/glide.theme";
+
+// Bootstrap Select
+@import "node_modules/bootstrap-select/sass/variables";
+@import "node_modules/bootstrap-select/sass/bootstrap-select";
+
+/* Components */
+@import "components";
+
+@import "footer";
+
+@import "contact-modal";
+
+// Scoped styles to new site
+.dr_new {
+  @import "animate";
+  @import "footer";
+  @import "header";
+  // @import "vendor/index";
+  @import "widget";
+  @import "home-cta-banner";
+  @import "home-cookie-fix";
+  @import "pay-risk-intro";
+  @import "video-text";
+  @import "stats-cols";
+  @import "stats-cta";
+  @import "team";
+  @import "demo";
+  @import "image-cta";
+  @import "partners";
+  @import "image-text-callout";
+  @import "image-text-module";
+  @import "three-col";
+  @import "office-locations";
+  @import "pay-risk-featured";
+  @import "pay-risk-quote";
+  @import "image-animation";
+  @import "thankyou";
+
+  /* Bricks */
+  @import "bricks";
+
+  // SCSS for new changes //
+  body {
+    // padding: 50px 0;
+    color: $gray-body;
+    background-color: #002c53;
+    //background-color:red;
+  }
+
+  p {
+    color: $gray-body;
+    font-size: 1.25rem;
+  }
+
+  // main sections for individual pages
+
+  main.about-page {
+    background: $white;
+  }
+
+  main.content-detail {
+    padding-top: 12rem;
+    background: #fff;
+    padding-bottom: 6rem;
+
+    @include media-breakpoint-down(md) {
+      padding-top: 7rem;
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+
+    #breadrumbs {
+      margin-bottom: 2rem;
+      font-size: 1.125rem;
+    }
+  }
+
+  .white-bg {
+    background-color: $white;
+  }
+
+  // Center align container rows
+  .container.row {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  // Start wow animations from flashing on page load
+  .wow {
+    opacity: 0;
+  }
+
+  // Paddings
+
+  .pad-left-small {
+    padding-left: 1rem;
+  }
+
+  .pad-left-medium-sm {
+    @media (min-width: $screen-sm-min) {
+      padding-left: 2.5rem;
+    }
+  }
+
+  .pad-left-medium-md {
+    @media (min-width: $screen-md-min) {
+      padding-left: 2.5rem;
+    }
+  }
+
+  .pad-left-20 {
+    padding-left: 20px;
+  }
+
+  .pad-top-20 {
+    padding-top: 30px;
+  }
+
+  // Responsive iframe
+  .embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+  }
+
+  .embed-container iframe,
+  .embed-container object,
+  .embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  // Content blocks vertical
+
+  .content-blocks-flex-vertical {
+    display: flex;
+    // justify-content: space-between;
+    flex-direction: column;
+
+    .content-block {
+      margin-bottom: 2rem;
+    }
+  }
+
+  // Carousel setup
+
+  .carousel-indicators li {
+    background: $green;
+    margin-left: 15px;
+    height: 14px;
+    width: 14px;
+    border: 0;
+    border-radius: 50%;
+  }
+
+  .logo {
+    height: 31px;
+    width: 178px;
+  }
+
+  .navbar-nav .nav-link {
+    color: white !important;
+  }
+
+  .btn,
+  a.btn {
+    background-color: $green;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 0;
+    overflow: hidden;
+    position: relative;
+    transition: .4s;
+    border: 0;
+
+    &:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      transform-origin: left;
+      transform: translateX(-100%);
+      // background: $light-blue;
+      background: $green;
+      transition: .4s;
+      mix-blend-mode: overlay;
+      transition-delay: .15s;
+    }
+
+    &:hover {
+      color: $black;
+      // font-weight: 700;
+
+      &:after {
+        transform: translateX(0%);
+        transition: .4s;
+        transition-delay: 0s;
+      }
+    }
+  }
+
+  .navbar-collapse.collapse.in {
+    display: block !important;
+  }
+
+  .dropdown-item:hover {
+    background-color: #00a9e1;
+    color: #fff;
+  }
+
+  .bottom-arrow {
+    border-top: 10px solid #00a9e1;
+    padding: 0;
+    margin-bottom: 10px;
+  }
+
+  .bottom-arrow:after {
+    content: '';
+    position: absolute;
+    left: 30px;
+    top: 0;
+    margin: 0 auto;
+    width: 0;
+    height: 0;
+    border-top: 10px solid #00a9e1;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+  }
+
+  .dd-links {
+    & > h5 {
+      color: #002F57;
+      font-size: 1.15rem;
+    }
+
+    .dd-txt {
+      font-size: 1rem;
+      font-weight: 100;
+    }
+
+    .btn-demo {
+      color: red;
+    }
+  }
+
+  .dd-cta {
+    background-color: #b7e9fa;
+  }
+
+  .dd-cta-bg {
+    background: url(http://digitalriver.local/wp-content/uploads/sites/8/More-than-a-Pricing-Strategy_Rise-of-the-Access-Economy-500x250.jpg) 100% 0 no-repeat;;
+    max-width: 100%;
+  }
+
+  li.dropdown:hover > .dropdown-menu {
+    display: block;
+  }
+
+  .dropdown-toggle::after {
+    display: none;
+  }
+
+  // SCSS for new changes //
+
+  * {
+    box-sizing: border-box;
+  }
+
+  // :last-child {margin-bottom:0;}
+
+  .no-decoration {
+    &:-webkit-any-link {
+      text-decoration: none
+    }
+
+    &:hover {
+      text-decoration: none;
+      color: inherit;
+    }
+  }
+
+  .client-slider {
+
+    .owl-stage {
+      right: 0%;
+
+      @media(min-width: $screen-lg-min) {
+        right: 10%;
+      }
+
+      @media(min-width: $screen-xl-min) {
+        right: 17%;
+      }
+    }
+
+    &.right {
+      .owl-stage {
+        left: 0%;
+        right: auto;
+
+        @media(min-width: $screen-lg-min) {
+          left: 10%;
+          right: auto;
+        }
+
+        @media(min-width: $screen-xl-min) {
+          left: 17%;
+          right: auto;
+        }
+      }
+    }
+  }
+  @import "animate";
+  @import "header";
+  // @import "vendor/index";
+  @import "widget";
+  @import "home-cta-banner";
+  @import "home-cookie-fix";
+  @import "pay-risk-intro";
+  @import "video-text";
+  @import "stats-cols";
+  @import "team";
+  @import "image-cta";
+  @import "partners";
+  @import "image-text-callout";
+  @import "image-text-module";
+  @import "three-col";
+  @import "office-locations";
+  @import "pay-risk-featured";
+  @import "pay-risk-quote";
+  @import "image-animation";
+
+  /* Bricks */
+  @import "bricks";
+
+  // SCSS for new changes //
+  body {
+    // padding: 50px 0;
+    color: $gray-body;
+    background-color: #002c53;
+    //background-color:red;
+  }
+
+  p {
+    color: $gray-body;
+    font-size: 1.25rem;
+  }
+
+  // main sections for individual pages
+
+  main.about-page {
+    background: $white;
+  }
+
+  main.content-detail {
+    padding-top: 12rem;
+    background: #fff;
+    padding-bottom: 6rem;
+
+    @include media-breakpoint-down(md) {
+      padding-top: 7rem;
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+
+    #breadrumbs {
+      margin-bottom: 2rem;
+      font-size: 1.125rem;
+    }
+  }
+
+  .white-bg {
+    background-color: $white;
+  }
+
+  // Center align container rows
+  .container.row {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  // Start wow animations from flashing on page load
+  .wow {
+    opacity: 0;
+
+    @media all and (-ms-high-contrast: none),
+    (-ms-high-contrast: active) {
+      /* IE10+ CSS styles go here */
+      opacity: 1;
+    }
+  }
+
+  // Paddings
+
+  .pad-left-small {
+    padding-left: 1rem;
+  }
+
+  .pad-left-medium-sm {
+    @media (min-width: $screen-sm-min) {
+      padding-left: 2.5rem;
+    }
+  }
+
+  .pad-left-medium-md {
+    @media (min-width: $screen-md-min) {
+      padding-left: 2.5rem;
+    }
+  }
+
+  .pad-left-20 {
+    padding-left: 20px;
+  }
+
+  .pad-top-20 {
+    padding-top: 30px;
+  }
+
+  // Responsive iframe
+  .embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+  }
+
+  .embed-container iframe,
+  .embed-container object,
+  .embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  // Content blocks vertical
+
+  .content-blocks-flex-vertical {
+    display: flex;
+    // justify-content: space-between;
+    flex-direction: column;
+
+    .content-block {
+      margin-bottom: 2rem;
+    }
+  }
+
+  // Carousel setup
+
+  .carousel-indicators li {
+    background: $green;
+    margin-left: 15px;
+    height: 14px;
+    width: 14px;
+    border: 0;
+    border-radius: 50%;
+  }
+
+  .logo {
+    height: 31px;
+    width: 178px;
+  }
+
+  .bottom-arrow {
+    border-top: 10px solid #00a9e1;
+    padding: 0;
+    margin-bottom: 10px;
+  }
+
+  .bottom-arrow:after {
+    content: '';
+    position: absolute;
+    left: 30px;
+    top: 0;
+    margin: 0 auto;
+    width: 0;
+    height: 0;
+    border-top: 10px solid #00a9e1;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+  }
+
+  .dd-links {
+    & > h5 {
+      color: #002F57;
+      font-size: 1.15rem;
+    }
+
+    .dd-txt {
+      font-size: 1rem;
+      font-weight: 100;
+    }
+
+    .btn-demo {
+      color: red;
+    }
+  }
+
+  .dd-cta {
+    background-color: #b7e9fa;
+  }
+
+  .dd-cta-bg {
+    background: url(http://digitalriver.local/wp-content/uploads/sites/8/More-than-a-Pricing-Strategy_Rise-of-the-Access-Economy-500x250.jpg) 100% 0 no-repeat;;
+    max-width: 100%;
+  }
+
+  .btn,
+  a.btn {
+    background-color: $green;
+    padding: 8px 18px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 0;
+    overflow: hidden;
+    position: relative;
+    transition: .4s;
+    border: 0;
+    font-size: 18px;
+
+    &:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      transform-origin: left;
+      transform: translateX(-100%);
+      // background: $light-blue;
+      background: $green;
+      transition: .4s;
+      mix-blend-mode: overlay;
+      transition-delay: .15s;
+    }
+
+    &:hover {
+      color: $black;
+      // font-weight: 700;
+
+      &:after {
+        transform: translateX(0%);
+        transition: .4s;
+        transition-delay: 0s;
+      }
+    }
+  }
+
+  // SCSS for new changes //
+
+  * {
+    box-sizing: border-box;
+  }
+
+  // :last-child {margin-bottom:0;}
+
+  .no-decoration {
+    &:-webkit-any-link {
+      text-decoration: none
+    }
+
+    &:hover {
+      text-decoration: none;
+      color: inherit;
+    }
+  }
+
+  .client-slider {
+    .owl-stage {
+      right: 0%;
+
+      @media(min-width: $screen-lg-min) {
+        right: 10%;
+      }
+
+      @media(min-width: $screen-xl-min) {
+        right: 17%;
+      }
+    }
+
+    &.right {
+      .owl-stage {
+        left: 0%;
+        right: auto;
+
+        @media(min-width: $screen-lg-min) {
+          left: 10%;
+          right: auto;
+        }
+
+        @media(min-width: $screen-xl-min) {
+          left: 17%;
+          right: auto;
+        }
+      }
+    }
+  }
+}
+
+// Nav fixes
+.navbar {
+  .navbar-nav .nav-link {
+    color: white !important;
+  }
+
+  .btn,
+  a.btn {
+    background-color: $green;
+    padding: 8px 18px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 0;
+    overflow: hidden;
+    position: relative;
+    transition: .4s;
+    border: 0;
+    font-size: 18px;
+
+    &:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      transform-origin: left;
+      transform: translateX(-100%);
+      // background: $light-blue;
+      background: $green;
+      transition: .4s;
+      mix-blend-mode: overlay;
+      transition-delay: .15s;
+    }
+
+    &:hover {
+      color: $black;
+      // font-weight: 700;
+
+      &:after {
+        transform: translateX(0%);
+        transition: .4s;
+        transition-delay: 0s;
+      }
+    }
+  }
+
+  .navbar-collapse.collapse.in {
+    display: block !important;
+  }
+
+  .dropdown-item:hover {
+    background-color: #00a9e1;
+    color: #fff;
+  }
+
+  li.dropdown:hover > .dropdown-menu {
+    display: block;
+  }
+
+  .dropdown-toggle::after {
+    display: none;
+  }
+
+  .navbar-brand {
+    margin-left: 0 !important;
+    padding: 0 !important;
+    line-height: unset !important;
+    height: auto !important;
+    margin-top: 6px;
+    margin-right: 16px !important;
+  }
+
+  .navbar-collapse {
+    margin: auto;
+    padding: 0 !important;
+  }
+
+  .navbar-logo {
+    width: 160px;
+  }
+
+  .button-demo {
+    margin: 0 16px !important;
+  }
+}
+
+// Classes for when contact modal open
+// body.contact-modal-open .body-inner-wrapper {max-widh
+// 	transform: translateZ(1002px);
+// }
+
+body.contact-modal-open #mast {
+  pointer-events: none;
+  display: none;
+}
+
+.contact-wrapper {
+  display: none !important;
+}
+
+body:not(.modal-open){
+  padding-right: 0px !important;
+}
+
+// Fixes for legacy pages
+@import 'old_components/legacy-fix';
+
+
+// Marketo Form Styling
+
+.mktoForm .mktoOffset {
+  height: 0px !important
+}
+
+.mktoForm input[type="text"], .mktoForm input[type="url"], .mktoForm input[type="email"], .mktoForm input[type="tel"], .mktoForm input[type="number"], .mktoForm input[type="date"], .mktoForm textarea.mktoField, .mktoForm select.mktoField 
+{
+  border: none !important;
+  height: 46px !important;
+  padding-left: 20px !important;
+  padding: 2px 19px !important;
+  font-size: 20px !important;
+}
+
+.mktoForm label.mktoLabel {
+  color: #fff !important;
+}
+
+.mktoForm label.mktoLabel a {
+  color: #fff !important;
+  text-decoration: underline !important;
+}
+
+.mktoForm .mktoButtonWrap.mktoFirefox .mktoButton {
+  font-family: "mr-eaves-xl-modern",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji" !important;
+  width: 250px !important;
+  font-style: normal !important;
+  font-size: 18px !important;
+}
+
+#mktoForm_6605 #Email, #mktoForm_6612 #Email, #mktoForm_6614 #Email {
+  max-width: 350px !important;
+}
+
+@media only screen and (min-width: 990px) {
+	#mktoForm_6605 .mktoButtonRow, #mktoForm_6612 .mktoButtonRow, #mktoForm_6614 .mktoButtonRow {
+		position: absolute;
+		top: -2px;
+		right: 148px;
+		.mktoButton {
+			width: 160px !important;
+		}
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	#mktoForm_6605 .mktoButtonRow, #mktoForm_6612 .mktoButtonRow, #mktoForm_6614 .mktoButtonRow {
+		position: absolute;
+		top: -1px;
+		right: 284px;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	#mktoForm_6605 #Opted_In__c, #mktoForm_6612 #Opted_In__c, #mktoForm_6614 #Opted_In__c {
+		position: relative;
+		top: -70px !important;
+		width: 15px !important;
+		height: 15px !important;
+		left: -4px !important;
+	}
+}
+
+@media only screen and (min-width: 501px) {
+	#mktoForm_6605 #Opted_In__c, #mktoForm_6612 #Opted_In__c, #mktoForm_6614 #Opted_In__c {
+		position: relative !important;
+		width: 20px !important;
+		height: 20px !important;
+		top: -11px !important;
+	}
+}
+
+#Tell_Us_More__c {
+	padding-top: 10px !important;
+}
+
+#mktoForm_6604 .mktoFormRow:nth-of-type(1), #mktoForm_6611 .mktoFormRow:nth-of-type(1), #mktoForm_6613 .mktoFormRow:nth-of-type(1) {
+	display: flex;
+	.mktoFieldDescriptor:nth-of-type(1) {
+		margin-right: 10px;
+	}
+}

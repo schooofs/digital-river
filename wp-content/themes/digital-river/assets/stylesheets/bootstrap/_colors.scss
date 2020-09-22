@@ -1,0 +1,146 @@
+.bg-blue {
+	background-color: $blue;
+	color: $white;
+    
+    .owl-theme {
+	    .owl-dots {
+			.owl-dot {
+			    &.active {
+					span {
+						background-color: $white;
+					}
+				}
+			}
+		}
+	}
+
+
+	h1, h2, h3, h4, h5, h6,
+	.h1, .h2, .h3, .h4, .h5, .h6 {
+		color: $white;
+	}
+
+	a:not(.btn) {
+		color: $light-blue;
+
+		&:hover,
+		&:focus {
+			color: lighten($light-blue, 10%);
+		}
+	}
+
+	p:not(.lead),
+	a {
+		font-weight:500;
+	}
+
+	&.transparent {
+		background-color: rgba(0,44,87,.8)
+	}
+}
+
+.bg-lightBlue {
+	background-color: $light-blue;
+	color: $white;
+
+	a:not(.btn) {
+		color: $white;
+
+		&:hover,
+		&:focus {
+			color: $white;
+		}
+	}
+	
+	p:not(.lead),
+	a {
+		font-weight:500;
+	}
+	
+	&.transparent {
+		background-color: rgba(3,181,232,.8)
+	}
+    
+	h1, h2, h3, h4, h5, h6,
+	.h1, .h2, .h3, .h4, .h5, .h6 {
+		color: $white;
+	}
+
+	h1, .h1,
+	h2, .h2,
+	h3, .h3 {
+	  &.tag {
+	    &::before {
+	      border-left-color:$white;
+	    }
+      }
+    }
+}
+
+.bg-altBlue {
+	background-color: $altBlue;
+	color: $blue;
+
+}
+
+.bg-lightGray {
+	background-color: $light-gray;
+	color: $blue;
+
+	a:not(.btn) {
+		color: $blue;
+		font-weight:bold;
+
+		&:hover,
+		&:focus {
+			color: lighten($blue, 10%);
+		}
+	}
+}
+
+.bg-altGray {
+    background-color: #BEBEBE;
+    color: $white;
+}
+
+.bg-gray {
+	background-color: $gray !important;
+    color: $white;
+}
+
+
+.txt-blue {color:$blue !important;}
+.txt-lightBlue {color:$light-blue !important;}
+.txt-altBlue {color:$altBlue !important;}
+.txt-gray {color:$gray !important;}
+.txt-lightGray {color:$light-gray !important;}
+.txt-gray {color:$gray !important;}
+.txt-white {color:$white !important;}
+.txt-green {color:$green !important;}
+.txt-violet {color:$violet !important;}
+.txt-purple {color:$purple !important;}
+
+.bg-purple {
+    background-color: $purple;
+    color: $white;
+}
+
+.bg-violet {
+    background-color: $violet;
+    color: $white;
+}
+
+.bg-green {
+    background-color: $green;
+        color: $white;
+}
+
+
+
+
+
+
+
+
+
+

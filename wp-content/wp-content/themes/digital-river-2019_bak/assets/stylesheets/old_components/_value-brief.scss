@@ -1,0 +1,9 @@
+    .people {
+        display: none;
+    }
+
+@media (min-width: 992px) {
+    .people {
+        display: block;
+    }
+}

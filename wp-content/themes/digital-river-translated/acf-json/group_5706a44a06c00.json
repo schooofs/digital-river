@@ -1,0 +1,407 @@
+{
+    "key": "group_5706a44a06c00",
+    "title": "Resources",
+    "fields": [
+        {
+            "key": "field_5706a48192742",
+            "label": "Resources",
+            "name": "resources",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": "",
+            "max": "",
+            "layout": "block",
+            "button_label": "Add Resource",
+            "sub_fields": [
+                {
+                    "key": "field_5714f828dce95",
+                    "label": "Resource Or Video",
+                    "name": "resource_or_video",
+                    "type": "radio",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "resource": "Resource",
+                        "video": "Video"
+                    },
+                    "other_choice": 0,
+                    "save_other_choice": 0,
+                    "default_value": "",
+                    "layout": "vertical"
+                },
+                {
+                    "key": "field_5714fa86dce96",
+                    "label": "Video",
+                    "name": "video",
+                    "type": "post_object",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_5714f828dce95",
+                                "operator": "==",
+                                "value": "video"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "post_type": [
+                        "videos"
+                    ],
+                    "taxonomy": [
+                        
+                    ],
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "return_format": "object",
+                    "ui": 1
+                },
+                {
+                    "key": "field_5707f25e9bd67",
+                    "label": "Link or HTML?",
+                    "name": "link_or_html",
+                    "type": "radio",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_5714f828dce95",
+                                "operator": "==",
+                                "value": "resource"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "link": "Link",
+                        "html": "HTML"
+                    },
+                    "other_choice": 0,
+                    "save_other_choice": 0,
+                    "default_value": "",
+                    "layout": "vertical"
+                },
+                {
+                    "key": "field_5706a4a892743",
+                    "label": "Resource",
+                    "name": "resource",
+                    "type": "post_object",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_5707f25e9bd67",
+                                "operator": "==",
+                                "value": "link"
+                            },
+                            {
+                                "field": "field_5714f828dce95",
+                                "operator": "==",
+                                "value": "resource"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "post_type": [
+                        "marketing_material"
+                    ],
+                    "taxonomy": [
+                        
+                    ],
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "return_format": "object",
+                    "ui": 1
+                },
+                {
+                    "key": "field_57080ea76017f",
+                    "label": "HTML",
+                    "name": "html",
+                    "type": "code",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_5707f25e9bd67",
+                                "operator": "==",
+                                "value": "html"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "language": "html",
+                    "theme": "chrome"
+                },
+                {
+                    "key": "field_5708075c884e8",
+                    "label": "Headline",
+                    "name": "headline",
+                    "type": "textarea",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "maxlength": "",
+                    "rows": "",
+                    "new_lines": "br",
+                    "readonly": 0,
+                    "disabled": 0
+                },
+                {
+                    "key": "field_5707ce1a697bd",
+                    "label": "Icon",
+                    "name": "icon",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": [
+                        
+                    ],
+                    "default_value": [
+                        
+                    ],
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 0,
+                    "ajax": 0,
+                    "placeholder": "",
+                    "disabled": 0,
+                    "readonly": 0
+                },
+                {
+                    "key": "field_5707ce42697be",
+                    "label": "Height",
+                    "name": "height",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "normal": "Normal",
+                        "double": "Double Height"
+                    },
+                    "default_value": [
+                        
+                    ],
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 0,
+                    "ajax": 0,
+                    "placeholder": "",
+                    "disabled": 0,
+                    "readonly": 0
+                },
+                {
+                    "key": "field_5707d0a0697c0",
+                    "label": "Width",
+                    "name": "width",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "third": "Third",
+                        "half": "Half",
+                        "two-thirds": "Two Thirds",
+                        "full": "Full"
+                    },
+                    "default_value": [
+                        
+                    ],
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 0,
+                    "ajax": 0,
+                    "placeholder": "",
+                    "disabled": 0,
+                    "readonly": 0
+                },
+                {
+                    "key": "field_5707eae484e69",
+                    "label": "Custom Background Image?",
+                    "name": "custom_background_image",
+                    "type": "checkbox",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "true": "Custom"
+                    },
+                    "default_value": [
+                        
+                    ],
+                    "layout": "vertical",
+                    "toggle": 0
+                },
+                {
+                    "key": "field_5707ce7a697bf",
+                    "label": "Background Options",
+                    "name": "background_options",
+                    "type": "radio",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_5707eae484e69",
+                                "operator": "!=",
+                                "value": "true"
+                            },
+                            {
+                                "field": "field_5714f828dce95",
+                                "operator": "==",
+                                "value": "resource"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "global_fulfillment": "<div class=\"background-option\"><img src=\"http:\/\/localhost\/wp-content\/themes\/digital-river-translated\/img\/grid\/global_fulfillment.jpg\" \/><\/div>",
+                        "meeting_4": "<div class=\"background-option\"><img src=\"http:\/\/localhost\/wp-content\/themes\/digital-river-translated\/img\/grid\/meeting_4.jpg\" \/><\/div>",
+                        "working_on_laptop": "<div class=\"background-option\"><img src=\"http:\/\/localhost\/wp-content\/themes\/digital-river-translated\/img\/grid\/working_on_a_laptop.jpg\" \/><\/div>",
+                        "working_together": "<div class=\"background-option\"><img src=\"http:\/\/localhost\/wp-content\/themes\/digital-river-translated\/img\/grid\/working_together.jpg\" \/><\/div>",
+                        "business_call": "<div class=\"background-option\"><img src=\"http:\/\/localhost\/wp-content\/themes\/digital-river-translated\/img\/grid\/business_call.jpg\" \/><\/div>",
+                        "china": "<div class=\"background-option\"><img src=\"http:\/\/localhost\/wp-content\/themes\/digital-river-translated\/img\/grid\/china.jpg\" \/><\/div>",
+                        "cityscape": "<div class=\"background-option\"><img src=\"http:\/\/localhost\/wp-content\/themes\/digital-river-translated\/img\/grid\/cityscape.jpg\" \/><\/div>",
+                        "collaboration": "<div class=\"background-option\"><img src=\"http:\/\/localhost\/wp-content\/themes\/digital-river-translated\/img\/grid\/collaboration.jpg\" \/><\/div>",
+                        "development": "<div class=\"background-option\"><img src=\"http:\/\/localhost\/wp-content\/themes\/digital-river-translated\/img\/grid\/development.jpg\" \/><\/div>",
+                        "meeting": "<div class=\"background-option\"><img src=\"http:\/\/localhost\/wp-content\/themes\/digital-river-translated\/img\/grid\/meeting.jpg\" \/><\/div>",
+                        "meeting_2": "<div class=\"background-option\"><img src=\"http:\/\/localhost\/wp-content\/themes\/digital-river-translated\/img\/grid\/meeting_2.jpg\" \/><\/div>",
+                        "meeting2": "<div class=\"background-option\"><img src=\"http:\/\/localhost\/wp-content\/themes\/digital-river-translated\/img\/grid\/meeting2.jpg\" \/><\/div>",
+                        "meeting_3": "<div class=\"background-option\"><img src=\"http:\/\/localhost\/wp-content\/themes\/digital-river-translated\/img\/grid\/meeting_3.jpg\" \/><\/div>",
+                        "meeting3": "<div class=\"background-option\"><img src=\"http:\/\/localhost\/wp-content\/themes\/digital-river-translated\/img\/grid\/meeting3.jpg\" \/><\/div>",
+                        "online_shopping": "<div class=\"background-option\"><img src=\"http:\/\/localhost\/wp-content\/themes\/digital-river-translated\/img\/grid\/online_shopping.jpg\" \/><\/div>",
+                        "online_shopping2": "<div class=\"background-option\"><img src=\"http:\/\/localhost\/wp-content\/themes\/digital-river-translated\/img\/grid\/online_shopping2.jpg\" \/><\/div>",
+                        "online_shopping3": "<div class=\"background-option\"><img src=\"http:\/\/localhost\/wp-content\/themes\/digital-river-translated\/img\/grid\/online_shopping3.jpg\" \/><\/div>",
+                        "online_shopping4": "<div class=\"background-option\"><img src=\"http:\/\/localhost\/wp-content\/themes\/digital-river-translated\/img\/grid\/online_shopping4.jpg\" \/><\/div>",
+                        "online_shopping5": "<div class=\"background-option\"><img src=\"http:\/\/localhost\/wp-content\/themes\/digital-river-translated\/img\/grid\/online_shopping5.jpg\" \/><\/div>",
+                        "thinking": "<div class=\"background-option\"><img src=\"http:\/\/localhost\/wp-content\/themes\/digital-river-translated\/img\/grid\/thinking.jpg\" \/><\/div>",
+                        "using_phone": "<div class=\"background-option\"><img src=\"http:\/\/localhost\/wp-content\/themes\/digital-river-translated\/img\/grid\/using_phone.jpg\" \/><\/div>",
+                        "using_tablet": "<div class=\"background-option\"><img src=\"http:\/\/localhost\/wp-content\/themes\/digital-river-translated\/img\/grid\/using_tablet.jpg\" \/><\/div>",
+                        "working": "<div class=\"background-option\"><img src=\"http:\/\/localhost\/wp-content\/themes\/digital-river-translated\/img\/grid\/working.jpg\" \/><\/div>",
+                        "working_2": "<div class=\"background-option\"><img src=\"http:\/\/localhost\/wp-content\/themes\/digital-river-translated\/img\/grid\/working_2.jpg\" \/><\/div>"
+                    },
+                    "other_choice": 0,
+                    "save_other_choice": 0,
+                    "default_value": "",
+                    "layout": "horizontal"
+                },
+                {
+                    "key": "field_5707eb7084e6a",
+                    "label": "Custom Background Image",
+                    "name": "custom_background_image",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_5707eae484e69",
+                                "operator": "==",
+                                "value": "true"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "array",
+                    "library": "all",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "slides"
+            },
+            {
+                "param": "slide",
+                "operator": "==",
+                "value": "InteractiveGrid"
+            }
+        ]
+    ],
+    "menu_order": 2,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1461677918
+}
