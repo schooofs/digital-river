@@ -234,6 +234,7 @@
             font-family: 'mr-eaves-xl-modern', sans-serif !important;
             font-size:20px !important;
             line-height:32px !important;
+            font-weight:400 !important;
         }
 
         .mktoForm .mktoFormCol,
@@ -357,10 +358,6 @@
 
         .act-local .al-box .icon {
             padding-bottom: 40px;
-        }
-
-        .act-local .al-box .content {
-            margin-top:auto;
         }
 
         .act-local .al-box:nth-child(odd) {
@@ -881,7 +878,7 @@
                                 <p>Shield your business with global risk protection and compliance.</p>
                             </div>
                             <div class="actions">
-                                <a href="" class="button">Learn More</a>
+                                <a href="/global-growth.php" class="button">Learn More</a>
                             </div>
                         </div>
                         <div class="lm-col col-12 col-md-6">
@@ -896,7 +893,7 @@
                                 <p>Let us handle all of the risk.</p>
                             </div>
                             <div class="actions">
-                                <a href="" class="button">Learn More</a>
+                                <a href="/commerece-simplified.php" class="button">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -905,7 +902,7 @@
 
             <section id="form-section" class="get-started-form">
                 <div class="container">
-                    <div class="row align-items-center">
+                    <div class="row">
                         <div class="form-col col-12 col-md-6">
                             <script src="//app-sj03.marketo.com/js/forms2/js/forms2.min.js"></script>
                             <form id="mktoForm_6730"></form>
