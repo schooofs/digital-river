@@ -348,12 +348,17 @@
             box-shadow: 3px 3px 20px rgba(0,0,0,0.2);
             height:100%;
             padding: 29px;
+            padding-top:50px;
         }
 
         .act-local .al-box .title {
             font-size: 30px;
             margin-bottom:20px;
             line-height: 1;
+        }
+
+        .act-local .al-box .content {
+            margin-bottom: auto;
         }
 
         .act-local .al-box .icon {
@@ -448,6 +453,7 @@
         }
 
         .form-text-col {
+            padding-top:38px;
             padding-left:80px;
             padding-right:70px;
         }
@@ -870,7 +876,7 @@
                             <div class="image">
                                 <img src="/wp-content/themes/digital-river-2019/assets/images/simplicity-go-global.png" alt="Go Global, Act Local" title="Go Global, Act Local">
                             </div>
-                            <div class="title">Ecommerce Complexity, Simplified</div>
+                            <div class="title">Go Global, Act Local</div>
                             <div class="content">
                                 <p>Gain the Onshore Advantage™.</p>
                                 <p>Expand into new geographies with confidence (and ease).</p>

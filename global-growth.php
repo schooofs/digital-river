@@ -348,6 +348,7 @@
             box-shadow: 3px 3px 20px rgba(0,0,0,0.2);
             height:100%;
             padding: 29px;
+            padding-top:50px;
         }
 
         .act-local .al-box .title {
@@ -356,7 +357,12 @@
             line-height: 1;
         }
 
+        .act-local .al-box .content {
+            margin-bottom: auto;
+        }
+
         .act-local .al-box .icon {
+            margin-top:auto;
             padding-bottom: 40px;
         }
 
@@ -452,6 +458,7 @@
         }
 
         .form-text-col {
+            padding-top:38px;
             padding-left:80px;
             padding-right:70px;
         }
