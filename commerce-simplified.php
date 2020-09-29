@@ -2,6 +2,8 @@
 <html lang="en-US" prefix="og: http://ogp.me/ns#">
 
     <head>
+        <title>Commerce Simplified</title>
+        <meta name="description" content="Reaching your customers around the world with a direct ecommerce channel has never been more important. It's also never been easier to do so.">
         <meta charset="UTF-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">

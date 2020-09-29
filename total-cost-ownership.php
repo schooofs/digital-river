@@ -2,6 +2,8 @@
 <html lang="en-US" prefix="og: http://ogp.me/ns#">
 
     <head>
+        <title>Total Cost Ownership</title>
+        <meta name="description" content="Managing a multi-vendor ecommerce ecosystem often means incurring high costs and added complexity, especially if you're selling cross-border. Luckily, there's a better way.">
         <meta charset="UTF-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">

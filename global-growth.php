@@ -2,6 +2,8 @@
 <html lang="en-US" prefix="og: http://ogp.me/ns#">
 
     <head>
+        <title>Global Growth</title>
+        <meta name="description" content="Cross-border ecommerce sales are projected to surpass $700 billion by 2023. Expanding globally presents a huge opportunity, but doesn't come without significant challenges.">
         <meta charset="UTF-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
