@@ -919,7 +919,7 @@
                     <div class="row">
                         <div class="form-col col-12 col-lg-6">
                             <script src="//app-sj03.marketo.com/js/forms2/js/forms2.min.js"></script>
-                            <form id="mktoForm_6729" data-form-id="6729"></form>
+                            <form class="marketo-form main-marketo-form" id="mktoForm_6729" data-form-id="6729"></form>
                             <script>MktoForms2.loadForm("//app-sj03.marketo.com", "348-QUY-258", 6729);</script>
                         </div>
                         <div class="form-text-col col-12 col-lg-6">
