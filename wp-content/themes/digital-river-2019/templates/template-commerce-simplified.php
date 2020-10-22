@@ -1,12 +1,9 @@
-<?php
-/**
- * Template Name: Commerce Simplified
- */
-?>
 <!DOCTYPE html>
 <html lang="en-US" prefix="og: http://ogp.me/ns#">
 
     <head>
+        <title>Commerce Simplified</title>
+        <meta name="description" content="Reaching your customers around the world with a direct ecommerce channel has never been more important. It's also never been easier to do so.">
         <meta charset="UTF-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -919,7 +916,7 @@
                     <div class="row">
                         <div class="form-col col-12 col-md-6">
                             <script src="//app-sj03.marketo.com/js/forms2/js/forms2.min.js"></script>
-                            <form id="mktoForm_6709"></form>
+                            <form id="mktoForm_6709" data-form-id="6709"></form>
                             <script>MktoForms2.loadForm("//app-sj03.marketo.com", "348-QUY-258", 6709);</script>
                         </div>
                         <div class="form-text-col col-12 col-md-6">

@@ -1,12 +1,9 @@
-<?php
-/**
- * Template Name: Total Cost Ownership
- */
-?>
 <!DOCTYPE html>
 <html lang="en-US" prefix="og: http://ogp.me/ns#">
 
     <head>
+        <title>Total Cost Ownership</title>
+        <meta name="description" content="Managing a multi-vendor ecommerce ecosystem often means incurring high costs and added complexity, especially if you're selling cross-border. Luckily, there's a better way.">
         <meta charset="UTF-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -916,7 +913,7 @@
                     <div class="row">
                         <div class="form-col col-12 col-md-6">
                             <script src="//app-sj03.marketo.com/js/forms2/js/forms2.min.js"></script>
-                            <form id="mktoForm_6730"></form>
+                            <form id="mktoForm_6730" data-form-id="6730"></form>
                             <script>MktoForms2.loadForm("//app-sj03.marketo.com", "348-QUY-258", 6730);</script>
                         </div>
                         <div class="form-text-col col-12 col-md-6">

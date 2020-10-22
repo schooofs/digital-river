@@ -1,12 +1,9 @@
-<?php
-/**
- * Template Name: Global Growth
- */
-?>
 <!DOCTYPE html>
 <html lang="en-US" prefix="og: http://ogp.me/ns#">
 
     <head>
+        <title>Global Growth</title>
+        <meta name="description" content="Cross-border ecommerce sales are projected to surpass $700 billion by 2023. Expanding globally presents a huge opportunity, but doesn't come without significant challenges.">
         <meta charset="UTF-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -239,6 +236,7 @@
             font-family: 'mr-eaves-xl-modern', sans-serif !important;
             font-size:20px !important;
             line-height:32px !important;
+            font-weight:400 !important;
         }
 
         .mktoForm .mktoFormCol,
@@ -352,6 +350,7 @@
             box-shadow: 3px 3px 20px rgba(0,0,0,0.2);
             height:100%;
             padding: 29px;
+            padding-top:50px;
         }
 
         .act-local .al-box .title {
@@ -360,12 +359,13 @@
             line-height: 1;
         }
 
-        .act-local .al-box .icon {
-            padding-bottom: 40px;
+        .act-local .al-box .content {
+            margin-bottom: auto;
         }
 
-        .act-local .al-box .content {
+        .act-local .al-box .icon {
             margin-top:auto;
+            padding-bottom: 40px;
         }
 
         .act-local .al-box:nth-child(odd) {
@@ -390,6 +390,10 @@
         .brands .brands-wrap {
             max-width:1530px;
             margin:0 auto;
+        }
+
+        .brands .brand {
+            padding:0 48px;
         }
 
         .go-quotes {
@@ -456,6 +460,7 @@
         }
 
         .form-text-col {
+            padding-top:38px;
             padding-left:80px;
             padding-right:70px;
         }
@@ -792,22 +797,22 @@
             <section class="brands">
                 <div class="container">
                     <div class="row justify-content-center align-items-center brands-wrap">
-                        <div class="brand text-center col-12 col-lg-2 col-md-4 col-sm-12 px-4">
+                        <div class="brand text-center col-12 col-lg-2 col-md-4 col-sm-12">
                             <img src="/wp-content/themes/digital-river-2019/assets/images/fitbit-logo.png" alt="Fitbit" title="Fitbit Logo">
                         </div>
-                        <div class="brand text-center col-12 col-lg-2 col-md-4 col-sm-12 px-4">
+                        <div class="brand text-center col-12 col-lg-2 col-md-4 col-sm-12">
                             <img src="/wp-content/themes/digital-river-2019/assets/images/avast-logo.png" alt="Avast" title="Avast Logo">
                         </div>
-                        <div class="brand text-center col-12 col-lg-2 col-md-4 col-sm-12 px-4">
+                        <div class="brand text-center col-12 col-lg-2 col-md-4 col-sm-12">
                             <img src="/wp-content/themes/digital-river-2019/assets/images/resideo-logo.png" alt="Resideo" title="Resideo Logo">
                         </div>
-                        <div class="brand text-center col-12 col-lg-2 col-md-4 col-sm-12 px-4">
+                        <div class="brand text-center col-12 col-lg-2 col-md-4 col-sm-12">
                             <img src="/wp-content/themes/digital-river-2019/assets/images/adobe-logo.png" alt="Adobe" title="Adobe Logo">
                         </div>
-                        <div class="brand text-center col-12 col-lg-2 col-md-4 col-sm-12 px-4">
+                        <div class="brand text-center col-12 col-lg-2 col-md-4 col-sm-12">
                             <img src="/wp-content/themes/digital-river-2019/assets/images/kaspersky-logo.png" alt="Kaspersky" title="Kaspersky Logo">
                         </div>
-                        <div class="brand text-center col-12 col-lg-2 col-md-4 col-sm-12 px-4">
+                        <div class="brand text-center col-12 col-lg-2 col-md-4 col-sm-12">
                             <img src="/wp-content/themes/digital-river-2019/assets/images/lenovo-logo.png" alt="Lenovo" title="Lenovo Logo">
                         </div>
                     </div>
@@ -887,7 +892,7 @@
                                 <p>Let us handle all of the risk.</p>
                             </div>
                             <div class="actions">
-                                <a href="" class="button">Learn More</a>
+                                <a href="/commerce-simplified.php" class="button">Learn More</a>
                             </div>
                         </div>
                         <div class="lm-col col-12 col-md-6">
@@ -902,7 +907,7 @@
                                 <p>Focus on your brand and your products – we'll take care of the rest.</p>
                             </div>
                             <div class="actions">
-                                <a href="" class="button">Learn More</a>
+                                <a href="/total-cost-ownership.php" class="button">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -911,10 +916,10 @@
 
             <section id="form-section" class="get-started-form">
                 <div class="container">
-                    <div class="row align-items-center">
+                    <div class="row">
                         <div class="form-col col-12 col-lg-6">
                             <script src="//app-sj03.marketo.com/js/forms2/js/forms2.min.js"></script>
-                            <form id="mktoForm_6729"></form>
+                            <form id="mktoForm_6729" data-form-id="6729"></form>
                             <script>MktoForms2.loadForm("//app-sj03.marketo.com", "348-QUY-258", 6729);</script>
                         </div>
                         <div class="form-text-col col-12 col-lg-6">
