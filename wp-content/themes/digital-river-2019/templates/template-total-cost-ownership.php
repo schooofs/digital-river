@@ -886,7 +886,7 @@
                                 <p>Shield your business with global risk protection and compliance.</p>
                             </div>
                             <div class="actions">
-                                <a href="/global-growth.php" class="button">Learn More</a>
+                                <a href="/global-growth" class="button">Learn More</a>
                             </div>
                         </div>
                         <div class="lm-col col-12 col-md-6">
@@ -901,7 +901,7 @@
                                 <p>Let us handle all of the risk.</p>
                             </div>
                             <div class="actions">
-                                <a href="/commerece-simplified.php" class="button">Learn More</a>
+                                <a href="/commerce-simplified" class="button">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -913,7 +913,7 @@
                     <div class="row">
                         <div class="form-col col-12 col-md-6">
                             <script src="//app-sj03.marketo.com/js/forms2/js/forms2.min.js"></script>
-                            <form class="marketo-form main-marketo-form" id="mktoForm_6730" data-form-id="6730"></form>
+                            <form id="mktoForm_6730" data-form-id="6730"></form>
                             <script>MktoForms2.loadForm("//app-sj03.marketo.com", "348-QUY-258", 6730);</script>
                         </div>
                         <div class="form-text-col col-12 col-md-6">

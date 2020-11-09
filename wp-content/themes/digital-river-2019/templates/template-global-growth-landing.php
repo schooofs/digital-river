@@ -892,7 +892,7 @@
                                 <p>Let us handle all of the risk.</p>
                             </div>
                             <div class="actions">
-                                <a href="/commerce-simplified.php" class="button">Learn More</a>
+                                <a href="/commerce-simplified" class="button">Learn More</a>
                             </div>
                         </div>
                         <div class="lm-col col-12 col-md-6">
@@ -907,7 +907,7 @@
                                 <p>Focus on your brand and your products – we'll take care of the rest.</p>
                             </div>
                             <div class="actions">
-                                <a href="/total-cost-ownership.php" class="button">Learn More</a>
+                                <a href="/total-cost-ownership" class="button">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -919,7 +919,7 @@
                     <div class="row">
                         <div class="form-col col-12 col-lg-6">
                             <script src="//app-sj03.marketo.com/js/forms2/js/forms2.min.js"></script>
-                            <form class="marketo-form main-marketo-form" id="mktoForm_6729" data-form-id="6729"></form>
+                            <form id="mktoForm_6729" data-form-id="6729"></form>
                             <script>MktoForms2.loadForm("//app-sj03.marketo.com", "348-QUY-258", 6729);</script>
                         </div>
                         <div class="form-text-col col-12 col-lg-6">
